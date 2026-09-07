@@ -1,0 +1,125 @@
+[
+  {
+    "id": "IV01",
+    "candidate": {
+      "status": "ready",
+      "patch": {
+        "freshness": "explore",
+        "positiveTagIds": [
+          "genre_folk"
+        ],
+        "negativeTargets": null
+      },
+      "scopeSuggestion": null,
+      "isolationSuggestion": null,
+      "unmappedPhrases": [],
+      "clarificationQuestion": null,
+      "confidence": 0.89
+    },
+    "schemaShouldPass": false,
+    "reason": "未定义字段confidence"
+  },
+  {
+    "id": "IV02",
+    "candidate": {
+      "patch": {
+        "freshness": "explore",
+        "positiveTagIds": [
+          "genre_folk"
+        ],
+        "negativeTargets": null
+      },
+      "scopeSuggestion": null,
+      "isolationSuggestion": null,
+      "unmappedPhrases": [],
+      "clarificationQuestion": null
+    },
+    "schemaShouldPass": false,
+    "reason": "缺少必填status"
+  },
+  {
+    "id": "IV03",
+    "candidate": {
+      "status": "ready",
+      "patch": {
+        "freshness": "explore",
+        "positiveTagIds": [
+          "genre_jazz"
+        ],
+        "negativeTargets": null
+      },
+      "scopeSuggestion": null,
+      "isolationSuggestion": null,
+      "unmappedPhrases": [],
+      "clarificationQuestion": null
+    },
+    "schemaShouldPass": false,
+    "reason": "未知标签"
+  },
+  {
+    "id": "IV04",
+    "candidate": {
+      "status": "ready",
+      "patch": {
+        "freshness": "explore",
+        "positiveTagIds": [
+          "genre_folk",
+          "lang_zh",
+          "mood_calm",
+          "scene_study"
+        ],
+        "negativeTargets": null
+      },
+      "scopeSuggestion": null,
+      "isolationSuggestion": null,
+      "unmappedPhrases": [],
+      "clarificationQuestion": null
+    },
+    "schemaShouldPass": false,
+    "reason": "超过3个正向标签"
+  },
+  {
+    "id": "IV05",
+    "candidate": {
+      "status": "ready",
+      "patch": {
+        "freshness": null,
+        "positiveTagIds": [
+          "genre_folk"
+        ],
+        "negativeTargets": [
+          {
+            "kind": "tag",
+            "id": "genre_folk"
+          }
+        ]
+      },
+      "scopeSuggestion": null,
+      "isolationSuggestion": null,
+      "unmappedPhrases": [],
+      "clarificationQuestion": null
+    },
+    "schemaShouldPass": true,
+    "domainShouldPass": false,
+    "reason": "结构合法，正负同对象冲突，需要领域校验"
+  },
+  {
+    "id": "IV06",
+    "candidate": {
+      "status": "ready",
+      "patch": {
+        "freshness": "explore",
+        "positiveTagIds": [
+          "genre_folk"
+        ],
+        "negativeTargets": null
+      },
+      "scopeSuggestion": "forever_now",
+      "isolationSuggestion": null,
+      "unmappedPhrases": [],
+      "clarificationQuestion": null
+    },
+    "schemaShouldPass": false,
+    "reason": "未知scope"
+  }
+]

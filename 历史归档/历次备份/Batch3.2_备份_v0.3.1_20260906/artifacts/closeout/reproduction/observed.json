@@ -1,0 +1,13 @@
+{
+  "baseline": "v0.2.2",
+  "beforeCommitY": 0,
+  "afterCommitY": 207,
+  "autoScrollDelta": 207,
+  "receiptAfterUndo": "仅本次已保存 · 探索 / 民谣 · revision 1撤销",
+  "undoButtonStillAvailable": true,
+  "messages": [
+    "仅本次已保存 · 探索 / 民谣 · revision 1撤销",
+    "已撤销本轮调整。"
+  ],
+  "capture": "Natural navigation and button operations; no script scroll calls"
+}

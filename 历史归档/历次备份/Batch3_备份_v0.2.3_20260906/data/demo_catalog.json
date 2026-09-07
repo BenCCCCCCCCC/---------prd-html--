@@ -1,0 +1,437 @@
+{
+  "version": "demo_catalog_v0.5",
+  "provenance": "Entirely fictional demonstration records; no licensed audio, no empirical preference scores.",
+  "tracks": [
+    {
+      "id": "T01",
+      "title": "沿河慢行（演示）",
+      "artistId": "A01",
+      "artistName": "示例音乐人1",
+      "tagIds": [
+        "genre_folk",
+        "mood_calm",
+        "lang_zh"
+      ],
+      "durationSeconds": 201,
+      "baseScore": 0.93,
+      "novelty": 0.3182,
+      "playable": true,
+      "coverAssetId": "geometric-2",
+      "audioUrl": null
+    },
+    {
+      "id": "T02",
+      "title": "空白来信（演示）",
+      "artistId": "A02",
+      "artistName": "示例音乐人2",
+      "tagIds": [
+        "genre_pop",
+        "mood_sad",
+        "lang_zh"
+      ],
+      "durationSeconds": 222,
+      "baseScore": 0.905,
+      "novelty": 0.6364,
+      "playable": true,
+      "coverAssetId": "geometric-3",
+      "audioUrl": null
+    },
+    {
+      "id": "T03",
+      "title": "木窗微光（演示）",
+      "artistId": "A03",
+      "artistName": "示例音乐人3",
+      "tagIds": [
+        "genre_rock",
+        "mood_energetic",
+        "lang_en"
+      ],
+      "durationSeconds": 243,
+      "baseScore": 0.88,
+      "novelty": 0.9545,
+      "playable": true,
+      "coverAssetId": "geometric-4",
+      "audioUrl": null
+    },
+    {
+      "id": "T04",
+      "title": "晚风练习（演示）",
+      "artistId": "A04",
+      "artistName": "示例音乐人4",
+      "tagIds": [
+        "genre_classical",
+        "mood_calm",
+        "theme_instrumental"
+      ],
+      "durationSeconds": 264,
+      "baseScore": 0.855,
+      "novelty": 0.2273,
+      "playable": true,
+      "coverAssetId": "geometric-5",
+      "audioUrl": null
+    },
+    {
+      "id": "T05",
+      "title": "城市回声（演示）",
+      "artistId": "A05",
+      "artistName": "示例音乐人5",
+      "tagIds": [
+        "genre_folk",
+        "mood_sad",
+        "lang_zh",
+        "scene_study"
+      ],
+      "durationSeconds": 180,
+      "baseScore": 0.83,
+      "novelty": 0.5455,
+      "playable": true,
+      "coverAssetId": "geometric-6",
+      "audioUrl": null
+    },
+    {
+      "id": "T06",
+      "title": "日落以后（演示）",
+      "artistId": "A06",
+      "artistName": "示例音乐人6",
+      "tagIds": [
+        "genre_pop",
+        "mood_energetic",
+        "lang_en"
+      ],
+      "durationSeconds": 201,
+      "baseScore": 0.805,
+      "novelty": 0.8636,
+      "playable": true,
+      "coverAssetId": "geometric-1",
+      "audioUrl": null
+    },
+    {
+      "id": "T07",
+      "title": "轻轻经过（演示）",
+      "artistId": "A07",
+      "artistName": "示例音乐人7",
+      "tagIds": [
+        "genre_rock",
+        "mood_calm",
+        "lang_zh",
+        "scene_exercise"
+      ],
+      "durationSeconds": 222,
+      "baseScore": 0.78,
+      "novelty": 0.1364,
+      "playable": true,
+      "coverAssetId": "geometric-2",
+      "audioUrl": null
+    },
+    {
+      "id": "T08",
+      "title": "山间片刻（演示）",
+      "artistId": "A08",
+      "artistName": "示例音乐人8",
+      "tagIds": [
+        "genre_classical",
+        "mood_sad",
+        "theme_instrumental"
+      ],
+      "durationSeconds": 243,
+      "baseScore": 0.755,
+      "novelty": 0.4545,
+      "playable": true,
+      "coverAssetId": "geometric-3",
+      "audioUrl": null
+    },
+    {
+      "id": "T09",
+      "title": "沿途花火（演示）",
+      "artistId": "A01",
+      "artistName": "示例音乐人1",
+      "tagIds": [
+        "genre_folk",
+        "mood_energetic",
+        "lang_en"
+      ],
+      "durationSeconds": 264,
+      "baseScore": 0.73,
+      "novelty": 0.7727,
+      "playable": true,
+      "coverAssetId": "geometric-4",
+      "audioUrl": null
+    },
+    {
+      "id": "T10",
+      "title": "晨间轨迹（演示）",
+      "artistId": "A02",
+      "artistName": "示例音乐人2",
+      "tagIds": [
+        "genre_pop",
+        "mood_calm",
+        "lang_zh",
+        "scene_study"
+      ],
+      "durationSeconds": 180,
+      "baseScore": 0.705,
+      "novelty": 0.0455,
+      "playable": true,
+      "coverAssetId": "geometric-5",
+      "audioUrl": null
+    },
+    {
+      "id": "T11",
+      "title": "蓝色笔记（演示）",
+      "artistId": "A03",
+      "artistName": "示例音乐人3",
+      "tagIds": [
+        "genre_rock",
+        "mood_sad",
+        "lang_zh"
+      ],
+      "durationSeconds": 201,
+      "baseScore": 0.68,
+      "novelty": 0.3636,
+      "playable": true,
+      "coverAssetId": "geometric-6",
+      "audioUrl": null
+    },
+    {
+      "id": "T12",
+      "title": "慢速旅行（演示）",
+      "artistId": "A04",
+      "artistName": "示例音乐人4",
+      "tagIds": [
+        "genre_classical",
+        "mood_energetic",
+        "theme_instrumental"
+      ],
+      "durationSeconds": 222,
+      "baseScore": 0.655,
+      "novelty": 0.6818,
+      "playable": true,
+      "coverAssetId": "geometric-1",
+      "audioUrl": null
+    },
+    {
+      "id": "T13",
+      "title": "纸飞机（演示）",
+      "artistId": "A05",
+      "artistName": "示例音乐人5",
+      "tagIds": [
+        "genre_folk",
+        "mood_calm",
+        "lang_zh"
+      ],
+      "durationSeconds": 243,
+      "baseScore": 0.63,
+      "novelty": 1.0,
+      "playable": true,
+      "coverAssetId": "geometric-2",
+      "audioUrl": null
+    },
+    {
+      "id": "T14",
+      "title": "远方电台（演示）",
+      "artistId": "A06",
+      "artistName": "示例音乐人6",
+      "tagIds": [
+        "genre_pop",
+        "mood_sad",
+        "lang_zh",
+        "scene_exercise"
+      ],
+      "durationSeconds": 264,
+      "baseScore": 0.605,
+      "novelty": 0.2727,
+      "playable": true,
+      "coverAssetId": "geometric-3",
+      "audioUrl": null
+    },
+    {
+      "id": "T15",
+      "title": "微雨清晨（演示）",
+      "artistId": "A07",
+      "artistName": "示例音乐人7",
+      "tagIds": [
+        "genre_rock",
+        "mood_energetic",
+        "lang_en",
+        "scene_study"
+      ],
+      "durationSeconds": 180,
+      "baseScore": 0.58,
+      "novelty": 0.5909,
+      "playable": true,
+      "coverAssetId": "geometric-4",
+      "audioUrl": null
+    },
+    {
+      "id": "T16",
+      "title": "未命名夏天（演示）",
+      "artistId": "A08",
+      "artistName": "示例音乐人8",
+      "tagIds": [
+        "genre_classical",
+        "mood_calm",
+        "theme_instrumental"
+      ],
+      "durationSeconds": 201,
+      "baseScore": 0.555,
+      "novelty": 0.9091,
+      "playable": true,
+      "coverAssetId": "geometric-5",
+      "audioUrl": null
+    },
+    {
+      "id": "T17",
+      "title": "静默书页（演示）",
+      "artistId": "A01",
+      "artistName": "示例音乐人1",
+      "tagIds": [
+        "genre_folk",
+        "mood_sad",
+        "lang_zh"
+      ],
+      "durationSeconds": 222,
+      "baseScore": 0.53,
+      "novelty": 0.1818,
+      "playable": true,
+      "coverAssetId": "geometric-6",
+      "audioUrl": null
+    },
+    {
+      "id": "T18",
+      "title": "小路向北（演示）",
+      "artistId": "A02",
+      "artistName": "示例音乐人2",
+      "tagIds": [
+        "genre_pop",
+        "mood_energetic",
+        "lang_en"
+      ],
+      "durationSeconds": 243,
+      "baseScore": 0.505,
+      "novelty": 0.5,
+      "playable": true,
+      "coverAssetId": "geometric-1",
+      "audioUrl": null
+    },
+    {
+      "id": "T19",
+      "title": "午后阶梯（演示）",
+      "artistId": "A03",
+      "artistName": "示例音乐人3",
+      "tagIds": [
+        "genre_rock",
+        "mood_calm",
+        "lang_zh"
+      ],
+      "durationSeconds": 264,
+      "baseScore": 0.48,
+      "novelty": 0.8182,
+      "playable": true,
+      "coverAssetId": "geometric-2",
+      "audioUrl": null
+    },
+    {
+      "id": "T20",
+      "title": "星点舞步（演示）",
+      "artistId": "A04",
+      "artistName": "示例音乐人4",
+      "tagIds": [
+        "genre_classical",
+        "mood_sad",
+        "scene_study",
+        "theme_instrumental"
+      ],
+      "durationSeconds": 180,
+      "baseScore": 0.455,
+      "novelty": 0.0909,
+      "playable": true,
+      "coverAssetId": "geometric-3",
+      "audioUrl": null
+    },
+    {
+      "id": "T21",
+      "title": "灯下独白（演示）",
+      "artistId": "A05",
+      "artistName": "示例音乐人5",
+      "tagIds": [
+        "genre_folk",
+        "mood_energetic",
+        "lang_en",
+        "scene_exercise"
+      ],
+      "durationSeconds": 201,
+      "baseScore": 0.43,
+      "novelty": 0.4091,
+      "playable": true,
+      "coverAssetId": "geometric-4",
+      "audioUrl": null
+    },
+    {
+      "id": "T22",
+      "title": "风经过时（演示）",
+      "artistId": "A06",
+      "artistName": "示例音乐人6",
+      "tagIds": [
+        "genre_pop",
+        "mood_calm",
+        "lang_zh"
+      ],
+      "durationSeconds": 222,
+      "baseScore": 0.405,
+      "novelty": 0.7273,
+      "playable": true,
+      "coverAssetId": "geometric-5",
+      "audioUrl": null
+    },
+    {
+      "id": "T23",
+      "title": "清醒梦境（演示）",
+      "artistId": "A07",
+      "artistName": "示例音乐人7",
+      "tagIds": [
+        "genre_rock",
+        "mood_sad",
+        "lang_zh"
+      ],
+      "durationSeconds": 243,
+      "baseScore": 0.38,
+      "novelty": 0.0,
+      "playable": false,
+      "coverAssetId": "geometric-6",
+      "audioUrl": null
+    },
+    {
+      "id": "T24",
+      "title": "下一站见（演示）",
+      "artistId": "A08",
+      "artistName": "示例音乐人8",
+      "tagIds": [
+        "genre_classical",
+        "mood_energetic",
+        "theme_instrumental"
+      ],
+      "durationSeconds": 264,
+      "baseScore": 0.355,
+      "novelty": 0.3182,
+      "playable": true,
+      "coverAssetId": "geometric-1",
+      "audioUrl": null
+    }
+  ],
+  "seededTrackBlacklist": [
+    "T04"
+  ],
+  "seededArtistBlacklist": [
+    "A08"
+  ],
+  "initialPersistentPreference": {
+    "freshness": "balanced",
+    "positiveTagIds": [],
+    "negativeTargets": []
+  },
+  "initialSessionOverride": {
+    "freshness": null,
+    "positiveTagIds": null,
+    "negativeTargets": []
+  }
+}

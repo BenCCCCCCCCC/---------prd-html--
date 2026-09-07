@@ -1,0 +1,91 @@
+npm notice run recommendation-control-beta@0.2.1 quality
+npm notice run node scripts/invariants.mjs && npm run lint && npm run typecheck && npm run check:generated && npm run test && npm run test:e2e && npm run test:visual && node scripts/summarize.mjs && npm run build
+Canonical spec/data/design/skills hashes preserved; no runtime network, localStorage or HTML injection primitive.
+npm notice run recommendation-control-beta@0.2.1 lint
+npm notice run eslint src tests scripts
+npm notice run recommendation-control-beta@0.2.1 typecheck
+npm notice run tsc --noEmit
+npm notice run recommendation-control-beta@0.2.1 check:generated
+npm notice run node scripts/generate.mjs --check
+Generated files match schemas/tokens
+npm notice run recommendation-control-beta@0.2.1 test
+npm notice run vitest run
+
+ RUN  v5.0.0 F:/html/网易云优化项目_Batch2_启动包_v1.1
+
+ ✓ src/domain/time-boundaries.test.ts (2 tests) 6ms
+ ✓ src/domain/model.test.ts (83 tests) 218ms
+ ✓ src/Portfolio.test.tsx (2 tests) 74ms
+
+ Test Files  3 passed (3)
+      Tests  87 passed (87)
+   Start at  21:33:41
+   Duration  2.13s (environment 71%, import 17%, transform 7%, tests 6%)
+
+JSON report written to F:/html/网易云优化项目_Batch2_启动包_v1.1/artifacts/reports/unit.json
+npm notice run recommendation-control-beta@0.2.1 test:e2e
+npm notice run playwright test tests/e2e
+
+Running 23 tests using 1 worker
+
+(node:30348) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 tests\e2e\flows.spec.ts:18:1 › AC01 AC02 AC03 initial draft / return / cancel / focus return (920ms)
+  ok  2 tests\e2e\flows.spec.ts:41:1 › AC04 4th tag blocked without replacing selection (1.0s)
+  ok  3 tests\e2e\flows.spec.ts:52:1 › AC05 Demo 1 exploration changes queue and undo (1.0s)
+  ok  4 tests\e2e\flows.spec.ts:67:1 › AC06 promote requires explicit diff confirmation and management (1.6s)
+  ok  5 tests\e2e\flows.spec.ts:96:1 › AC08 conflicting tag prompts explicit resolution (1.1s)
+  ok  6 tests\e2e\flows.spec.ts:106:1 › AC11 Demo 2 direct negative artist and undo (928ms)
+  ok  7 tests\e2e\flows.spec.ts:119:1 › AC14 AC15 AC16 AC17 Demo 3 playlist isolation and reminder (1.3s)
+  ok  8 tests\e2e\flows.spec.ts:146:1 › AC19 save failure retry and refresh failure keeps protection (1.4s)
+  ok  9 tests\e2e\flows.spec.ts:166:1 › AC20 stale response discarded; version conflict retains draft (1.5s)
+  ok 10 tests\e2e\flows.spec.ts:185:1 › AC21 undo conflict does not overwrite newer state (1.1s)
+  ok 11 tests\e2e\flows.spec.ts:197:1 › AC23 empty result conservative fallback (841ms)
+  ok 12 tests\e2e\flows.spec.ts:209:1 › AC24 AI ready editable draft requires final confirmation (1.1s)
+  ok 13 tests\e2e\flows.spec.ts:233:3 › AC25 AI 需要确认 (961ms)
+  ok 14 tests\e2e\flows.spec.ts:233:3 › AC25 AI 暂不支持 (987ms)
+  ok 15 tests\e2e\flows.spec.ts:246:1 › AC26 cancel parse leaves no candidate (858ms)
+  ok 16 tests\e2e\flows.spec.ts:255:1 › AC27 reload restores synthetic state; raw text absent; reset is namespaced; no outbound request (1.7s)
+  ok 17 tests\e2e\flows.spec.ts:284:1 › AC28 keyboard modal traps focus at 320px and 200% text (887ms)
+  ok 18 tests\e2e\flows.spec.ts:312:1 › AC29 honest first screen and actual simulated playback (679ms)
+  ok 19 tests\e2e\flows.spec.ts:323:1 › AC30 disabling AI does not break three manual tasks (1.5s)
+  ok 20 tests\e2e\flows.spec.ts:340:1 › AC31 AC32 AC33 AC34 decisions JSON renders quick/deep labels and stacked alternatives (1.8s)
+  ok 21 tests\e2e\flows.spec.ts:366:1 › axe pages and core sheets (5.8s)
+  ok 22 tests\e2e\recovery.spec.ts:4:1 › browser back follows subpage then root cancellation (870ms)
+  ok 23 tests\e2e\recovery.spec.ts:23:1 › axe AI candidate, error, refusal and protected queue (7.2s)
+
+  23 passed (38.2s)
+npm notice run recommendation-control-beta@0.2.1 test:visual
+npm notice run playwright test tests/visual
+
+Running 4 tests using 1 worker
+
+(node:36340) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\visual\screens.spec.ts:27:3 › visual core states 320 (5.7s)
+  ok 2 tests\visual\screens.spec.ts:27:3 › visual core states 390 (6.0s)
+  ok 3 tests\visual\screens.spec.ts:27:3 › visual core states 768 (7.0s)
+  ok 4 tests\visual\screens.spec.ts:27:3 › visual core states 1440 (8.4s)
+
+  4 passed (28.0s)
+{
+  kind: 'executed_local_tests',
+  generatedAt: '2026-09-05T11:34:52.308Z',
+  unitPassed: 87,
+  e2ePassed: 23,
+  visualPassed: 4,
+  realUsers: 'NOT_RUN',
+  realModel: 'NOT_RUN'
+}
+npm notice run recommendation-control-beta@0.2.1 build
+npm notice run vite build
+vite v8.2.2 building client environment for production...
+transforming...
+✓ 126 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.53 kB │ gzip:   0.41 kB
+dist/assets/index-BYFeR1zm.css   24.84 kB │ gzip:   5.20 kB
+dist/assets/index-SlHzSlGC.js   448.09 kB │ gzip: 141.27 kB
+
+✓ built in 217ms

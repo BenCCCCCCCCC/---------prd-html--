@@ -1,0 +1,34 @@
+digraph Flow {
+ graph [rankdir=TB, bgcolor="white", pad="0.18", nodesep="0.30", ranksep="0.48", splines=polyline];
+ node [shape=box, style="rounded,filled", fillcolor="#F0F3F6", color="#A7B5C2", fontname="Noto Sans CJK SC", fontsize=16, margin="0.14,0.11"];
+ edge [color="#476278", fontname="Noto Sans CJK SC", fontsize=13, arrowsize=.8];
+ start [label="用户 / 客户端\n打开入口 · 编辑草稿", fillcolor="#E8EFF5"];
+ cancel [label="用户取消\n丢弃草稿 · 返回原页"];
+ submit [label="用户确认\n范围＋变更字段＋操作ID"];
+ check [label="偏好控制层\n字段 / 冲突 / 版本校验", fillcolor="#E8EFF5"];
+ fail [label="拒绝 / 结果未知\n保留草稿 · 按原ID查询"];
+ saved [label="控制层原子应用\n返回已保存版本", fillcolor="#E8EFF5"];
+ rec [label="推荐侧\n过滤 / 重排后续队列"];
+ view [label="客户端结果\n展示新结果；失败保留旧队列"];
+ undo [label="用户撤销\n反向变更＋版本复核"];
+ data [label="行为 / 画像侧\n按事件发生时状态分片\n保护片段不进入长期学习"];
+ ops [label="数据 / 实验 / 运营\n聚合指标 · 分桶健康 · 泄漏检查"];
+ stop [label="越权或隔离泄漏\n停止错误写入；历史不回填"];
+ start -> cancel [label="取消"];
+ start -> submit [label="确认"];
+ submit -> check;
+ check -> fail [label="失败 / 未知"];
+ check -> saved [label="通过"];
+ saved -> rec;
+ rec -> view [label="携带版本"];
+ view -> undo [label="可撤销", style=dashed];
+ undo -> check [label="新操作 / 同规则",style=dashed,constraint=false];
+ saved -> data [label="保护时间线"];
+ view -> data [label="继续播放事件"];
+ data -> ops;
+ ops -> stop [label="发现故障"];
+ {rank=same;cancel;submit;}
+ {rank=same;fail;saved;}
+ {rank=same;rec;data;}
+ {rank=same;undo;view;ops;}
+}

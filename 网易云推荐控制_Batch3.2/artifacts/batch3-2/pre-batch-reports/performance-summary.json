@@ -1,0 +1,14 @@
+{
+  "mode": "local_lab_only",
+  "environment": {
+    "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36",
+    "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+    "benchmarkIndex": 2374.5,
+    "credits": {}
+  },
+  "score": 0.88,
+  "lcpMs": 1951.772,
+  "cls": 0,
+  "totalBlockingTimeMs": 415,
+  "inp": "NOT_MEASURED: navigation lab run is not field INP"
+}

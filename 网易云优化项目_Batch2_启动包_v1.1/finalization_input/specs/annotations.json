@@ -1,0 +1,328 @@
+{
+  "version": "submission-candidate-1",
+  "behavior": "read_only_presentation",
+  "stateNamesAreConceptual": true,
+  "rules": [
+    "只读订阅当前状态，不提交、不重置、不改草稿。",
+    "根据实际源码映射条件；每次仅展示当前状态3至5条。",
+    "标注编号不改变控件DOM顺序；纯原型视图可隐藏。",
+    "静态打印显示关键画面与旁注。"
+  ],
+  "annotations": [
+    {
+      "id": "N01",
+      "title": "R03 · 播放页入口",
+      "showWhen": "播放器默认页，无弹层",
+      "sourceSection": "06",
+      "acceptance": [
+        "AC01",
+        "AC02"
+      ],
+      "points": [
+        {
+          "number": 1,
+          "target": "adjust-entry",
+          "text": "点击入口打开推荐偏好面板，不打断当前播放。"
+        },
+        {
+          "number": 2,
+          "target": "player-context",
+          "text": "原播放器为复用界面；本期变更为推荐入口与相关控制，不新增播放器功能。"
+        },
+        {
+          "number": 3,
+          "target": "scope-summary",
+          "text": "新建调整默认仅本次；已有保护状态保留。"
+        }
+      ]
+    },
+    {
+      "id": "N02",
+      "title": "R03 · 调整推荐偏好",
+      "showWhen": "panel=root",
+      "sourceSection": "06",
+      "acceptance": [
+        "AC01",
+        "AC02",
+        "AC03",
+        "AC04"
+      ],
+      "points": [
+        {
+          "number": 1,
+          "target": "want-row",
+          "text": "进入本次想听；返回或完成仅保留草稿。"
+        },
+        {
+          "number": 2,
+          "target": "negative-row",
+          "text": "进入少推设置；对象锁定打开时歌曲。"
+        },
+        {
+          "number": 3,
+          "target": "impact-row",
+          "text": "保存范围与临时收听独立。"
+        },
+        {
+          "number": 4,
+          "target": "cancel",
+          "text": "丢弃本轮草稿，回进入前页面。"
+        },
+        {
+          "number": 5,
+          "target": "confirm",
+          "text": "有有效变更才可提交；提交中防止重复操作。"
+        }
+      ]
+    },
+    {
+      "id": "N03",
+      "title": "R03 · 本次想听",
+      "showWhen": "panel=want",
+      "sourceSection": "06",
+      "acceptance": [
+        "AC02",
+        "AC04",
+        "AC05"
+      ],
+      "points": [
+        {
+          "number": 1,
+          "target": "freshness",
+          "text": "熟悉/平衡/探索单选；初始平衡。"
+        },
+        {
+          "number": 2,
+          "target": "tag-tabs",
+          "text": "五类切换保留已选；初始不预选民谣。"
+        },
+        {
+          "number": 3,
+          "target": "tag-chips",
+          "text": "跨类最多3项；第4项提示上限，不自动替换。"
+        },
+        {
+          "number": 4,
+          "target": "done",
+          "text": "返回根草稿；尚未生效。"
+        }
+      ]
+    },
+    {
+      "id": "N04",
+      "title": "R03 · 即时少推",
+      "showWhen": "panel=negative",
+      "sourceSection": "06",
+      "acceptance": [
+        "AC07",
+        "AC08",
+        "AC22"
+      ],
+      "points": [
+        {
+          "number": 1,
+          "target": "negative-targets",
+          "text": "单次选择歌曲/音乐人/风格之一，使用打开时对象快照。"
+        },
+        {
+          "number": 2,
+          "target": "blacklist-note",
+          "text": "少推降低出现机会，不等于黑名单；本期黑名单只读。"
+        },
+        {
+          "number": 3,
+          "target": "negative-confirm",
+          "text": "快捷路径明确提交；普通子页完成只回根草稿。"
+        }
+      ]
+    },
+    {
+      "id": "N05",
+      "title": "R03 / R04 · 范围与保护",
+      "showWhen": "panel=impact",
+      "sourceSection": "08",
+      "acceptance": [
+        "AC05",
+        "AC06",
+        "AC10",
+        "AC11"
+      ],
+      "points": [
+        {
+          "number": 1,
+          "target": "scope-radio",
+          "text": "仅本次写会话，长期仅保存本轮明确修改。"
+        },
+        {
+          "number": 2,
+          "target": "protection-switch",
+          "text": "开启后普通播放、时长与跳过不用于长期学习；收藏等明确操作保留。"
+        },
+        {
+          "number": 3,
+          "target": "promote-confirmation",
+          "text": "已有本次方案转长期须列出并确认当前差异。"
+        },
+        {
+          "number": 4,
+          "target": "impact-done",
+          "text": "本页选择只进草稿，最终由总面板确认。"
+        }
+      ]
+    },
+    {
+      "id": "N06",
+      "title": "R04 · 临时收听",
+      "showWhen": "protection=active / review_required，无相关模态",
+      "sourceSection": "09",
+      "acceptance": [
+        "AC12",
+        "AC13",
+        "AC14",
+        "AC15",
+        "AC16",
+        "AC17"
+      ],
+      "points": [
+        {
+          "number": 1,
+          "target": "protection-status",
+          "text": "保护跟随设备受控来源，不随页面切换结束。"
+        },
+        {
+          "number": 2,
+          "target": "review-reminder",
+          "text": "30分钟闲置或4小时后提醒，待确认仍保护。"
+        },
+        {
+          "number": 3,
+          "target": "protection-close",
+          "text": "只让关闭后的普通行为恢复参与；已隔离片段不补回。"
+        }
+      ]
+    },
+    {
+      "id": "N07",
+      "title": "R03 · 已保存偏好",
+      "showWhen": "panel=manage / promote / discard",
+      "sourceSection": "06",
+      "acceptance": [
+        "AC06",
+        "AC09"
+      ],
+      "points": [
+        {
+          "number": 1,
+          "target": "manage-list",
+          "text": "仅管理本方案保存的长期字段，不清除平台画像、红心或黑名单。"
+        },
+        {
+          "number": 2,
+          "target": "manage-clear",
+          "text": "清空需确认；操作为独立事务。"
+        },
+        {
+          "number": 3,
+          "target": "discard-prompt",
+          "text": "脏草稿进入管理前明确放弃；默认留在草稿，不自动提交。"
+        }
+      ]
+    },
+    {
+      "id": "N08",
+      "title": "R03 · 提交与撤销",
+      "showWhen": "receipt=saved / undone / error",
+      "sourceSection": "11",
+      "acceptance": [
+        "AC18",
+        "AC19",
+        "AC20",
+        "AC21"
+      ],
+      "points": [
+        {
+          "number": 1,
+          "target": "receipt",
+          "text": "保存成功与推荐刷新分开，显示真实结果。"
+        },
+        {
+          "number": 2,
+          "target": "undo",
+          "text": "只撤销本条operationId改动的字段；相关后续修改或会话终止按原规则处理。"
+        },
+        {
+          "number": 3,
+          "target": "persistent-undo",
+          "text": "10秒仅为成功提示时限；有效的持久恢复入口继续保留。"
+        },
+        {
+          "number": 4,
+          "target": "receipt-terminal",
+          "text": "撤销成功替换旧成功提示并移除本条撤销按钮；失败不显示成功。"
+        }
+      ]
+    },
+    {
+      "id": "N09",
+      "title": "R03 / R04 · 推荐刷新失败",
+      "showWhen": "recommendation refresh failure",
+      "sourceSection": "12",
+      "acceptance": [
+        "AC18",
+        "AC19",
+        "AC23"
+      ],
+      "points": [
+        {
+          "number": 1,
+          "target": "failed-save-state",
+          "text": "设置已保存，推荐尚未刷新；不回滚已保存设置。"
+        },
+        {
+          "number": 2,
+          "target": "failed-protection",
+          "text": "按当前关闭/开启/待确认三态说明保护。"
+        },
+        {
+          "number": 3,
+          "target": "failed-actions",
+          "text": "重试沿用已保存版本；现有继续仅回播放器，收起规则仍为待决，不新增行为。"
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "title": "R07 · 可编辑候选",
+      "showWhen": "panel=ai，含各解析状态",
+      "sourceSection": "13",
+      "acceptance": [
+        "AC24",
+        "AC25",
+        "AC26",
+        "AC27"
+      ],
+      "points": [
+        {
+          "number": 1,
+          "target": "ai-parser",
+          "text": "当前为本地解析；输入上限200个Unicode字符。"
+        },
+        {
+          "number": 2,
+          "target": "candidate-fields",
+          "text": "null保持不变；同值显示一致；未知、冲突或越权条件需澄清/拒绝。"
+        },
+        {
+          "number": 3,
+          "target": "scope-suggestion",
+          "text": "范围与隔离建议不直接执行，仍由用户在设置中选择。"
+        },
+        {
+          "number": 4,
+          "target": "adopt",
+          "text": "仅采用到草稿；最终确认才改变推荐设置。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+import { chromium } from "@playwright/test";
+import { mkdir } from "node:fs/promises";
+await mkdir("artifacts/screenshots", { recursive: true });
+const browser = await chromium.launch();
+const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+await page.goto("http://127.0.0.1:5173");
+await page.screenshot({ path: "artifacts/screenshots/round1-home-1440.png" });
+await page.setViewportSize({ width: 390, height: 844 });
+await page.screenshot({ path: "artifacts/screenshots/round1-home-390.png" });
+await page.goto("http://127.0.0.1:5173/#/demo");
+await page.screenshot({ path: "artifacts/screenshots/round1-player-390.png" });
+await page.getByRole("button", { name: "调整推荐", exact: true }).click();
+await page.screenshot({ path: "artifacts/screenshots/round1-sheet-390.png" });
+await browser.close();

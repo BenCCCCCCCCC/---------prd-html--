@@ -1,0 +1,226 @@
+{
+  "version": "0.5.0",
+  "commonFields": {
+    "eventId": "unique client event identifier",
+    "occurredAt": "event occurrence time, not upload time",
+    "deviceSessionId": "synthetic tab session in public demo",
+    "operationId": "nullable; preference transaction join key",
+    "revision": "applied preference version, nullable before application",
+    "sourceScene": "recommendation/player/search/playlist/lab",
+    "environment": "demo; production requires separate pipeline",
+    "schemaVersion": "0.5.0"
+  },
+  "rawInputLogging": "forbidden_in_public_demo",
+  "events": [
+    {
+      "name": "entry_exposed",
+      "trigger": "入口面积≥50%持续≥1秒",
+      "deduplication": "按入口+视图会话去重",
+      "additionalFields": [
+        "entryId",
+        "visibleMs"
+      ],
+      "execution": "specification_only"
+    },
+    {
+      "name": "adjustment_opened",
+      "trigger": "用户打开根面板或快捷少推",
+      "deduplication": "每个编辑会话一次",
+      "additionalFields": [
+        "editingSessionId",
+        "entryId",
+        "baseRevision"
+      ],
+      "execution": "specification_only"
+    },
+    {
+      "name": "preference_submit",
+      "trigger": "点击合法且有变更的确认",
+      "deduplication": "每个operationId每次尝试可计attempt",
+      "additionalFields": [
+        "dirtyFields",
+        "scope",
+        "attempt"
+      ],
+      "execution": "specification_only"
+    },
+    {
+      "name": "preference_applied",
+      "trigger": "控制层确认状态应用",
+      "deduplication": "operationId+appliedRevision仅一次",
+      "additionalFields": [
+        "dirtyFields",
+        "scope",
+        "appliedRevision"
+      ],
+      "execution": "specification_only"
+    },
+    {
+      "name": "preference_apply_failed",
+      "trigger": "提交被拒绝或状态仍未知",
+      "deduplication": "每次尝试独立，errorType标明",
+      "additionalFields": [
+        "errorType",
+        "isUnknown",
+        "attempt"
+      ],
+      "execution": "specification_only"
+    },
+    {
+      "name": "recommendation_rendered",
+      "trigger": "与revision匹配的推荐结果实际展示",
+      "deduplication": "requestId+revision去重",
+      "additionalFields": [
+        "requestId",
+        "trackIds",
+        "rankVersion"
+      ],
+      "execution": "specification_only"
+    },
+    {
+      "name": "recommendation_refresh_failed",
+      "trigger": "设置保存后推荐刷新失败",
+      "deduplication": "requestId去重",
+      "additionalFields": [
+        "requestId",
+        "errorType"
+      ],
+      "execution": "specification_only"
+    },
+    {
+      "name": "playback_segment",
+      "trigger": "状态/保护/歌曲变化或片段结束",
+      "deduplication": "segmentId去重，片段互不重叠",
+      "additionalFields": [
+        "segmentId",
+        "trackId",
+        "startAt",
+        "endAt",
+        "playedSeconds",
+        "longTermEligible",
+        "isolationStateAtOccurrence",
+        "isSimulated"
+      ],
+      "execution": "specification_only"
+    },
+    {
+      "name": "track_started",
+      "trigger": "实际/模拟播放开始，不是按钮按下",
+      "deduplication": "playbackInstanceId去重",
+      "additionalFields": [
+        "playbackInstanceId",
+        "trackId",
+        "queueOrigin",
+        "isSimulated"
+      ],
+      "execution": "specification_only"
+    },
+    {
+      "name": "track_skipped",
+      "trigger": "用户明确跳过",
+      "deduplication": "playbackInstanceId+动作去重",
+      "additionalFields": [
+        "playbackInstanceId",
+        "listenedSeconds",
+        "technicalFailure"
+      ],
+      "execution": "specification_only"
+    },
+    {
+      "name": "temporary_started",
+      "trigger": "确认保护已开启",
+      "deduplication": "operationId去重",
+      "additionalFields": [
+        "effectiveFrom",
+        "endReason"
+      ],
+      "execution": "specification_only"
+    },
+    {
+      "name": "temporary_review_required",
+      "trigger": "达到闲置或4小时提醒",
+      "deduplication": "保护周期+原因去重",
+      "additionalFields": [
+        "reason",
+        "stillProtected"
+      ],
+      "execution": "specification_only"
+    },
+    {
+      "name": "temporary_closed",
+      "trigger": "用户明确关闭",
+      "deduplication": "operationId去重",
+      "additionalFields": [
+        "effectiveFrom",
+        "endReason",
+        "backfillProtectedHistory"
+      ],
+      "execution": "specification_only"
+    },
+    {
+      "name": "adjustment_undone",
+      "trigger": "反向事务成功应用",
+      "deduplication": "undoOperationId去重",
+      "additionalFields": [
+        "undoOperationId",
+        "targetOperationId",
+        "changedFields"
+      ],
+      "execution": "specification_only"
+    },
+    {
+      "name": "saved_preference_removed",
+      "trigger": "用户确认移除/清空本项目长期设置",
+      "deduplication": "operationId去重",
+      "additionalFields": [
+        "removedFieldNames",
+        "removedTargetCount"
+      ],
+      "execution": "specification_only"
+    },
+    {
+      "name": "parse_requested",
+      "trigger": "本地规则解析开始",
+      "deduplication": "requestId去重，不存rawText",
+      "additionalFields": [
+        "requestId",
+        "adapterMode",
+        "inputLength"
+      ],
+      "execution": "specification_only"
+    },
+    {
+      "name": "parse_finished",
+      "trigger": "有效解析结果或失败",
+      "deduplication": "requestId去重",
+      "additionalFields": [
+        "requestId",
+        "adapterMode",
+        "status",
+        "errorCategory",
+        "latencyMs"
+      ],
+      "execution": "specification_only"
+    },
+    {
+      "name": "candidate_adopted",
+      "trigger": "用户将候选采用到草稿",
+      "deduplication": "requestId+draftRevision去重",
+      "additionalFields": [
+        "requestId",
+        "draftRevision",
+        "changedFields"
+      ],
+      "execution": "specification_only"
+    },
+    {
+      "name": "demo_reset",
+      "trigger": "用户重置当前演示",
+      "deduplication": "记录或清除由演示说明定义；不可远程上传",
+      "additionalFields": [
+        "resetScope"
+      ],
+      "execution": "specification_only"
+    }
+  ]
+}

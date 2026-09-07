@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "backupVersion": "0.2.3",
+  "currentVersion": "0.3.0",
+  "preexistingChangesPreserved": [
+    "docs/APPROVAL_STATUS.md",
+    "docs/HANDOFF.md"
+  ],
+  "frozenFilesUnchanged": [
+    "docs/PRD_v0.5.1.md",
+    "docs/IMPLEMENTATION_CONTRACT.md",
+    "docs/AI_CONTRACT.md",
+    "src/domain/model.ts",
+    "src/domain/ai.ts",
+    "src/storage.ts",
+    "src/ProductFeedback.tsx",
+    "src/PreferenceControls.tsx",
+    "src/alignment.css",
+    "src/styles.css"
+  ],
+  "oldPngCountPreserved": 564,
+  "approvedCloseoutBaselineCount": 64,
+  "printPages": 23,
+  "printAll19HeadingsPresent": true,
+  "prdSha256": "ee82185ef668fd81ce506d5ca83f33cd4472b264d6ed52bbd52e15ad4bf2786d",
+  "ownerApproval": "MANUAL_REVIEW_REQUIRED",
+  "realUsers": "NOT_RUN",
+  "realModel": "NOT_RUN"
+}

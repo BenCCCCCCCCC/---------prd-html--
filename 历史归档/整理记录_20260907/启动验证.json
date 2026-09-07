@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "coldStartVerified": true,
+  "reuseExistingServer": true,
+  "currentBuildMatched": true,
+  "shortcutTargetExists": true,
+  "shortcutActuallyInvoked": true,
+  "defaultBrowserVisualInspection": "NOT_RUN",
+  "url": "http://127.0.0.1:4173/"
+}

@@ -1,0 +1,137 @@
+{
+  "version": "0.5.0",
+  "source": "Project visual specification, not a copied NetEase design system",
+  "color": {
+    "caseBg": "#FAFAFC",
+    "surface": "#FFFFFF",
+    "text": "#17171B",
+    "muted": "#61616B",
+    "line": "#D9DEE4",
+    "darkBg": "#131317",
+    "sheet": "#1B1B20",
+    "darkText": "#F7F7FA",
+    "darkMuted": "#B4B4BF",
+    "darkControlBorder": "#92929F",
+    "primary": "#D92D3A",
+    "onPrimary": "#FFFFFF",
+    "selectedSoft": "#FDECEF",
+    "selectedText": "#8E1625",
+    "focusLight": "#245AC4",
+    "focusDark": "#8DB6FF"
+  },
+  "font": {
+    "body": "-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", \"Noto Sans CJK SC\", sans-serif",
+    "utility": "ui-monospace, \"Cascadia Code\", monospace"
+  },
+  "typePx": {
+    "heroDesktop": [
+      48,
+      58
+    ],
+    "heroMobile": [
+      32,
+      42
+    ],
+    "body": [
+      16,
+      26
+    ],
+    "sheetTitle": [
+      20,
+      28
+    ],
+    "button": [
+      16,
+      24
+    ],
+    "helper": [
+      14,
+      20
+    ],
+    "technicalCaption": [
+      12,
+      18
+    ]
+  },
+  "spacePx": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64
+  ],
+  "radiusPx": {
+    "sheetTop": 24,
+    "button": 12,
+    "tag": 16
+  },
+  "layout": {
+    "referenceWidth": 390,
+    "referenceHeight": 844,
+    "caseMaxWidth": 1120,
+    "breakpoints": [
+      768,
+      1100
+    ],
+    "mobileMargin": 16,
+    "sheetPadding": 22,
+    "narrowSheetPadding": 16,
+    "maxSheetViewportRatio": 0.9,
+    "primaryButtonHeight": 48,
+    "minimumInteractiveTarget": 44,
+    "overlayAlpha": 0.42,
+    "fixedReferenceYForbidden": true
+  },
+  "motionMs": {
+    "control": 180,
+    "sheet": 240,
+    "reducedMotion": 0
+  },
+  "zIndex": {
+    "content": 0,
+    "navigation": 10,
+    "overlay": 40,
+    "sheet": 50,
+    "feedback": 60
+  },
+  "contrastPairs": [
+    [
+      "text",
+      "caseBg",
+      4.5
+    ],
+    [
+      "muted",
+      "caseBg",
+      4.5
+    ],
+    [
+      "onPrimary",
+      "primary",
+      4.5
+    ],
+    [
+      "darkText",
+      "sheet",
+      4.5
+    ],
+    [
+      "darkMuted",
+      "sheet",
+      4.5
+    ],
+    [
+      "darkControlBorder",
+      "sheet",
+      3.0
+    ],
+    [
+      "selectedText",
+      "selectedSoft",
+      4.5
+    ]
+  ]
+}

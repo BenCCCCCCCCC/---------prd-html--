@@ -1,0 +1,239 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\14057\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/visual",
+      "--update-snapshots"
+    ],
+    "configFile": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\playwright.config.ts",
+    "rootDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/closeout/final-candidate-generation.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "changed",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 1,
+    "webServer": {
+      "command": "node node_modules/vite/bin/vite.js --host 127.0.0.1",
+      "url": "http://127.0.0.1:5173",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "visual\\screens.spec.ts",
+      "file": "visual/screens.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "visual core states 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5771,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\closeout-candidate\\saved-refresh-failed-320-win32.png is re-generated, writing actual.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:42:55.042Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cb902a1c38b039976161-ece82573905f2845fa39",
+          "file": "visual/screens.spec.ts",
+          "line": 30,
+          "column": 3
+        },
+        {
+          "title": "visual core states 390",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5812,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\closeout-candidate\\saved-refresh-failed-390-win32.png is re-generated, writing actual.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:43:00.958Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cb902a1c38b039976161-80e1d16da9484e71fd7c",
+          "file": "visual/screens.spec.ts",
+          "line": 30,
+          "column": 3
+        },
+        {
+          "title": "visual core states 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6699,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\closeout-candidate\\saved-refresh-failed-768-win32.png is re-generated, writing actual.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:43:06.780Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cb902a1c38b039976161-8661e8862df6caf5aaa6",
+          "file": "visual/screens.spec.ts",
+          "line": 30,
+          "column": 3
+        },
+        {
+          "title": "visual core states 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6907,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:43:13.488Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cb902a1c38b039976161-21e1f77bbb2a435b8ef3",
+          "file": "visual/screens.spec.ts",
+          "line": 30,
+          "column": 3
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-05T15:42:54.472Z",
+    "duration": 26058.076,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

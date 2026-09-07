@@ -1,0 +1,500 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\14057\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.pnpm\\@playwright+test@1.62.1\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/visual",
+      "--update-snapshots",
+      "missing"
+    ],
+    "configFile": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\playwright.config.ts",
+    "rootDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/batch3-2/visual-document-creation.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 1,
+    "webServer": {
+      "command": "node node_modules/vite/bin/vite.js --host 127.0.0.1",
+      "url": "http://127.0.0.1:5173",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "visual\\screens.spec.ts",
+      "file": "visual/screens.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "visual core states 320",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 7916,
+                  "error": {
+                    "message": "Error: A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-entry-320-win32.png, writing actual.",
+                    "stack": "Error: A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-entry-320-win32.png, writing actual.\n    at capture (F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:14:3)\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:41:5",
+                    "location": {
+                      "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts",
+                      "column": 3,
+                      "line": 14
+                    },
+                    "snippet": "  12 |   await page.evaluate(() => document.fonts.ready);\n  13 |   // Candidate application regression baseline; owner design approval is separate.\n> 14 |   await expect(page).toHaveScreenshot(\n     |   ^\n  15 |     [\n  16 |       name.startsWith(\"reader-\") ? \"batch3-2-document\" : \"batch3-1-candidate\",\n  17 |       name,"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts",
+                        "column": 3,
+                        "line": 14
+                      },
+                      "message": "Error: A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-entry-320-win32.png, writing actual.\n\n  12 |   await page.evaluate(() => document.fonts.ready);\n  13 |   // Candidate application regression baseline; owner design approval is separate.\n> 14 |   await expect(page).toHaveScreenshot(\n     |   ^\n  15 |     [\n  16 |       name.startsWith(\"reader-\") ? \"batch3-2-document\" : \"batch3-1-candidate\",\n  17 |       name,\n    at capture (F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:14:3)\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:41:5"
+                    },
+                    {
+                      "location": {
+                        "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts",
+                        "column": 3,
+                        "line": 14
+                      },
+                      "message": "Error: A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-section-03-320-win32.png, writing actual.\n\n  12 |   await page.evaluate(() => document.fonts.ready);\n  13 |   // Candidate application regression baseline; owner design approval is separate.\n> 14 |   await expect(page).toHaveScreenshot(\n     |   ^\n  15 |     [\n  16 |       name.startsWith(\"reader-\") ? \"batch3-2-document\" : \"batch3-1-candidate\",\n  17 |       name,\n    at capture (F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:14:3)\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:47:5"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:31:31.313Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "batch3-2-document\\reader-entry-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-entry-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-2-document\\reader-entry-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-2-document\\reader-entry-320-actual.png"
+                    },
+                    {
+                      "name": "batch3-2-document\\reader-section-03-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-section-03-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-2-document\\reader-section-03-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-2-document\\reader-section-03-320-actual.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts",
+                    "column": 3,
+                    "line": 14
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "cb902a1c38b039976161-ece82573905f2845fa39",
+          "file": "visual/screens.spec.ts",
+          "line": 36,
+          "column": 3
+        },
+        {
+          "title": "visual core states 390",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 8437,
+                  "error": {
+                    "message": "Error: A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-entry-390-win32.png, writing actual.",
+                    "stack": "Error: A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-entry-390-win32.png, writing actual.\n    at capture (F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:14:3)\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:41:5",
+                    "location": {
+                      "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts",
+                      "column": 3,
+                      "line": 14
+                    },
+                    "snippet": "  12 |   await page.evaluate(() => document.fonts.ready);\n  13 |   // Candidate application regression baseline; owner design approval is separate.\n> 14 |   await expect(page).toHaveScreenshot(\n     |   ^\n  15 |     [\n  16 |       name.startsWith(\"reader-\") ? \"batch3-2-document\" : \"batch3-1-candidate\",\n  17 |       name,"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts",
+                        "column": 3,
+                        "line": 14
+                      },
+                      "message": "Error: A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-entry-390-win32.png, writing actual.\n\n  12 |   await page.evaluate(() => document.fonts.ready);\n  13 |   // Candidate application regression baseline; owner design approval is separate.\n> 14 |   await expect(page).toHaveScreenshot(\n     |   ^\n  15 |     [\n  16 |       name.startsWith(\"reader-\") ? \"batch3-2-document\" : \"batch3-1-candidate\",\n  17 |       name,\n    at capture (F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:14:3)\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:41:5"
+                    },
+                    {
+                      "location": {
+                        "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts",
+                        "column": 3,
+                        "line": 14
+                      },
+                      "message": "Error: A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-section-03-390-win32.png, writing actual.\n\n  12 |   await page.evaluate(() => document.fonts.ready);\n  13 |   // Candidate application regression baseline; owner design approval is separate.\n> 14 |   await expect(page).toHaveScreenshot(\n     |   ^\n  15 |     [\n  16 |       name.startsWith(\"reader-\") ? \"batch3-2-document\" : \"batch3-1-candidate\",\n  17 |       name,\n    at capture (F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:14:3)\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:47:5"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:31:40.338Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "batch3-2-document\\reader-entry-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-entry-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-2-document\\reader-entry-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-2-document\\reader-entry-390-actual.png"
+                    },
+                    {
+                      "name": "batch3-2-document\\reader-section-03-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-section-03-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-2-document\\reader-section-03-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-2-document\\reader-section-03-390-actual.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts",
+                    "column": 3,
+                    "line": 14
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "cb902a1c38b039976161-80e1d16da9484e71fd7c",
+          "file": "visual/screens.spec.ts",
+          "line": 36,
+          "column": 3
+        },
+        {
+          "title": "visual core states 768",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 9794,
+                  "error": {
+                    "message": "Error: A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-entry-768-win32.png, writing actual.",
+                    "stack": "Error: A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-entry-768-win32.png, writing actual.\n    at capture (F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:14:3)\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:41:5",
+                    "location": {
+                      "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts",
+                      "column": 3,
+                      "line": 14
+                    },
+                    "snippet": "  12 |   await page.evaluate(() => document.fonts.ready);\n  13 |   // Candidate application regression baseline; owner design approval is separate.\n> 14 |   await expect(page).toHaveScreenshot(\n     |   ^\n  15 |     [\n  16 |       name.startsWith(\"reader-\") ? \"batch3-2-document\" : \"batch3-1-candidate\",\n  17 |       name,"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts",
+                        "column": 3,
+                        "line": 14
+                      },
+                      "message": "Error: A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-entry-768-win32.png, writing actual.\n\n  12 |   await page.evaluate(() => document.fonts.ready);\n  13 |   // Candidate application regression baseline; owner design approval is separate.\n> 14 |   await expect(page).toHaveScreenshot(\n     |   ^\n  15 |     [\n  16 |       name.startsWith(\"reader-\") ? \"batch3-2-document\" : \"batch3-1-candidate\",\n  17 |       name,\n    at capture (F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:14:3)\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:41:5"
+                    },
+                    {
+                      "location": {
+                        "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts",
+                        "column": 3,
+                        "line": 14
+                      },
+                      "message": "Error: A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-section-03-768-win32.png, writing actual.\n\n  12 |   await page.evaluate(() => document.fonts.ready);\n  13 |   // Candidate application regression baseline; owner design approval is separate.\n> 14 |   await expect(page).toHaveScreenshot(\n     |   ^\n  15 |     [\n  16 |       name.startsWith(\"reader-\") ? \"batch3-2-document\" : \"batch3-1-candidate\",\n  17 |       name,\n    at capture (F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:14:3)\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:47:5"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:31:49.994Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "batch3-2-document\\reader-entry-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-entry-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-2-document\\reader-entry-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-2-document\\reader-entry-768-actual.png"
+                    },
+                    {
+                      "name": "batch3-2-document\\reader-section-03-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-section-03-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-2-document\\reader-section-03-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-2-document\\reader-section-03-768-actual.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts",
+                    "column": 3,
+                    "line": 14
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "cb902a1c38b039976161-8661e8862df6caf5aaa6",
+          "file": "visual/screens.spec.ts",
+          "line": 36,
+          "column": 3
+        },
+        {
+          "title": "visual core states 1440",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 11241,
+                  "error": {
+                    "message": "Error: A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-entry-1440-win32.png, writing actual.",
+                    "stack": "Error: A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-entry-1440-win32.png, writing actual.\n    at capture (F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:14:3)\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:41:5",
+                    "location": {
+                      "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts",
+                      "column": 3,
+                      "line": 14
+                    },
+                    "snippet": "  12 |   await page.evaluate(() => document.fonts.ready);\n  13 |   // Candidate application regression baseline; owner design approval is separate.\n> 14 |   await expect(page).toHaveScreenshot(\n     |   ^\n  15 |     [\n  16 |       name.startsWith(\"reader-\") ? \"batch3-2-document\" : \"batch3-1-candidate\",\n  17 |       name,"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts",
+                        "column": 3,
+                        "line": 14
+                      },
+                      "message": "Error: A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-entry-1440-win32.png, writing actual.\n\n  12 |   await page.evaluate(() => document.fonts.ready);\n  13 |   // Candidate application regression baseline; owner design approval is separate.\n> 14 |   await expect(page).toHaveScreenshot(\n     |   ^\n  15 |     [\n  16 |       name.startsWith(\"reader-\") ? \"batch3-2-document\" : \"batch3-1-candidate\",\n  17 |       name,\n    at capture (F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:14:3)\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:41:5"
+                    },
+                    {
+                      "location": {
+                        "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts",
+                        "column": 3,
+                        "line": 14
+                      },
+                      "message": "Error: A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-section-03-1440-win32.png, writing actual.\n\n  12 |   await page.evaluate(() => document.fonts.ready);\n  13 |   // Candidate application regression baseline; owner design approval is separate.\n> 14 |   await expect(page).toHaveScreenshot(\n     |   ^\n  15 |     [\n  16 |       name.startsWith(\"reader-\") ? \"batch3-2-document\" : \"batch3-1-candidate\",\n  17 |       name,\n    at capture (F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:14:3)\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts:47:5"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:32:00.878Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "batch3-2-document\\reader-entry-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-entry-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-2-document\\reader-entry-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-2-document\\reader-entry-1440-actual.png"
+                    },
+                    {
+                      "name": "batch3-2-document\\reader-section-03-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-2-document\\reader-section-03-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-2-document\\reader-section-03-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-2-document\\reader-section-03-1440-actual.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts",
+                    "column": 3,
+                    "line": 14
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "cb902a1c38b039976161-21e1f77bbb2a435b8ef3",
+          "file": "visual/screens.spec.ts",
+          "line": 36,
+          "column": 3
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-06T09:31:30.656Z",
+    "duration": 42053.602,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 4,
+    "flaky": 0
+  }
+}

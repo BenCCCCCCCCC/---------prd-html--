@@ -1,0 +1,353 @@
+{
+  "schemaVersion": "1.0.0",
+  "packageVersion": "batch2-startup-v1.1",
+  "generatedAt": "2026-09-05T09:35:00+10:00",
+  "approvalStatus": "approved_for_local_beta",
+  "fileCountExcludingManifest": 65,
+  "boundaries": {
+    "applicationCodePresent": false,
+    "realAIUsed": false,
+    "realUserDataUsed": false,
+    "onlineABTestCompleted": false,
+    "publicDeployment": false,
+    "remotePush": false
+  },
+  "quality": {
+    "staticChecks": 56,
+    "staticChecksPassed": 56,
+    "acceptanceCasesPrepared": 34,
+    "aiEvalCasesPrepared": 40,
+    "portfolioDecisions": 8,
+    "currentDocxPages": {
+      "prd": 20,
+      "htmlSpec": 11
+    }
+  },
+  "files": [
+    {
+      "path": ".agents/skills/netease-ai-eval/SKILL.md",
+      "bytes": 2500,
+      "sha256": "2ea7f0425be158d478f147991875cac6151e0c32fe01b5a2149648e1e1f77287"
+    },
+    {
+      "path": ".agents/skills/netease-build-verify/SKILL.md",
+      "bytes": 2403,
+      "sha256": "ea704e754d2973e14c4d48afe8719ef0ea30e2603f38d55003f288cb8ec381a9"
+    },
+    {
+      "path": ".agents/skills/netease-product-review/SKILL.md",
+      "bytes": 2556,
+      "sha256": "fb6a1ad4fe4c020ad8b93c1e72509f0b2a6c9631e34986351cc2ff6c4af6e47a"
+    },
+    {
+      "path": ".agents/skills/netease-visual-qa/SKILL.md",
+      "bytes": 3081,
+      "sha256": "b531b6a842250a85538cb68fa821977d680ef87a24688853a93225be09b19dfe"
+    },
+    {
+      "path": "00_README.md",
+      "bytes": 1263,
+      "sha256": "dca5b6431963ab5c601801bcc093cf4aeb88d99ec73b79c0dbabee96a6b9a0ef"
+    },
+    {
+      "path": "00_START_HERE.md",
+      "bytes": 933,
+      "sha256": "fd9c54ceff00439890157539ce7fb82d24d5cc078dedb99a4f920954231ed055"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2605,
+      "sha256": "c571b3b318efef43d4456509fd0a1a749fb16e5307a36b4ad4c0a9933b785e83"
+    },
+    {
+      "path": "BATCH2_CODEX_MASTER_PROMPT.md",
+      "bytes": 22820,
+      "sha256": "a099afb5784caf9cb303c1a9cfba951d7f8d647ac17092c50457ec935d823a78"
+    },
+    {
+      "path": "approval/Batch2_新增内容审批清单.md",
+      "bytes": 12102,
+      "sha256": "a3adcf8266e9bdf4ca2dc4bc276d0cc80e5d9538f5761a957a84e3cea488de0c"
+    },
+    {
+      "path": "archive/BATCH1_LAYOUT_REVIEW.md",
+      "bytes": 1100,
+      "sha256": "716678a27ea059e90d1deb13fc92f68a56294162435ec54ca340931d7ba92c37"
+    },
+    {
+      "path": "archive/BATCH1_VALIDATION_REPORT.json",
+      "bytes": 4919,
+      "sha256": "ea0b0d1ae43a7982a49f38d13bf668a9620508f4f368be2369fb4c1dead09447"
+    },
+    {
+      "path": "archive/BATCH1_VALIDATION_REPORT.md",
+      "bytes": 1347,
+      "sha256": "0ca4bae7511c2a83dc8c5c049c793d3a55ab076ad959c41b884a7442cb30e848"
+    },
+    {
+      "path": "archive/NEXT_BATCH_CODEX_B1_DRAFT.md",
+      "bytes": 2590,
+      "sha256": "db7af9caaccf875487271a5e9ab8b3577d4dfb5b79565232a07424fc96df8697"
+    },
+    {
+      "path": "archive/网易云音乐_Batch2_行业研究补充与审批版_v1.0.docx",
+      "bytes": 53841,
+      "sha256": "fe638673390748824738c402615056fc03e1ed3ebcba1b831708cc10f5724b8b"
+    },
+    {
+      "path": "data/acceptance_cases.json",
+      "bytes": 12673,
+      "sha256": "de5152642b482795d78074e9591c36418838d9b65ae8bc4148e88770ba196cf6"
+    },
+    {
+      "path": "data/ai_eval_cases.jsonl",
+      "bytes": 28244,
+      "sha256": "234943af677dbdd3c875406561ad9e64a6045a8f192cd6703da47e93d23c2b6e"
+    },
+    {
+      "path": "data/demo_catalog.json",
+      "bytes": 10191,
+      "sha256": "8421a1ee83ae54390d26214d1c18f69100149610b18833abb88bcba43b41eb56"
+    },
+    {
+      "path": "data/invalid_output_fixtures.json",
+      "bytes": 2795,
+      "sha256": "48767d6cd39d0ca869b57288004875cf0acc0ca9eacd68279cb30b525cd596a9"
+    },
+    {
+      "path": "data/ranking_fixtures.json",
+      "bytes": 11244,
+      "sha256": "b99541096d9b823a279405cec2d0531db7128566b8fb56c480f6aafd32b6af41"
+    },
+    {
+      "path": "design/FRAME_MAPPING.md",
+      "bytes": 1454,
+      "sha256": "271e9ec296ac34052c9044235e7e3619b78b39e5e1411e639c4be778f74da3f0"
+    },
+    {
+      "path": "design/flow_roles.dot",
+      "bytes": 1838,
+      "sha256": "8f5fd87d437f60531688e31dd51139b43abb43ad2e0bc4137ee1fa8ca404292a"
+    },
+    {
+      "path": "design/flow_roles.mmd",
+      "bytes": 733,
+      "sha256": "a9e681e45cd5654c333de518c3cfdb7faddeaa09c25a5de90845c3e2e4d1a860"
+    },
+    {
+      "path": "design/flow_roles.png",
+      "bytes": 292506,
+      "sha256": "942c8bdf7332574eaa017f7ac3472388f0abd10f8e98ff26d6ade1b9620d3a9f"
+    },
+    {
+      "path": "design/flow_roles.svg",
+      "bytes": 13096,
+      "sha256": "e4e74e4bfc555703cd1401d7320276b573a96cab19bf264ea21658b9fe4f2d94"
+    },
+    {
+      "path": "design/reference/baseline_strip.png",
+      "bytes": 322600,
+      "sha256": "13dcac55a227d61fc931f8a1776dcae04a0ae74b3178725b4f3ba73eeafca601"
+    },
+    {
+      "path": "design/reference/image1.png",
+      "bytes": 84415,
+      "sha256": "c59dac40dd53137ff51cb8b5bd799cb6a8782d1d1394b70442a83014dc219066"
+    },
+    {
+      "path": "design/reference/image2.png",
+      "bytes": 106378,
+      "sha256": "0776d542ee5c8a940799f25891f9b781b01ddb7c4ef37376b8eda5da517bf6ab"
+    },
+    {
+      "path": "design/reference/image3.png",
+      "bytes": 562180,
+      "sha256": "38eac980b8da780261b1693a13de099851c66997e0142266322572d6420d70d3"
+    },
+    {
+      "path": "design/reference/image4.png",
+      "bytes": 299844,
+      "sha256": "c162a6ca74bc2bd406013833645c3b8d533cb9fee4be081b1184dcf2aadc2579"
+    },
+    {
+      "path": "design/reference/image5.png",
+      "bytes": 112611,
+      "sha256": "0071c24c38c5ff689c30a571926755600b65623d6752df9f8cfa601f1d5b6b0d"
+    },
+    {
+      "path": "design/reference/image6.png",
+      "bytes": 264649,
+      "sha256": "e5461ca90ce451becdb4c2e7db9b26a38488fc8f1d3869bf48a93366e2e0f7db"
+    },
+    {
+      "path": "design/reference/image7.png",
+      "bytes": 255023,
+      "sha256": "8f58b6af12989e4397d9932361215481e67991c9222591a547d67d10a02fc39b"
+    },
+    {
+      "path": "design/reference/image8.png",
+      "bytes": 563241,
+      "sha256": "dbfe04d7a993930a342749fce689287270db3c0274c8233de83654dcbb5dfdb9"
+    },
+    {
+      "path": "design/reference/image9.png",
+      "bytes": 530958,
+      "sha256": "92ece406970a66b85402063a44d980047d460a7b990f87d9033bab938dc9d304"
+    },
+    {
+      "path": "docs/AI_CONTRACT.md",
+      "bytes": 4813,
+      "sha256": "3628f61b67241dbc45ae60de2389de9058a9fc81a926e090f0799bd5c6f0780e"
+    },
+    {
+      "path": "docs/APPROVAL_STATUS.md",
+      "bytes": 627,
+      "sha256": "e7a13b988dc289796da5054210e74b57189f45141752b201563255f6db3b052c"
+    },
+    {
+      "path": "docs/BATCH2_EXPECTED_HANDBACK.md",
+      "bytes": 1509,
+      "sha256": "3dcf95d25c8b857732306c94c4f264327f51631704b7d55ede85046bb9b3be94"
+    },
+    {
+      "path": "docs/DECISIONS.md",
+      "bytes": 3336,
+      "sha256": "eac79e867db454f0527d36a15f3955655102b0e25a4892b4e184a5ef904f4159"
+    },
+    {
+      "path": "docs/HANDOFF.md",
+      "bytes": 2395,
+      "sha256": "1fc5b229016d41ef52baec42a005f079be7e1c8b8ec355687c973dfd51cae2b7"
+    },
+    {
+      "path": "docs/HTML_SPEC.md",
+      "bytes": 24271,
+      "sha256": "69dfbee69eb55469a95425f5046a418f83b0485812495bd7fd0b2a59a0376ec0"
+    },
+    {
+      "path": "docs/IMPLEMENTATION_CONTRACT.md",
+      "bytes": 5541,
+      "sha256": "62ff56febc1e58725df4992750f382bf1e51463837373107e9cea0c7ef9faa48"
+    },
+    {
+      "path": "docs/INTERVIEW_DEEP_DIVE_GUIDE.md",
+      "bytes": 5540,
+      "sha256": "ba57e65bcaafce7753c1635dffcb767c21c5d2095ab25be33ef4759dc8520067"
+    },
+    {
+      "path": "docs/PORTFOLIO_STORY_ARCHITECTURE.md",
+      "bytes": 3963,
+      "sha256": "be71237a9717f44c4c9cf8efd5003d18721e79d1602094e57ad9cec70cfa343f"
+    },
+    {
+      "path": "docs/PRD_v0.5.1.md",
+      "bytes": 48432,
+      "sha256": "ee82185ef668fd81ce506d5ca83f33cd4472b264d6ed52bbd52e15ad4bf2786d"
+    },
+    {
+      "path": "docs/RESEARCH_ADDENDUM.md",
+      "bytes": 7017,
+      "sha256": "f4be93b8d6a368abb11294a21c3cbb35c0701254197f8b5ea734302419f20cd5"
+    },
+    {
+      "path": "docs/RESEARCH_CHANGELOG.md",
+      "bytes": 1526,
+      "sha256": "4ec6ef4e7601544c4e24d53e7757fe4bf55987652e1a4c3e91e57b3e56e9d28e"
+    },
+    {
+      "path": "docs/RESEARCH_SOURCE_REGISTER.md",
+      "bytes": 6723,
+      "sha256": "246c406fd01b821ce383bc1f527dca62afa5190f0d9ae304075419bd01ca639d"
+    },
+    {
+      "path": "docs/REVIEW_AUDIT.md",
+      "bytes": 8871,
+      "sha256": "14409def130b013d92233f098234fba7e996a212a42b477fbc0e8d66e439e3ce"
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "bytes": 5158,
+      "sha256": "5a471199a7570683a520104d804bf05f5977484da26d6da597025a897e39c725"
+    },
+    {
+      "path": "docs/TEST_PLAN.md",
+      "bytes": 4456,
+      "sha256": "a99510fa92a3167cbe4d2f532b1ba20ff4bca6c9fddccea570cbb09baddfe64f"
+    },
+    {
+      "path": "docs/TRADEOFFS_AND_REJECTED_ALTERNATIVES.md",
+      "bytes": 10690,
+      "sha256": "fe433fcf2b98a25af85444ed7fe53b93c4998e8b2602ecfcbafe216273511551"
+    },
+    {
+      "path": "docs/VISUAL_EXECUTION_BRIEF.md",
+      "bytes": 5562,
+      "sha256": "4d4b342685b845312cb268ffdfe77a7bc78eedf86fd864bfb6e6997f4bd6cc28"
+    },
+    {
+      "path": "qa/BATCH2_DOCX_LAYOUT_REVIEW.md",
+      "bytes": 2794,
+      "sha256": "e915b9cbbaae2db0c6bf27f6ab0504d2c1ca1d4dc4eb8473427a7419cdcccf7c"
+    },
+    {
+      "path": "qa/BATCH2_PACKAGE_VALIDATION.json",
+      "bytes": 13107,
+      "sha256": "50bbcc6da3dacb02b312246f1a81da2ef9992983505eb60d6ff15d083e287008"
+    },
+    {
+      "path": "qa/BATCH2_PACKAGE_VALIDATION.md",
+      "bytes": 2465,
+      "sha256": "a31fb6c25eb8e4967c0582754799ed923fb9b2bf8d3d27b4d691e27f33bb6092"
+    },
+    {
+      "path": "specs/design-tokens.json",
+      "bytes": 2265,
+      "sha256": "9339940e3630e6337a16526770c928f19bcb05dfabf80b9a05daaa9428762444"
+    },
+    {
+      "path": "specs/events.spec.json",
+      "bytes": 6332,
+      "sha256": "2a4104e434876d799159ab581a8b15a442da5834e4f4cc2ea4552b71f771f9a6"
+    },
+    {
+      "path": "specs/intent-request.schema.json",
+      "bytes": 1231,
+      "sha256": "5abeacd416886bbbec4a4734d5c5ffcb420c058ed39dadfc9b75ba1557cf0948"
+    },
+    {
+      "path": "specs/intent.schema.json",
+      "bytes": 6252,
+      "sha256": "acc5699bd37153a5d84d863dd1e111be111476b5a7d609604247a303dfe14402"
+    },
+    {
+      "path": "specs/portfolio-decisions.json",
+      "bytes": 8625,
+      "sha256": "7787c8e08b8af5294d4b39f71c9fc92df839448cd67f8ff0a2831b2493fe3653"
+    },
+    {
+      "path": "specs/product-config.json",
+      "bytes": 3753,
+      "sha256": "246455d377011e2ba4f778dda5180791636e3e39331cceda460cdd8749b8d222"
+    },
+    {
+      "path": "specs/research-decisions.json",
+      "bytes": 6549,
+      "sha256": "8b6dce31421247efa35988aabe6e22520244177b70486f5290e2c1aeabf7a21e"
+    },
+    {
+      "path": "specs/tags.json",
+      "bytes": 2066,
+      "sha256": "444331453675de5e06044f663173243ffa846d7c03cbfb471ffaf752688885a3"
+    },
+    {
+      "path": "网易云音乐_HTML制作规格_v0.5.1.docx",
+      "bytes": 374559,
+      "sha256": "23d42c8168b77bb7d7299d51f655c11c8a5cd198ae1635972cc621a3a06ae2ef"
+    },
+    {
+      "path": "网易云音乐_PRD_v0.5.1_作品集评审版.docx",
+      "bytes": 349894,
+      "sha256": "2cb57f6e4385379d5530ecdff2bb8ecbdecccd65b37e229d42b798d312fea4e2"
+    }
+  ]
+}

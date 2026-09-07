@@ -1,0 +1,555 @@
+/* Coordinates from Figma 48:2 (390×844). Content-aware adaptations use rem. */
+.document-title h1 {
+  margin-bottom: 0.5rem;
+}
+.document-subtitle {
+  margin-bottom: 0.5rem;
+}
+.document-meta {
+  color: var(--muted);
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+}
+.document-actions {
+  margin-bottom: 2rem;
+}
+.demo-page .demo-toolbar {
+  max-width: 1020px;
+  margin: auto;
+  padding: 0.5rem 0;
+  min-height: 56px;
+  gap: 1rem;
+}
+.annotation-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+}
+.demo-toolbar h1 {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 500;
+}
+.demo-toolbar .full {
+  width: auto;
+}
+.submission-sheet .segmented label.selected {
+  color: var(--align-tagSelectedText);
+}
+.sheet-impact .sheet-body > fieldset > legend {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+.sheet .impact-summary summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.sheet-impact.submission-sheet .sheet-inner {
+  background: #131317;
+}
+.preference-explanation summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: var(--type-helper);
+}
+.prototype-host {
+  overflow-anchor: none;
+}
+.annotation-diagnostic pre {
+  max-height: 240px;
+  overflow: auto;
+  font-size: 0.75rem;
+}
+.annotation-toggle input {
+  width: 20px;
+  height: 20px;
+}
+.demo-page .demo-layout {
+  max-width: 1020px;
+  margin: auto;
+  gap: 48px;
+  padding: 0;
+  grid-template-columns: minmax(0, 390px) minmax(0, 1fr);
+  align-items: start;
+}
+.demo-page .product.reference-product {
+  width: 100%;
+  padding: 0;
+  min-height: 844px;
+  border: 0;
+  border-radius: 0;
+  background: #3e3226 url("./assets/player/background.png") center top/100%
+    844px repeat-y;
+  color: #eee8df;
+}
+.reference-player {
+  container-type: inline-size;
+}
+.reference-status {
+  width: 100%;
+  height: 44px;
+  object-fit: cover;
+  display: block;
+}
+.reference-header {
+  position: relative;
+  height: 52px;
+  padding: 0 18px;
+  display: flex;
+  justify-content: space-between;
+  color: #d8d0c5;
+  font-size: 0.8125rem;
+}
+.reference-header > span:not(.reference-context) {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.reference-header > button {
+  transform: translateX(-8px);
+}
+.reference-product .play-controls button:hover:not(:disabled) {
+  background: transparent;
+}
+.reference-product button {
+  background: transparent;
+}
+.reference-header button {
+  width: 44px;
+  min-height: 44px;
+  padding: 0;
+}
+.reference-header img {
+  width: 26px;
+  height: 29px;
+  object-fit: contain;
+}
+.reference-context {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.reference-context img {
+  object-fit: contain;
+}
+.reference-product .record-stage {
+  padding: 0;
+  width: 100%;
+  aspect-ratio: 390/424;
+  display: block;
+  position: relative;
+}
+.reference-stage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.reference-cover {
+  position: absolute;
+  top: 36.3208%;
+  left: 24.1026%;
+  width: 52.3077%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.reference-cover .cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.reference-entry-row {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.reference-count {
+  width: 54px;
+  height: 25px;
+  position: absolute;
+  left: 20px;
+  top: 12px;
+}
+.reference-product .adjust-entry {
+  position: relative;
+  margin: 0 0 0 76px;
+  width: 160px;
+  min-height: 44px;
+  height: auto;
+  padding: 8px 0;
+  font-size: 0.75rem;
+}
+.reference-product .adjust-entry > span {
+  min-width: 0;
+  width: 154px;
+  min-height: 28px;
+  gap: 0;
+  padding: 0 10px;
+  background: #141416;
+  border-radius: 14px;
+  font-weight: 500;
+}
+.reference-product .adjust-entry > span > span {
+  font-size: 1.125rem;
+  color: #a5a5ad;
+}
+.reference-product .track-heading {
+  margin: 0;
+  min-height: 70px;
+  padding: 4px 21px 4px 25px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 64px 38px;
+  gap: 8px;
+  align-items: start;
+}
+.reference-product .track-heading h2 {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0 0 2px;
+  color: #eee8df;
+  font-weight: 500;
+}
+.reference-product .track-heading p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin: 0;
+  color: #d1c5b6;
+}
+.reference-heart {
+  position: relative;
+  min-width: 44px;
+  height: 44px;
+  padding: 8px 0 0;
+}
+.reference-heart img {
+  width: 47px;
+  height: 32px;
+}
+.heart-selected {
+  position: absolute;
+  left: 7px;
+  top: 10px;
+  color: #ff9d9f;
+  font-size: 25px;
+}
+.track-heading .reference-context {
+  margin-top: 9px;
+}
+.track-heading .reference-context img {
+  width: 32px;
+  height: 32px;
+}
+.reference-progress {
+  margin: 0 25px;
+  padding-top: 7px;
+  height: 60px;
+}
+.reference-product .progress-line {
+  margin: 0;
+  background: #948777;
+  height: 2px;
+}
+.reference-product .progress-line:before {
+  width: 6px;
+  height: 6px;
+  top: -2px;
+  background: #ece8e2;
+}
+.progress-line > span {
+  display: block;
+  height: 2px;
+  background: #ece8e2;
+}
+.reference-product .time-row {
+  margin-top: 10px;
+  font-size: 0.625rem;
+  line-height: 1.5;
+  color: #c4b6a4;
+}
+.reference-product .play-controls {
+  height: 58px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 18px;
+}
+.reference-product .play-controls > * {
+  width: 44px;
+  min-width: 44px;
+  height: 48px;
+}
+.reference-product .play-controls button {
+  padding: 0;
+  border: 0;
+}
+.reference-product .play-controls img {
+  max-width: 32px;
+  max-height: 38px;
+  display: block;
+  margin: auto;
+}
+.reference-product .play-controls .play-button {
+  width: 48px;
+  height: 48px;
+  color: #d4cec7;
+}
+.reference-tools {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 18px 0;
+}
+.reference-tools > * {
+  width: 44px;
+  height: 44px;
+}
+.reference-tools img {
+  max-width: 31px;
+  height: 29px;
+  object-fit: contain;
+}
+.reference-tools button {
+  padding: 0;
+  border: 0;
+}
+.reference-product .current-state {
+  padding: 0 22px;
+  margin: 0;
+  border: 0;
+  background: transparent;
+}
+.reference-product .current-state summary {
+  min-height: 32px;
+  font-size: 0.875rem;
+  padding: 4px 0;
+  color: #eee8df;
+}
+.reference-product .current-state details[open] {
+  padding-bottom: 16px;
+}
+.reference-product .current-state p {
+  color: #eee8df;
+}
+.reference-product .protection-bar.on {
+  padding: 8px 16px;
+  margin: 0;
+  background: #32271e;
+  color: #f5eee4;
+}
+.reference-product .reminder {
+  margin: 0;
+  border-radius: 0;
+}
+.reference-product .mini-player {
+  margin: 0;
+}
+.queue-product .queue,
+.queue-product > .product-top {
+  padding: 16px;
+}
+.reference-product .queue-row .cover {
+  border-radius: 4px;
+}
+.reference-product .effective-summary {
+  display: none;
+}
+.product-notes {
+  padding-top: 16px;
+  min-width: 0;
+}
+.development-annotations {
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+.development-annotations summary {
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding: 8px 0;
+  cursor: pointer;
+}
+.development-annotations ol {
+  padding-left: 24px;
+  margin: 16px 0;
+}
+.development-annotations li {
+  padding: 6px 0;
+}
+.annotation-state,
+.annotation-context,
+.annotation-acceptance {
+  color: var(--muted);
+  font-size: 0.875rem;
+  margin: 12px 0;
+}
+.development-annotations a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+}
+.annotation-markers {
+  pointer-events: none;
+}
+.annotation-markers span {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  font: 11px/1 sans-serif;
+  background: #fff6ea;
+  color: #513c28;
+  border: 1px solid #805d3b;
+  z-index: 25;
+}
+.testing-tools {
+  border-top: 1px solid var(--line);
+  margin-top: 16px;
+  padding-top: 16px;
+}
+.testing-tools > .source-select {
+  margin-top: 16px;
+}
+.submission-sheet {
+  overflow: visible;
+}
+.submission-sheet .sheet-inner {
+  background: var(--sheet);
+  border-radius: 24px 24px 0 0;
+}
+.modal-annotations {
+  position: fixed;
+  left: calc(var(--annotation-left, 0px));
+  top: 80px;
+  width: min(500px, calc(100vw - var(--annotation-left, 0px) - 20px));
+  max-height: calc(100dvh - 100px);
+  overflow: auto;
+  background: #faf8f5;
+  border-radius: 12px;
+  padding: 24px;
+  color: var(--text);
+}
+.modal-annotations button {
+  color: var(--text);
+  background: transparent;
+}
+.sheet::backdrop {
+  background: rgb(0 0 0 / 0.42);
+}
+@media (max-width: 1099px) {
+  .demo-page .demo-toolbar {
+    padding: 4px 12px;
+    gap: 4px 12px;
+  }
+  .demo-page .demo-layout {
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    gap: 0;
+  }
+  .product-notes {
+    display: contents;
+  }
+  .product-notes > .testing-tools {
+    order: -1;
+    width: 100%;
+    max-height: min(320px, 35dvh);
+    overflow: auto;
+    padding: 16px;
+    margin: 0;
+    background: var(--surface);
+  }
+  .product-notes > .development-annotations {
+    order: 2;
+    width: 100%;
+    padding: 20px 16px;
+  }
+  .modal-annotations {
+    position: static;
+    width: auto;
+    max-height: 25dvh;
+    border-radius: 12px 12px 0 0;
+    padding: 0 16px;
+    overflow: auto;
+  }
+  .modal-annotations summary {
+    font-size: 0.875rem;
+  }
+  .submission-sheet:has(.modal-annotations) .sheet-inner {
+    max-height: calc(90dvh - 44px);
+  }
+  .submission-sheet:has(.modal-annotations details[open]) .sheet-inner {
+    max-height: 65dvh;
+  }
+  .annotation-markers {
+    display: none;
+  }
+}
+@media (max-width: 359px) {
+  .reference-product .adjust-entry {
+    margin-left: 76px;
+  }
+  .reference-product .track-heading {
+    grid-template-columns: minmax(0, 1fr) 48px 32px;
+    gap: 4px;
+  }
+}
+/* Font enlargement reflows the product; reference coordinates never force text clipping. */
+@media (min-resolution: 1dppx) {
+  .reference-entry-row {
+    min-height: 2.75rem;
+    height: auto;
+  }
+  .reference-product .adjust-entry {
+    width: max(160px, 10rem);
+    max-width: calc(100% - 80px);
+  }
+  .reference-product .adjust-entry > span {
+    width: max(154px, 9.625rem);
+    max-width: 100%;
+    white-space: normal;
+  }
+  .reference-product .track-heading {
+    min-height: 4.375rem;
+  }
+  .reference-progress {
+    min-height: 3.75rem;
+  }
+  .reference-tools {
+    min-height: 3.75rem;
+  }
+}
+@media print {
+  .prd-body p {
+    margin-bottom: 4mm;
+  }
+  .prd-body > section {
+    padding-bottom: 8mm;
+  }
+  #section-19 tr:last-child {
+    break-after: avoid;
+  }
+  #section-19 p:last-child {
+    break-before: avoid;
+  }
+  .document-title h1 {
+    font-size: 22pt;
+  }
+  .document-meta {
+    font-size: 9pt;
+  }
+  .development-annotations .annotation-markers {
+    display: none;
+  }
+}

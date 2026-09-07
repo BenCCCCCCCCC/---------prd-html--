@@ -1,0 +1,43 @@
+{
+  "scope": "Submission-content and implementation-input check only; application not changed or re-run",
+  "source_archive_sha256": "68217df579008c92755b40bf8ba836437a8e26a3d9626676cf45a1350a01c043",
+  "document_sections": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19"
+  ],
+  "annotation_states": 10,
+  "document_tables": 21,
+  "document_render_pages": 13,
+  "missing_rendered_table_cells": [],
+  "content_counts": {
+    "old_non_whitespace_chars": 17948,
+    "new_non_whitespace_chars": 11918,
+    "reduction_percent": 33.6
+  },
+  "visual_inspection": "13 final pages reviewed. After last editorial change, page 11 re-reviewed; other 12 page PNG hashes identical to the already reviewed render.",
+  "reference_provenance": "Four PNGs are from uploaded Batch3 Figma cache; live 48:2 visually reviewed. Raw-image endpoint obtained but download blocked by DNS in this environment.",
+  "not_run": [
+    "Application build and browser tests",
+    "Figma-to-HTML reimplementation",
+    "Real user study",
+    "Production deployment"
+  ],
+  "warning": "Keyword/structure checks support editorial review but do not prove all business semantics by themselves; section migration map and frozen product contracts remain mandatory implementation references."
+}

@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "0.1.0",
+  "status": "approved_for_local_beta",
+  "approvalMode": "single_batch",
+  "recommendedApproval": "approve_all",
+  "publicClaimsPolicy": "external sources support design decisions only; they are not user research, NetEase internal facts, or measured project outcomes",
+  "decisions": [
+    {
+      "id": "EXT-01",
+      "title": "Codex harness and self-review loop",
+      "category": "implementation_process",
+      "recommended": true,
+      "changesProductSemantics": false,
+      "implementationFlags": {
+        "repoKnowledgeAsSourceOfTruth": true,
+        "mechanicalInvariants": true,
+        "domAndScreenshotLegibility": true,
+        "selfReviewFixRerunLoop": true,
+        "microApprovalRequests": false
+      },
+      "approved": true
+    },
+    {
+      "id": "EXT-02",
+      "title": "Dual-depth recruiter and hiring-manager portfolio",
+      "category": "portfolio",
+      "recommended": true,
+      "changesProductSemantics": false,
+      "implementationFlags": {
+        "quickScanLayer": true,
+        "deepDiveLayer": true,
+        "evidenceStatusBadges": true,
+        "fakeOutcomeMetrics": false
+      },
+      "approved": true
+    },
+    {
+      "id": "EXT-03",
+      "title": "Four product risks audit",
+      "category": "product_analysis",
+      "recommended": true,
+      "changesProductSemantics": false,
+      "implementationFlags": {
+        "value": true,
+        "usability": true,
+        "feasibility": true,
+        "viability": true
+      },
+      "approved": true
+    },
+    {
+      "id": "EXT-04",
+      "title": "2026 Spotify and Apple industry update and R07 repositioning",
+      "category": "competitive_product",
+      "recommended": true,
+      "changesProductSemantics": "minor_narrative_only",
+      "implementationFlags": {
+        "addSpotifyIndustryCheck": true,
+        "preserveOriginalCourseTimeline": true,
+        "claimIndustryFirst": false,
+        "r07Differentiation": [
+          "session_first",
+          "structured_preview",
+          "manual_correction",
+          "explicit_confirmation",
+          "no_direct_profile_authority",
+          "undo"
+        ]
+      },
+      "approved": true
+    },
+    {
+      "id": "EXT-05",
+      "title": "Human-AI expectation, correction and consequence patterns",
+      "category": "ai_ux",
+      "recommended": true,
+      "changesProductSemantics": false,
+      "implementationFlags": {
+        "visibleLabel": "AI 建议草稿（实验）",
+        "manualFallback": true,
+        "editableCandidate": true,
+        "mappedAndUnmappedPhrases": true,
+        "feedforwardBeforeConfirm": true,
+        "receiptAndUndoAfterConfirm": true,
+        "numericConfidence": false,
+        "dismissibleExperiment": true
+      },
+      "approved": true
+    },
+    {
+      "id": "EXT-06",
+      "title": "Single-source schema and layered AI evaluation",
+      "category": "ai_engineering",
+      "recommended": true,
+      "changesProductSemantics": false,
+      "implementationFlags": {
+        "canonicalSchema": "specs/intent.schema.json",
+        "runtimeSchemaValidation": true,
+        "generatedTypeDriftCheck": true,
+        "semanticEvalSeparateFromSchema": true,
+        "typicalEdgeAmbiguousAdversarialCases": true,
+        "localParserDefault": true,
+        "realProviderEnabled": false,
+        "browserApiKeyAllowed": false
+      },
+      "approved": true
+    },
+    {
+      "id": "EXT-07",
+      "title": "Experiment health gate",
+      "category": "experimentation",
+      "recommended": true,
+      "changesProductSemantics": false,
+      "implementationFlags": {
+        "telemetryCompleteness": true,
+        "randomizationAndAssignmentCheck": true,
+        "srmBeforeTreatmentEffect": true,
+        "aaOrPipelineSanity": true,
+        "preTreatmentSegmentsOnly": true,
+        "metricGroups": [
+          "data_quality",
+          "oec",
+          "diagnostic",
+          "guardrail"
+        ],
+        "ringPassHoldRollbackCriteria": true,
+        "fabricatedSampleSizeOrPValue": false
+      },
+      "approved": true
+    },
+    {
+      "id": "EXT-08",
+      "title": "Accessible dialogs and reproducible visual QA",
+      "category": "quality",
+      "recommended": true,
+      "changesProductSemantics": false,
+      "implementationFlags": {
+        "nativeDialogOrEquivalent": true,
+        "focusEntryTrapReturn": true,
+        "escapeClose": true,
+        "visibleAlternativeToGestures": true,
+        "projectTargetSizePx": 44,
+        "axeAutomation": true,
+        "manualAccessibilityChecks": true,
+        "sameEnvironmentVisualBaselines": true
+      },
+      "approved": true
+    },
+    {
+      "id": "EXT-09",
+      "title": "Performance baseline and deploy readiness",
+      "category": "web_quality",
+      "recommended": true,
+      "changesProductSemantics": false,
+      "implementationFlags": {
+        "labReferenceBudgets": {
+          "lcpMs": 2500,
+          "inpMs": 200,
+          "cls": 0.1
+        },
+        "claimFieldCwvFromLab": false,
+        "remoteFonts": false,
+        "coreFlowExternalNetworkDependency": false,
+        "githubPagesBaseReady": true,
+        "publicDeploymentAuthorized": false
+      },
+      "approved": true
+    },
+    {
+      "id": "EXT-10",
+      "title": "NetEase Melo production music-agent lessons and R07 boundary",
+      "category": "ai_recommendation_research",
+      "recommended": true,
+      "changesProductSemantics": "minor_narrative_and_validation_only",
+      "implementationFlags": {
+        "mentionMeloAs2026IndustryResearch": true,
+        "claimMeloIsSameFeature": false,
+        "r07Focus": "recommendation_control_not_full_playlist_generation",
+        "deterministicStepGraph": true,
+        "entityAndTagGrounding": true,
+        "noSilentConstraintDrop": true,
+        "explicitRelaxationPreview": true,
+        "externalMetricsBecomeProjectResults": false
+      },
+      "approved": true
+    },
+    {
+      "id": "EXT-11",
+      "title": "NetEase Cloud Music H1 2026 business context with strict evidence boundary",
+      "category": "business_context",
+      "recommended": true,
+      "changesProductSemantics": false,
+      "implementationFlags": {
+        "useAsBackgroundOnly": true,
+        "mentionPersonalizationAsPublicCompanyPriority": true,
+        "displayRevenueMetricInHero": false,
+        "inferProjectNeedOrImpactFromCompanyResults": false,
+        "keepInDeepDiveOrSourceNote": true
+      },
+      "approved": true
+    }
+  ],
+  "approvedAt": "2026-09-05",
+  "ownerDecision": "approve_all_EXT_01_to_EXT_11"
+}

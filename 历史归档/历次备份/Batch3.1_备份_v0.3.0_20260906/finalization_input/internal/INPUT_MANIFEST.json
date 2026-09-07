@@ -1,0 +1,104 @@
+{
+  "files": [
+    {
+      "path": "00_使用说明.md",
+      "bytes": 980,
+      "sha256": "b00318a8ea8e7c049838a475bb4401c93b06a791c5ab011ec570b632c08879b6"
+    },
+    {
+      "path": "BATCH3_1_CODEX_定稿与播放器复刻.md",
+      "bytes": 11880,
+      "sha256": "36bfe02748858f21aed43da9ba5ee9128995f599275eb00470824f1aeb7d2d58"
+    },
+    {
+      "path": "content/PRD_v0.6_提交候选.md",
+      "bytes": 32045,
+      "sha256": "4c673b161bcfe829cce85c234d4071e128a673fcde525c2e09913c2d598b94cd"
+    },
+    {
+      "path": "content/SOURCES.md",
+      "bytes": 1708,
+      "sha256": "794df42458e5ae299b70dd94a13aeb4a96505026311af77e20dde825f4e78b0b"
+    },
+    {
+      "path": "content/网易云音乐_PRD_v0.6_提交候选.docx",
+      "bytes": 337876,
+      "sha256": "d95e3c354a8ac0c125e49782cd1729c81aa5a085ba51450ec154c54c612642be"
+    },
+    {
+      "path": "design/flow_roles.png",
+      "bytes": 292506,
+      "sha256": "942c8bdf7332574eaa017f7ac3472388f0abd10f8e98ff26d6ade1b9620d3a9f"
+    },
+    {
+      "path": "internal/CONTENT_QA.json",
+      "bytes": 1395,
+      "sha256": "e04e1e347b2c420868c3475a1be8a250d54c66a1bfff31247a161276a1052cbc"
+    },
+    {
+      "path": "internal/CONTENT_QA.md",
+      "bytes": 1062,
+      "sha256": "fe6be8e7cd653ae31110204a22c89588e135ba0c50ab2d7f64f3774def3463a8"
+    },
+    {
+      "path": "internal/PRD_v0.5.1_历史原稿.md",
+      "bytes": 48432,
+      "sha256": "ee82185ef668fd81ce506d5ca83f33cd4472b264d6ed52bbd52e15ad4bf2786d"
+    },
+    {
+      "path": "internal/REVIEW_AND_CHANGE_MAP.md",
+      "bytes": 9500,
+      "sha256": "5d76164c1a8d027a9df2343b9622e9d1ce6be47226307bac66bd0dc43a52373e"
+    },
+    {
+      "path": "internal/SOURCES_原始记录.md",
+      "bytes": 5158,
+      "sha256": "5a471199a7570683a520104d804bf05f5977484da26d6da597025a897e39c725"
+    },
+    {
+      "path": "reference/48-2-context.txt",
+      "bytes": 2594,
+      "sha256": "c578e171f8fe028647f69f8ce937b4753b18a8f9216a42e4a4a1a882c287c9b7"
+    },
+    {
+      "path": "reference/48-2.png",
+      "bytes": 168765,
+      "sha256": "0f40fd9eba3c1b35b4428c61b07276ab629df67c2268d686437926d4d36585af"
+    },
+    {
+      "path": "reference/48-8-context.txt",
+      "bytes": 6434,
+      "sha256": "aeb72283a6069047631a1948f3c97a812be060c94c98088bd12240d5c2030a89"
+    },
+    {
+      "path": "reference/48-8.png",
+      "bytes": 16515,
+      "sha256": "46f06b3a7e6972700b592e3e70f734ce08d42be032d7a3991905789f4cafb883"
+    },
+    {
+      "path": "reference/50-60-context.txt",
+      "bytes": 7209,
+      "sha256": "efa2e22ca13d12dc5e517b059d8758e85d184f377b99522ef31d3abf0276c4cf"
+    },
+    {
+      "path": "reference/50-60.png",
+      "bytes": 18715,
+      "sha256": "3a15bd88710a0709a0147f4044b03126b098aeabd5be80d0d3ab9e6c1c5cde01"
+    },
+    {
+      "path": "reference/69-45-context.txt",
+      "bytes": 5731,
+      "sha256": "e7bef0c6cbc944f876f4553b0c9bb75b1977e040eafacb5738f623a86c7c8d98"
+    },
+    {
+      "path": "reference/69-45.png",
+      "bytes": 29360,
+      "sha256": "ab1172ab110201935d782f8b0d1e33f4613e9f5250ed8769b3427e06d0842baa"
+    },
+    {
+      "path": "specs/annotations.json",
+      "bytes": 9021,
+      "sha256": "e9122596d23e74e807d6316d37d74fc5fad051ecccda1e7ffab3f612525c26d1"
+    }
+  ]
+}

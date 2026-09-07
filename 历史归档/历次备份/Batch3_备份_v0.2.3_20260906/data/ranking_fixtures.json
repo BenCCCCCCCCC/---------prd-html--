@@ -1,0 +1,556 @@
+[
+  {
+    "id": "RK01",
+    "input": {
+      "freshness": "balanced",
+      "positiveTagIds": [],
+      "negativeTargets": []
+    },
+    "expectedTop8": [
+      "T01",
+      "T02",
+      "T03",
+      "T05",
+      "T06",
+      "T07",
+      "T09",
+      "T10"
+    ],
+    "expectedScores": [
+      {
+        "trackId": "T01",
+        "score": 0.93,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T02",
+        "score": 0.905,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T03",
+        "score": 0.88,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T05",
+        "score": 0.83,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T06",
+        "score": 0.805,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T07",
+        "score": 0.78,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T09",
+        "score": 0.73,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T10",
+        "score": 0.705,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T11",
+        "score": 0.68,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T12",
+        "score": 0.655,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T13",
+        "score": 0.63,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T14",
+        "score": 0.605,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T15",
+        "score": 0.58,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T17",
+        "score": 0.53,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T18",
+        "score": 0.505,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T19",
+        "score": 0.48,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T20",
+        "score": 0.455,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T21",
+        "score": 0.43,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T22",
+        "score": 0.405,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      }
+    ],
+    "tolerance": 1e-07,
+    "provenance": "Calculated from specification formula as a fixture; not application test execution."
+  },
+  {
+    "id": "RK02",
+    "input": {
+      "freshness": "explore",
+      "positiveTagIds": [
+        "genre_folk"
+      ],
+      "negativeTargets": []
+    },
+    "expectedTop8": [
+      "T01",
+      "T05",
+      "T09",
+      "T13",
+      "T03",
+      "T02",
+      "T06",
+      "T12"
+    ],
+    "expectedScores": [
+      {
+        "trackId": "T01",
+        "score": 1.15728,
+        "positiveMatch": 1.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T05",
+        "score": 1.1482,
+        "positiveMatch": 1.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T09",
+        "score": 1.13908,
+        "positiveMatch": 1.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T13",
+        "score": 1.13,
+        "positiveMatch": 1.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T03",
+        "score": 1.0618,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T02",
+        "score": 0.95956,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T06",
+        "score": 0.95044,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T12",
+        "score": 0.72772,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T17",
+        "score": 0.70272,
+        "positiveMatch": 1.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T21",
+        "score": 0.69364,
+        "positiveMatch": 1.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T07",
+        "score": 0.63456,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T11",
+        "score": 0.62544,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T15",
+        "score": 0.61636,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T19",
+        "score": 0.60728,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T10",
+        "score": 0.5232,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T14",
+        "score": 0.51408,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T18",
+        "score": 0.505,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T22",
+        "score": 0.49592,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T20",
+        "score": 0.29136,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      }
+    ],
+    "tolerance": 1e-07,
+    "provenance": "Calculated from specification formula as a fixture; not application test execution."
+  },
+  {
+    "id": "RK03",
+    "input": {
+      "freshness": "balanced",
+      "positiveTagIds": [],
+      "negativeTargets": [
+        {
+          "kind": "artist",
+          "id": "A01"
+        }
+      ]
+    },
+    "expectedTop8": [
+      "T02",
+      "T03",
+      "T05",
+      "T06",
+      "T07",
+      "T10",
+      "T11",
+      "T12"
+    ],
+    "expectedScores": [
+      {
+        "trackId": "T02",
+        "score": 0.905,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T03",
+        "score": 0.88,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T05",
+        "score": 0.83,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T06",
+        "score": 0.805,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T07",
+        "score": 0.78,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T10",
+        "score": 0.705,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T11",
+        "score": 0.68,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T12",
+        "score": 0.655,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T13",
+        "score": 0.63,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T14",
+        "score": 0.605,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T15",
+        "score": 0.58,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T18",
+        "score": 0.505,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T19",
+        "score": 0.48,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T20",
+        "score": 0.455,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T21",
+        "score": 0.43,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T22",
+        "score": 0.405,
+        "positiveMatch": 0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T01",
+        "score": 0.33,
+        "positiveMatch": 0,
+        "negativeMatch": 1
+      },
+      {
+        "trackId": "T09",
+        "score": 0.13,
+        "positiveMatch": 0,
+        "negativeMatch": 1
+      },
+      {
+        "trackId": "T17",
+        "score": -0.07,
+        "positiveMatch": 0,
+        "negativeMatch": 1
+      }
+    ],
+    "tolerance": 1e-07,
+    "provenance": "Calculated from specification formula as a fixture; not application test execution."
+  },
+  {
+    "id": "RK04",
+    "input": {
+      "freshness": "familiar",
+      "positiveTagIds": [
+        "lang_zh",
+        "mood_calm"
+      ],
+      "negativeTargets": []
+    },
+    "expectedTop8": [
+      "T01",
+      "T07",
+      "T10",
+      "T02",
+      "T05",
+      "T11",
+      "T14",
+      "T17"
+    ],
+    "expectedScores": [
+      {
+        "trackId": "T01",
+        "score": 1.30272,
+        "positiveMatch": 1.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T07",
+        "score": 1.22544,
+        "positiveMatch": 1.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T10",
+        "score": 1.1868,
+        "positiveMatch": 1.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T02",
+        "score": 1.00044,
+        "positiveMatch": 0.5,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T05",
+        "score": 0.9618,
+        "positiveMatch": 0.5,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T11",
+        "score": 0.88456,
+        "positiveMatch": 0.5,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T14",
+        "score": 0.84592,
+        "positiveMatch": 0.5,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T17",
+        "score": 0.80728,
+        "positiveMatch": 0.5,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T13",
+        "score": 0.73,
+        "positiveMatch": 1.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T03",
+        "score": 0.6982,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T06",
+        "score": 0.65956,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T19",
+        "score": 0.65272,
+        "positiveMatch": 1.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T09",
+        "score": 0.62092,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T20",
+        "score": 0.61864,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T22",
+        "score": 0.61408,
+        "positiveMatch": 1.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T12",
+        "score": 0.58228,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T15",
+        "score": 0.54364,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T18",
+        "score": 0.505,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      },
+      {
+        "trackId": "T21",
+        "score": 0.46636,
+        "positiveMatch": 0.0,
+        "negativeMatch": 0
+      }
+    ],
+    "tolerance": 1e-07,
+    "provenance": "Calculated from specification formula as a fixture; not application test execution."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "mode": "production_reader_initial_load_then_offline_section_prototype_return",
+  "downloads": [
+    {
+      "name": "下载正文（MD）",
+      "status": "PASS"
+    },
+    {
+      "name": "下载正文（Word）",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "originalSections": 19,
+  "staticDiagramOnReturn": true
+}

@@ -1,0 +1,220 @@
+{
+  "version": "0.5.0",
+  "date": "2026-09-05",
+  "status": "static_specification_checks_pass",
+  "checks": [
+    {
+      "check": "schema_meta_candidate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "schema_meta_request",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "ai_case_count_unique",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "input_spec_accept_reject_matches",
+      "passed": true,
+      "details": {
+        "total": 40,
+        "accepted_requests": 38,
+        "intentional_rejections": 2
+      }
+    },
+    {
+      "check": "expected_candidates_schema_valid",
+      "passed": true,
+      "details": {
+        "count": 38,
+        "meaning": "Only hand-authored expected data checked; no parser/model ran."
+      }
+    },
+    {
+      "check": "invalid_output_schema_expectations",
+      "passed": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "check": "schema_valid_domain_conflict_fixture",
+      "passed": true,
+      "details": {
+        "fixture": "IV05",
+        "meaning": "Demonstrates schema pass is not domain pass."
+      }
+    },
+    {
+      "check": "catalog_records",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "catalog_synthetic_no_audio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "catalog_language_consistency",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "blacklist_entities_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "ranking_fixture_recalculation",
+      "passed": true,
+      "details": [
+        {
+          "fixture": "RK01",
+          "passed": true
+        },
+        {
+          "fixture": "RK02",
+          "passed": true
+        },
+        {
+          "fixture": "RK03",
+          "passed": true
+        },
+        {
+          "fixture": "RK04",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "check": "acceptance_case_count_and_refs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "runtime_status_not_misrepresented",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "event_names_unique",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_raw_input_event_field",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "protected_scope_configs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "real_api_disabled",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "design_token_contrast",
+      "passed": true,
+      "details": [
+        {
+          "foreground": "text",
+          "background": "caseBg",
+          "ratio": 17.147,
+          "minimum": 4.5,
+          "passed": true
+        },
+        {
+          "foreground": "muted",
+          "background": "caseBg",
+          "ratio": 5.872,
+          "minimum": 4.5,
+          "passed": true
+        },
+        {
+          "foreground": "onPrimary",
+          "background": "primary",
+          "ratio": 4.787,
+          "minimum": 4.5,
+          "passed": true
+        },
+        {
+          "foreground": "darkText",
+          "background": "sheet",
+          "ratio": 16.042,
+          "minimum": 4.5,
+          "passed": true
+        },
+        {
+          "foreground": "darkMuted",
+          "background": "sheet",
+          "ratio": 8.349,
+          "minimum": 4.5,
+          "passed": true
+        },
+        {
+          "foreground": "darkControlBorder",
+          "background": "sheet",
+          "ratio": 5.583,
+          "minimum": 3.0,
+          "passed": true
+        },
+        {
+          "foreground": "selectedText",
+          "background": "selectedSoft",
+          "ratio": 8.038,
+          "minimum": 4.5,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "check": "project_skill_frontmatter",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "diagram_assets_present",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "render_count_and_page_bounds",
+      "passed": true,
+      "details": [
+        {
+          "document": "prd",
+          "pageCount": 18,
+          "expected": 18,
+          "outOfPageText": [],
+          "passed": true
+        },
+        {
+          "document": "html",
+          "pageCount": 10,
+          "expected": 10,
+          "outOfPageText": [],
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "applicationRuntimeTests": "not_run",
+  "realModelEvaluations": "not_run",
+  "realUserTests": "not_run",
+  "figmaFullFlowQA": "not_run",
+  "publicDeployment": "not_done",
+  "limitations": [
+    "This checks schemas, authored expectations, IDs, deterministic fixture calculations, and token contrast.",
+    "It is not evidence of functioning HTML, model accuracy, user demand, accessibility compliance or business lift."
+  ]
+}

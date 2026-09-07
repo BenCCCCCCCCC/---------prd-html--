@@ -1,0 +1,31 @@
+{
+  "provenance": "Batch 2.1 local presentation tokens; original specs/design-tokens.json retained. See FIGMA_ALIGNMENT_ADDENDUM.",
+  "values": {
+    "divider": "#303036",
+    "controlSurface": "#141416",
+    "segmentSelected": "#383840",
+    "tagSelected": "#470911",
+    "tagSelectedText": "#FFB5BE",
+    "recordSurface": "#09090B",
+    "recordGroove": "#18181C",
+    "armBase": "#383840",
+    "actionRadius": "24px",
+    "entryRadius": "14px",
+    "controlRadius": "24px",
+    "switchWidth": "52px",
+    "switchHeight": "28px",
+    "switchKnob": "22px",
+    "radioSize": "24px",
+    "canvasWidth": "390px",
+    "canvasHeight": "844px",
+    "recordDiameter": "306px",
+    "recordTopSpace": "106px",
+    "recordBottomSpace": "16px",
+    "armWidth": "120px",
+    "armHeight": "170px",
+    "rootMinHeight": "444px",
+    "wantMinHeight": "601px",
+    "impactMinHeight": "500px",
+    "negativeMinHeight": "484px"
+  }
+}

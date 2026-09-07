@@ -1,0 +1,809 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\14057\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/e2e/closeout.spec.ts",
+      "--max-failures=3"
+    ],
+    "configFile": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\playwright.config.ts",
+    "rootDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 3,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/closeout/initial-tests.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 1,
+    "webServer": {
+      "command": "node node_modules/vite/bin/vite.js --host 127.0.0.1",
+      "url": "http://127.0.0.1:5173",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "e2e\\closeout.spec.ts",
+      "file": "e2e/closeout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "closeout natural save undo 320 100% no scroll or covered controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1267,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:27:19.316Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-be4043d9de41db6fd2d5",
+          "file": "e2e/closeout.spec.ts",
+          "line": 43,
+          "column": 5
+        },
+        {
+          "title": "closeout natural save undo 320 200% no scroll or covered controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1168,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:27:20.732Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-d877dd28349516d0bbf3",
+          "file": "e2e/closeout.spec.ts",
+          "line": 43,
+          "column": 5
+        },
+        {
+          "title": "closeout natural save undo 390 100% no scroll or covered controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1115,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:27:21.908Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-6f5aa0e5e77d5ddab156",
+          "file": "e2e/closeout.spec.ts",
+          "line": 43,
+          "column": 5
+        },
+        {
+          "title": "closeout natural save undo 390 200% no scroll or covered controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1141,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:27:23.033Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-281b3a5cbeec5e4c0349",
+          "file": "e2e/closeout.spec.ts",
+          "line": 43,
+          "column": 5
+        },
+        {
+          "title": "closeout natural save undo 768 100% no scroll or covered controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1236,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:27:24.182Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-337ab2382c2dc15a7e6e",
+          "file": "e2e/closeout.spec.ts",
+          "line": 43,
+          "column": 5
+        },
+        {
+          "title": "closeout natural save undo 768 200% no scroll or covered controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1157,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:27:25.426Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-2d4444b5ffc664979af2",
+          "file": "e2e/closeout.spec.ts",
+          "line": 43,
+          "column": 5
+        },
+        {
+          "title": "closeout natural save undo 1440 100% no scroll or covered controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1176,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:27:26.592Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-13b0a3e7120b5c37d5ab",
+          "file": "e2e/closeout.spec.ts",
+          "line": 43,
+          "column": 5
+        },
+        {
+          "title": "closeout natural save undo 1440 200% no scroll or covered controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1247,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:27:27.776Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-b2f5b195346416ed6a78",
+          "file": "e2e/closeout.spec.ts",
+          "line": 43,
+          "column": 5
+        },
+        {
+          "title": "closeout toast expiry preserves persistent undo, success cannot be repeated",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1001,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:27:29.032Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-1fabbd085987e664feb8",
+          "file": "e2e/closeout.spec.ts",
+          "line": 94,
+          "column": 1
+        },
+        {
+          "title": "closeout undo replaces receipt without restarting original ten-second deadline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 990,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:27:30.046Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-7057d3d48cabbda6548f",
+          "file": "e2e/closeout.spec.ts",
+          "line": 113,
+          "column": 1
+        },
+        {
+          "title": "closeout old receipt targets its own operation after unrelated management transaction",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 45113,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts",
+                        "column": 31,
+                        "line": 137
+                      },
+                      "message": "Error: locator.click: Test timeout of 45000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '已保存偏好', exact: true })\u001b[22m\n\n\n  135 |   const a = (await getState(page)).operations.at(-1).operationId;\n  136 |   await button(page, \"调整推荐\").click();\n> 137 |   await button(page, \"已保存偏好\").click();\n      |                               ^\n  138 |   await button(page, \"恢复平衡\").click();\n  139 |   await button(page, \"确认移除\").click();\n  140 |   const b = (await getState(page)).operations.at(-1).operationId;\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts:137:31"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:27:31.048Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-closeout-closeout-old--465eb-ated-management-transaction\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-closeout-closeout-old--465eb-ated-management-transaction\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-closeout-closeout-old--465eb-ated-management-transaction\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-5f46a8bc1bcd308fdd04",
+          "file": "e2e/closeout.spec.ts",
+          "line": 127,
+          "column": 1
+        },
+        {
+          "title": "closeout conflict and session expiry never report undo success",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 45114,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts",
+                        "column": 28,
+                        "line": 161
+                      },
+                      "message": "Error: locator.click: Test timeout of 45000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '撤销', exact: true })\u001b[22m\n\n\n  159 |   await notes(page);\n  160 |   await button(page, \"模拟撤销冲突\").click();\n> 161 |   await button(page, \"撤销\").click();\n      |                            ^\n  162 |   await expect(page.locator(\".product-feedback\")).toContainText(\n  163 |     \"设置已有新的修改\",\n  164 |   );\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts:161:28"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:28:16.875Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-closeout-closeout-conf-cf0ca-y-never-report-undo-success\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-closeout-closeout-conf-cf0ca-y-never-report-undo-success\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-closeout-closeout-conf-cf0ca-y-never-report-undo-success\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-a981d0c8af1326c6568e",
+          "file": "e2e/closeout.spec.ts",
+          "line": 153,
+          "column": 1
+        },
+        {
+          "title": "closeout refresh failure truthful protection off",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1973,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:29:02.807Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-38c3ad5702c7c92d9182",
+          "file": "e2e/closeout.spec.ts",
+          "line": 179,
+          "column": 3
+        },
+        {
+          "title": "closeout refresh failure truthful protection active",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1829,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:29:04.929Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-1ac70f64f5c776fdcc8c",
+          "file": "e2e/closeout.spec.ts",
+          "line": 179,
+          "column": 3
+        },
+        {
+          "title": "closeout refresh failure truthful protection review_required",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 8005,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeInViewport\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('region', { name: '本轮调整结果' })\nExpected: in viewport\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeInViewport\" with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: '本轮调整结果' })\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeInViewport\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('region', { name: '本轮调整结果' })\nExpected: in viewport\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeInViewport\" with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: '本轮调整结果' })\u001b[22m\n\n    at visibleFeedback (F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts:20:23)\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts:196:25",
+                    "location": {
+                      "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts",
+                      "column": 23,
+                      "line": 20
+                    },
+                    "snippet": "  18 | async function visibleFeedback(page: Page) {\n  19 |   const panel = page.getByRole(\"region\", { name: \"本轮调整结果\" });\n> 20 |   await expect(panel).toBeInViewport({ ratio: 1 });\n     |                       ^\n  21 |   const bounds = await panel.boundingBox();\n  22 |   const overlaps = await page.getByTestId(\"product\").evaluate((product, r) => {\n  23 |     return Array.from(product.querySelectorAll(\"button,a,summary\"))"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts",
+                        "column": 23,
+                        "line": 20
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeInViewport\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('region', { name: '本轮调整结果' })\nExpected: in viewport\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeInViewport\" with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: '本轮调整结果' })\u001b[22m\n\n\n  18 | async function visibleFeedback(page: Page) {\n  19 |   const panel = page.getByRole(\"region\", { name: \"本轮调整结果\" });\n> 20 |   await expect(panel).toBeInViewport({ ratio: 1 });\n     |                       ^\n  21 |   const bounds = await panel.boundingBox();\n  22 |   const overlaps = await page.getByTestId(\"product\").evaluate((product, r) => {\n  23 |     return Array.from(product.querySelectorAll(\"button,a,summary\"))\n    at visibleFeedback (F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts:20:23)\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts:196:25"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T15:29:06.767Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-closeout-closeout-refr-70ca7--protection-review-required\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-closeout-closeout-refr-70ca7--protection-review-required\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-closeout-closeout-refr-70ca7--protection-review-required\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts",
+                    "column": 23,
+                    "line": 20
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-3a718b307dad34e7b42d",
+          "file": "e2e/closeout.spec.ts",
+          "line": 179,
+          "column": 3
+        },
+        {
+          "title": "closeout keyboard quick undo 320 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c42772850286bd1f238f-929f0532d6c1af342bad",
+          "file": "e2e/closeout.spec.ts",
+          "line": 222,
+          "column": 3
+        },
+        {
+          "title": "closeout keyboard quick undo 390 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c42772850286bd1f238f-7fa18f677c96578ee136",
+          "file": "e2e/closeout.spec.ts",
+          "line": 222,
+          "column": 3
+        },
+        {
+          "title": "closeout keyboard quick undo 768 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c42772850286bd1f238f-3c41c977ac3a30161faa",
+          "file": "e2e/closeout.spec.ts",
+          "line": 222,
+          "column": 3
+        },
+        {
+          "title": "closeout keyboard quick undo 1440 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c42772850286bd1f238f-e7ced8f93712c97c2508",
+          "file": "e2e/closeout.spec.ts",
+          "line": 222,
+          "column": 3
+        },
+        {
+          "title": "closeout AI equal values and null have distinct honest copy",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c42772850286bd1f238f-20718aeacbab30fa0fca",
+          "file": "e2e/closeout.spec.ts",
+          "line": 241,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "message": "\u001b[31mTesting stopped early after 3 maximum allowed failures.\u001b[39m"
+    }
+  ],
+  "stats": {
+    "startTime": "2026-09-05T15:27:18.527Z",
+    "duration": 116369.33499999999,
+    "expected": 12,
+    "skipped": 5,
+    "unexpected": 3,
+    "flaky": 0
+  }
+}

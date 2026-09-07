@@ -1,0 +1,20 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "textScale": "200%",
+      "flow": "enable_protection_with_scrollable_dialog",
+      "status": "PASS",
+      "reducedMotion": true
+    },
+    {
+      "width": 390,
+      "textScale": "200%",
+      "flow": "enable_protection_with_scrollable_dialog",
+      "status": "PASS",
+      "reducedMotion": true
+    }
+  ],
+  "realScreenReader": "NOT_RUN",
+  "physicalSoftKeyboard": "NOT_RUN"
+}

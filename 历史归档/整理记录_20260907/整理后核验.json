@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "frozenFilesAndPngComparedWithDeliveredZip": 1719,
+  "bothDeliveredZipHashesUnchanged": true,
+  "archivedItems": 11,
+  "duplicateInputFilesRetainedInProject": 21,
+  "applicationVersionUnchanged": "0.3.2",
+  "prdVersionUnchanged": "0.6",
+  "applicationTests": "NOT_RUN - no application or build changes; earlier Batch 3.2 results remain historical"
+}

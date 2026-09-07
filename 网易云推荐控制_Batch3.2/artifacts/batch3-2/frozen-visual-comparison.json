@@ -1,0 +1,656 @@
+{
+  "status": "RECORDED",
+  "existingBaselineComparisons": 64,
+  "pixelIdentical": 37,
+  "newDesignBaseline": false,
+  "qualification": "Additional raw-pixel audit of separately captured evidence. These are not all pixel-identical. The unchanged Playwright visual assertions remain the regression gate; see artifacts/reports/visual.json. No baseline or threshold changed.",
+  "files": [
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/ai-needs-clarification-1440-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/ai-needs-clarification-1440.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/ai-needs-clarification-320-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/ai-needs-clarification-320.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/ai-needs-clarification-390-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/ai-needs-clarification-390.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 21,
+      "rawDifferenceRatio": 6.379876048122494e-05,
+      "differenceBounds": [
+        58,
+        56,
+        378,
+        68
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/ai-needs-clarification-768-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/ai-needs-clarification-768.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 51,
+      "rawDifferenceRatio": 6.4849853515625e-05,
+      "differenceBounds": [
+        212,
+        6,
+        756,
+        157
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/ai-ready-1440-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/ai-ready-1440.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/ai-ready-320-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/ai-ready-320.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/ai-ready-390-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/ai-ready-390.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/ai-ready-768-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/ai-ready-768.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 8,
+      "rawDifferenceRatio": 1.0172526041666666e-05,
+      "differenceBounds": [
+        282,
+        6,
+        410,
+        8
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/ai-unsupported-1440-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/ai-unsupported-1440.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/ai-unsupported-320-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/ai-unsupported-320.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/ai-unsupported-390-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/ai-unsupported-390.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 21,
+      "rawDifferenceRatio": 6.379876048122494e-05,
+      "differenceBounds": [
+        58,
+        56,
+        378,
+        68
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/ai-unsupported-768-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/ai-unsupported-768.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 36,
+      "rawDifferenceRatio": 4.57763671875e-05,
+      "differenceBounds": [
+        282,
+        6,
+        756,
+        120
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/case-home-1440-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/case-home-1440.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/case-home-320-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/case-home-320.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/case-home-390-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/case-home-390.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/case-home-768-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/case-home-768.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 10576,
+      "rawDifferenceRatio": 0.013448079427083334,
+      "differenceBounds": [
+        24,
+        429,
+        246,
+        481
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/decisions-deep-1440-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/decisions-deep-1440.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/decisions-deep-320-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/decisions-deep-320.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/decisions-deep-390-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/decisions-deep-390.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/decisions-deep-768-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/decisions-deep-768.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/decisions-quick-1440-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/decisions-quick-1440.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/decisions-quick-320-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/decisions-quick-320.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/decisions-quick-390-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/decisions-quick-390.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/decisions-quick-768-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/decisions-quick-768.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/demo-player-1440-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/demo-player-1440.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/demo-player-320-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/demo-player-320.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/demo-player-390-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/demo-player-390.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/demo-player-768-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/demo-player-768.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/impact-longterm-off-1440-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/impact-longterm-off-1440.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 180517,
+      "rawDifferenceRatio": 0.13928780864197532,
+      "differenceBounds": [
+        210,
+        348,
+        600,
+        900
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/impact-longterm-off-320-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/impact-longterm-off-320.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 153485,
+      "rawDifferenceRatio": 0.6481630067567568,
+      "differenceBounds": [
+        0,
+        168,
+        320,
+        740
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/impact-longterm-off-390-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/impact-longterm-off-390.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 181030,
+      "rawDifferenceRatio": 0.5499756957102928,
+      "differenceBounds": [
+        0,
+        292,
+        390,
+        844
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/impact-longterm-off-768-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/impact-longterm-off-768.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 181030,
+      "rawDifferenceRatio": 0.2301915486653646,
+      "differenceBounds": [
+        189,
+        472,
+        579,
+        1024
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/impact-longterm-on-1440-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/impact-longterm-on-1440.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 180516,
+      "rawDifferenceRatio": 0.13928703703703704,
+      "differenceBounds": [
+        210,
+        348,
+        600,
+        900
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/impact-longterm-on-320-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/impact-longterm-on-320.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 153492,
+      "rawDifferenceRatio": 0.6481925675675676,
+      "differenceBounds": [
+        0,
+        168,
+        320,
+        740
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/impact-longterm-on-390-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/impact-longterm-on-390.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 181029,
+      "rawDifferenceRatio": 0.5499726576740794,
+      "differenceBounds": [
+        0,
+        292,
+        390,
+        844
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/impact-longterm-on-768-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/impact-longterm-on-768.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 181029,
+      "rawDifferenceRatio": 0.23019027709960938,
+      "differenceBounds": [
+        189,
+        472,
+        579,
+        1024
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/impact-session-off-1440-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/impact-session-off-1440.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 160943,
+      "rawDifferenceRatio": 0.12418441358024691,
+      "differenceBounds": [
+        210,
+        400,
+        600,
+        900
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/impact-session-off-320-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/impact-session-off-320.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 135633,
+      "rawDifferenceRatio": 0.5727744932432433,
+      "differenceBounds": [
+        0,
+        226,
+        320,
+        740
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/impact-session-off-390-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/impact-session-off-390.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 161455,
+      "rawDifferenceRatio": 0.49050613683315103,
+      "differenceBounds": [
+        0,
+        344,
+        390,
+        844
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/impact-session-off-768-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/impact-session-off-768.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 161455,
+      "rawDifferenceRatio": 0.20530064900716147,
+      "differenceBounds": [
+        189,
+        524,
+        579,
+        1024
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/impact-session-on-1440-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/impact-session-on-1440.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 160945,
+      "rawDifferenceRatio": 0.12418595679012345,
+      "differenceBounds": [
+        210,
+        400,
+        600,
+        900
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/impact-session-on-320-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/impact-session-on-320.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 135637,
+      "rawDifferenceRatio": 0.5727913851351352,
+      "differenceBounds": [
+        0,
+        226,
+        320,
+        740
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/impact-session-on-390-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/impact-session-on-390.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 161454,
+      "rawDifferenceRatio": 0.49050309879693765,
+      "differenceBounds": [
+        0,
+        344,
+        390,
+        844
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/impact-session-on-768-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/impact-session-on-768.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 161454,
+      "rawDifferenceRatio": 0.20529937744140625,
+      "differenceBounds": [
+        189,
+        524,
+        579,
+        1024
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/negative-artist-applied-1440-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/negative-artist-applied-1440.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/negative-artist-applied-320-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/negative-artist-applied-320.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 2,
+      "rawDifferenceRatio": 8.445945945945946e-06,
+      "differenceBounds": [
+        87,
+        241,
+        233,
+        248
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/negative-artist-applied-390-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/negative-artist-applied-390.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 306,
+      "rawDifferenceRatio": 0.0009296390812978491,
+      "differenceBounds": [
+        346,
+        55,
+        372,
+        80
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/negative-artist-applied-768-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/negative-artist-applied-768.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 8660,
+      "rawDifferenceRatio": 0.011011759440104166,
+      "differenceBounds": [
+        204,
+        0,
+        563,
+        818
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/saved-refresh-failed-1440-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/saved-refresh-failed-1440.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/saved-refresh-failed-320-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/saved-refresh-failed-320.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 2,
+      "rawDifferenceRatio": 8.445945945945946e-06,
+      "differenceBounds": [
+        87,
+        265,
+        233,
+        272
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/saved-refresh-failed-390-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/saved-refresh-failed-390.png",
+      "pixelIdentical": false,
+      "rawDifferentPixels": 306,
+      "rawDifferenceRatio": 0.0009296390812978491,
+      "differenceBounds": [
+        346,
+        55,
+        372,
+        80
+      ]
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/saved-refresh-failed-768-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/saved-refresh-failed-768.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/sheet-root-default-1440-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/sheet-root-default-1440.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/sheet-root-default-320-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/sheet-root-default-320.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/sheet-root-default-390-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/sheet-root-default-390.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/sheet-root-default-768-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/sheet-root-default-768.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/temporary-review-required-1440-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/temporary-review-required-1440.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/temporary-review-required-320-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/temporary-review-required-320.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/temporary-review-required-390-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/temporary-review-required-390.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/temporary-review-required-768-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/temporary-review-required-768.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/want-explore-folk-1440-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/want-explore-folk-1440.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/want-explore-folk-320-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/want-explore-folk-320.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/want-explore-folk-390-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/want-explore-folk-390.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "baseline": "tests/visual/screens.spec.ts-snapshots/batch3-1-candidate/want-explore-folk-768-win32.png",
+      "actual": "artifacts/batch3-2/regression-screenshots/want-explore-folk-768.png",
+      "pixelIdentical": true,
+      "rawDifferentPixels": 0,
+      "rawDifferenceRatio": 0.0,
+      "differenceBounds": null
+    }
+  ]
+}

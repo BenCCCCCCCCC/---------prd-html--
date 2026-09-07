@@ -1,0 +1,29 @@
+/* Generated from specs/figma-alignment-tokens.json. */
+:root {
+--align-divider: #303036;
+--align-controlSurface: #141416;
+--align-segmentSelected: #383840;
+--align-tagSelected: #470911;
+--align-tagSelectedText: #FFB5BE;
+--align-recordSurface: #09090B;
+--align-recordGroove: #18181C;
+--align-armBase: #383840;
+--align-actionRadius: 24px;
+--align-entryRadius: 14px;
+--align-controlRadius: 24px;
+--align-switchWidth: 52px;
+--align-switchHeight: 28px;
+--align-switchKnob: 22px;
+--align-radioSize: 24px;
+--align-canvasWidth: 390px;
+--align-canvasHeight: 844px;
+--align-recordDiameter: 306px;
+--align-recordTopSpace: 106px;
+--align-recordBottomSpace: 16px;
+--align-armWidth: 120px;
+--align-armHeight: 170px;
+--align-rootMinHeight: 444px;
+--align-wantMinHeight: 601px;
+--align-impactMinHeight: 500px;
+--align-negativeMinHeight: 484px;
+}

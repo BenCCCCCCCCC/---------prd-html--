@@ -1,0 +1,1171 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\14057\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/visual",
+      "--update-snapshots"
+    ],
+    "configFile": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\playwright.config.ts",
+    "rootDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/batch3/visual-candidate-creation.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "changed",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 1,
+    "webServer": {
+      "command": "node node_modules/vite/bin/vite.js --host 127.0.0.1",
+      "url": "http://127.0.0.1:5173",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "visual\\screens.spec.ts",
+      "file": "visual/screens.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "visual core states 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9258,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\reader-entry-320-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\reader-section-03-320-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\case-home-320-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\decisions-quick-320-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\decisions-deep-320-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\demo-player-320-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\sheet-root-default-320-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\want-explore-folk-320-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-session-off-320-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-session-on-320-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-longterm-on-320-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-longterm-off-320-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\temporary-review-required-320-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\saved-refresh-failed-320-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\negative-artist-applied-320-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-ready-320-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-needs-clarification-320-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-unsupported-320-win32.png, writing actual.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T19:08:24.513Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "batch3-candidate\\reader-entry-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\reader-entry-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\reader-entry-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-candidate\\reader-entry-320-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\reader-section-03-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\reader-section-03-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\reader-section-03-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-candidate\\reader-section-03-320-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\case-home-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\case-home-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\case-home-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-candidate\\case-home-320-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\decisions-quick-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\decisions-quick-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\decisions-quick-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-candidate\\decisions-quick-320-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\decisions-deep-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\decisions-deep-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\decisions-deep-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-candidate\\decisions-deep-320-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\demo-player-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\demo-player-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\demo-player-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-candidate\\demo-player-320-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\sheet-root-default-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\sheet-root-default-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\sheet-root-default-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-candidate\\sheet-root-default-320-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\want-explore-folk-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\want-explore-folk-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\want-explore-folk-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-candidate\\want-explore-folk-320-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-session-off-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-session-off-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-session-off-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-candidate\\impact-session-off-320-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-session-on-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-session-on-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-session-on-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-candidate\\impact-session-on-320-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-longterm-on-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-longterm-on-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-longterm-on-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-candidate\\impact-longterm-on-320-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-longterm-off-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-longterm-off-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-longterm-off-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-candidate\\impact-longterm-off-320-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\temporary-review-required-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\temporary-review-required-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\temporary-review-required-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-candidate\\temporary-review-required-320-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\saved-refresh-failed-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\saved-refresh-failed-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\saved-refresh-failed-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-candidate\\saved-refresh-failed-320-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\negative-artist-applied-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\negative-artist-applied-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\negative-artist-applied-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-candidate\\negative-artist-applied-320-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-ready-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-ready-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-ready-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-candidate\\ai-ready-320-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-needs-clarification-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-needs-clarification-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-needs-clarification-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-candidate\\ai-needs-clarification-320-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-unsupported-320-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-unsupported-320-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-unsupported-320-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-320\\batch3-candidate\\ai-unsupported-320-actual.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cb902a1c38b039976161-ece82573905f2845fa39",
+          "file": "visual/screens.spec.ts",
+          "line": 30,
+          "column": 3
+        },
+        {
+          "title": "visual core states 390",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9392,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\reader-entry-390-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\reader-section-03-390-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\case-home-390-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\decisions-quick-390-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\decisions-deep-390-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\demo-player-390-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\sheet-root-default-390-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\want-explore-folk-390-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-session-off-390-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-session-on-390-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-longterm-on-390-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-longterm-off-390-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\temporary-review-required-390-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\saved-refresh-failed-390-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\negative-artist-applied-390-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-ready-390-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-needs-clarification-390-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-unsupported-390-win32.png, writing actual.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T19:08:33.919Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "batch3-candidate\\reader-entry-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\reader-entry-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\reader-entry-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-candidate\\reader-entry-390-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\reader-section-03-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\reader-section-03-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\reader-section-03-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-candidate\\reader-section-03-390-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\case-home-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\case-home-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\case-home-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-candidate\\case-home-390-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\decisions-quick-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\decisions-quick-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\decisions-quick-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-candidate\\decisions-quick-390-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\decisions-deep-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\decisions-deep-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\decisions-deep-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-candidate\\decisions-deep-390-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\demo-player-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\demo-player-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\demo-player-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-candidate\\demo-player-390-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\sheet-root-default-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\sheet-root-default-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\sheet-root-default-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-candidate\\sheet-root-default-390-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\want-explore-folk-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\want-explore-folk-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\want-explore-folk-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-candidate\\want-explore-folk-390-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-session-off-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-session-off-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-session-off-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-candidate\\impact-session-off-390-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-session-on-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-session-on-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-session-on-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-candidate\\impact-session-on-390-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-longterm-on-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-longterm-on-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-longterm-on-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-candidate\\impact-longterm-on-390-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-longterm-off-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-longterm-off-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-longterm-off-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-candidate\\impact-longterm-off-390-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\temporary-review-required-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\temporary-review-required-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\temporary-review-required-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-candidate\\temporary-review-required-390-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\saved-refresh-failed-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\saved-refresh-failed-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\saved-refresh-failed-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-candidate\\saved-refresh-failed-390-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\negative-artist-applied-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\negative-artist-applied-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\negative-artist-applied-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-candidate\\negative-artist-applied-390-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-ready-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-ready-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-ready-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-candidate\\ai-ready-390-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-needs-clarification-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-needs-clarification-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-needs-clarification-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-candidate\\ai-needs-clarification-390-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-unsupported-390-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-unsupported-390-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-unsupported-390-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-390\\batch3-candidate\\ai-unsupported-390-actual.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cb902a1c38b039976161-80e1d16da9484e71fd7c",
+          "file": "visual/screens.spec.ts",
+          "line": 30,
+          "column": 3
+        },
+        {
+          "title": "visual core states 768",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10482,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\reader-entry-768-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\reader-section-03-768-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\case-home-768-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\decisions-quick-768-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\decisions-deep-768-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\demo-player-768-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\sheet-root-default-768-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\want-explore-folk-768-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-session-off-768-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-session-on-768-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-longterm-on-768-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-longterm-off-768-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\temporary-review-required-768-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\saved-refresh-failed-768-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\negative-artist-applied-768-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-ready-768-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-needs-clarification-768-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-unsupported-768-win32.png, writing actual.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T19:08:43.321Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "batch3-candidate\\reader-entry-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\reader-entry-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\reader-entry-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-candidate\\reader-entry-768-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\reader-section-03-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\reader-section-03-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\reader-section-03-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-candidate\\reader-section-03-768-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\case-home-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\case-home-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\case-home-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-candidate\\case-home-768-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\decisions-quick-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\decisions-quick-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\decisions-quick-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-candidate\\decisions-quick-768-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\decisions-deep-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\decisions-deep-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\decisions-deep-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-candidate\\decisions-deep-768-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\demo-player-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\demo-player-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\demo-player-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-candidate\\demo-player-768-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\sheet-root-default-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\sheet-root-default-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\sheet-root-default-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-candidate\\sheet-root-default-768-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\want-explore-folk-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\want-explore-folk-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\want-explore-folk-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-candidate\\want-explore-folk-768-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-session-off-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-session-off-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-session-off-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-candidate\\impact-session-off-768-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-session-on-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-session-on-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-session-on-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-candidate\\impact-session-on-768-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-longterm-on-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-longterm-on-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-longterm-on-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-candidate\\impact-longterm-on-768-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-longterm-off-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-longterm-off-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-longterm-off-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-candidate\\impact-longterm-off-768-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\temporary-review-required-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\temporary-review-required-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\temporary-review-required-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-candidate\\temporary-review-required-768-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\saved-refresh-failed-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\saved-refresh-failed-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\saved-refresh-failed-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-candidate\\saved-refresh-failed-768-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\negative-artist-applied-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\negative-artist-applied-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\negative-artist-applied-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-candidate\\negative-artist-applied-768-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-ready-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-ready-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-ready-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-candidate\\ai-ready-768-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-needs-clarification-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-needs-clarification-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-needs-clarification-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-candidate\\ai-needs-clarification-768-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-unsupported-768-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-unsupported-768-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-unsupported-768-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-768\\batch3-candidate\\ai-unsupported-768-actual.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cb902a1c38b039976161-8661e8862df6caf5aaa6",
+          "file": "visual/screens.spec.ts",
+          "line": 30,
+          "column": 3
+        },
+        {
+          "title": "visual core states 1440",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11986,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\reader-entry-1440-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\reader-section-03-1440-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\case-home-1440-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\decisions-quick-1440-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\decisions-deep-1440-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\demo-player-1440-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\sheet-root-default-1440-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\want-explore-folk-1440-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-session-off-1440-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-session-on-1440-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-longterm-on-1440-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-longterm-off-1440-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\temporary-review-required-1440-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\saved-refresh-failed-1440-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\negative-artist-applied-1440-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-ready-1440-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-needs-clarification-1440-win32.png, writing actual.\n"
+                    },
+                    {
+                      "text": "A snapshot doesn't exist at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-unsupported-1440-win32.png, writing actual.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T19:08:53.813Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "batch3-candidate\\reader-entry-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\reader-entry-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\reader-entry-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-candidate\\reader-entry-1440-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\reader-section-03-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\reader-section-03-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\reader-section-03-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-candidate\\reader-section-03-1440-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\case-home-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\case-home-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\case-home-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-candidate\\case-home-1440-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\decisions-quick-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\decisions-quick-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\decisions-quick-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-candidate\\decisions-quick-1440-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\decisions-deep-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\decisions-deep-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\decisions-deep-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-candidate\\decisions-deep-1440-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\demo-player-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\demo-player-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\demo-player-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-candidate\\demo-player-1440-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\sheet-root-default-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\sheet-root-default-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\sheet-root-default-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-candidate\\sheet-root-default-1440-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\want-explore-folk-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\want-explore-folk-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\want-explore-folk-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-candidate\\want-explore-folk-1440-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-session-off-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-session-off-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-session-off-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-candidate\\impact-session-off-1440-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-session-on-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-session-on-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-session-on-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-candidate\\impact-session-on-1440-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-longterm-on-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-longterm-on-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-longterm-on-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-candidate\\impact-longterm-on-1440-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-longterm-off-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\impact-longterm-off-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\impact-longterm-off-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-candidate\\impact-longterm-off-1440-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\temporary-review-required-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\temporary-review-required-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\temporary-review-required-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-candidate\\temporary-review-required-1440-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\saved-refresh-failed-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\saved-refresh-failed-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\saved-refresh-failed-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-candidate\\saved-refresh-failed-1440-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\negative-artist-applied-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\negative-artist-applied-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\negative-artist-applied-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-candidate\\negative-artist-applied-1440-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-ready-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-ready-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-ready-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-candidate\\ai-ready-1440-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-needs-clarification-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-needs-clarification-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-needs-clarification-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-candidate\\ai-needs-clarification-1440-actual.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-unsupported-1440-expected.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\visual\\screens.spec.ts-snapshots\\batch3-candidate\\ai-unsupported-1440-win32.png"
+                    },
+                    {
+                      "name": "batch3-candidate\\ai-unsupported-1440-actual.png",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\visual-screens-visual-core-states-1440\\batch3-candidate\\ai-unsupported-1440-actual.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cb902a1c38b039976161-21e1f77bbb2a435b8ef3",
+          "file": "visual/screens.spec.ts",
+          "line": 30,
+          "column": 3
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-05T19:08:23.851Z",
+    "duration": 42119.907,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

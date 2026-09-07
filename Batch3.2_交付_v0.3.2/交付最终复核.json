@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "application": "0.3.2",
+  "prd": "0.6",
+  "handoffArchiveAndStandaloneIdentical": true,
+  "all1375HistoricalPngPreservedInEngineering": true,
+  "engineeringAndReadingDistMatchTestedProduction": true,
+  "threeDocumentFormatsAndSourcesMatchProject": true,
+  "readingPackageInternalPathsAndStaticFigurePresent": true,
+  "readingPackageHasNoInternalHistoryFiles": true,
+  "archives": [
+    {
+      "archive": "网易云推荐控制_Batch3.2_v0.3.2_完整工程.zip",
+      "bytes": 174762210,
+      "sha256": "fd2ee7524d626a2a07a8a0d9083bbba7e337776355b19417ebf85618fb554094",
+      "fileCount": 2188,
+      "crc": "PASS",
+      "allFileHashes": "PASS"
+    },
+    {
+      "archive": "网易云推荐控制_PRD_v0.6_最终提交阅读包.zip",
+      "bytes": 3907770,
+      "sha256": "b2a25b9ed061f72f9a6ab0709358fda12a092393363938958215d1407cc50222",
+      "fileCount": 28,
+      "crc": "PASS",
+      "allFileHashes": "PASS"
+    }
+  ]
+}

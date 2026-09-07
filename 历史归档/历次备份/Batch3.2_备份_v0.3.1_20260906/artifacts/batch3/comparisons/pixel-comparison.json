@@ -1,0 +1,30 @@
+[
+  {
+    "node": "48:2",
+    "state": "demo-player",
+    "changedPixels": 0,
+    "totalPixels": 329160,
+    "comparison": "Exact pixel comparison at 390x844; differences are evidence, not owner approval"
+  },
+  {
+    "node": "48:8",
+    "state": "sheet-root-default",
+    "changedPixels": 0,
+    "totalPixels": 329160,
+    "comparison": "Exact pixel comparison at 390x844; differences are evidence, not owner approval"
+  },
+  {
+    "node": "50:60",
+    "state": "want-explore-folk",
+    "changedPixels": 0,
+    "totalPixels": 329160,
+    "comparison": "Exact pixel comparison at 390x844; differences are evidence, not owner approval"
+  },
+  {
+    "node": "69:45",
+    "state": "impact-longterm-on",
+    "changedPixels": 0,
+    "totalPixels": 329160,
+    "comparison": "Exact pixel comparison at 390x844; differences are evidence, not owner approval"
+  }
+]

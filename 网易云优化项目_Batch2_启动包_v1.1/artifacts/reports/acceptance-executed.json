@@ -1,0 +1,558 @@
+[
+  {
+    "id": "AC01",
+    "title": "默认入口",
+    "requirement": "R03",
+    "pageIds": [
+      "P03",
+      "P04"
+    ],
+    "given": "初始种子",
+    "when": "打开调整推荐",
+    "then": "平衡、无正向标签、默认仅本次；无脏字段不能确认",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC01 AC02 AC03 initial draft / return / cancel / focus return",
+      "acceptance domain behaviors AC01 initial no dirty fields default session"
+    ]
+  },
+  {
+    "id": "AC02",
+    "title": "子页返回",
+    "requirement": "R03",
+    "pageIds": [
+      "P04",
+      "P05"
+    ],
+    "given": "编辑了探索与民谣",
+    "when": "子页返回或完成",
+    "then": "回根面板且草稿保留；生效状态不变",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC01 AC02 AC03 initial draft / return / cancel / focus return",
+      "acceptance domain behaviors AC02 draft is detached and return retains values"
+    ]
+  },
+  {
+    "id": "AC03",
+    "title": "根面板取消",
+    "requirement": "R03",
+    "pageIds": [
+      "P04"
+    ],
+    "given": "存在未提交草稿",
+    "when": "取消/遮罩/Esc关闭",
+    "then": "丢弃草稿，焦点回打开按钮，不写任何偏好",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC01 AC02 AC03 initial draft / return / cancel / focus return"
+    ]
+  },
+  {
+    "id": "AC04",
+    "title": "选择上限",
+    "requirement": "R03",
+    "pageIds": [
+      "P05"
+    ],
+    "given": "已有3个正向标签",
+    "when": "选择第4个",
+    "then": "明确提示，前3项不被静默替换",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC04 4th tag blocked without replacing selection"
+    ]
+  },
+  {
+    "id": "AC05",
+    "title": "仅本次保存",
+    "requirement": "R03",
+    "pageIds": [
+      "P04",
+      "P07"
+    ],
+    "given": "长期状态为空",
+    "when": "选择探索＋民谣并仅本次提交",
+    "then": "只改sessionOverride；长期状态不变；旧会话覆盖只影响会话，取消不改变长期数据。",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC05 Demo 1 exploration changes queue and undo",
+      "acceptance domain behaviors AC05 session writes leave persistent state intact"
+    ]
+  },
+  {
+    "id": "AC06",
+    "title": "长期保存与管理",
+    "requirement": "R03",
+    "pageIds": [
+      "P07",
+      "P08"
+    ],
+    "given": "有可提交脏字段",
+    "when": "显式选择长期并提交，再管理移除",
+    "then": "只保存本轮字段；管理可清除项目长期项，不动黑名单/真实画像；长期写同字段时清理旧会话覆盖，新设置立即可见；将已有本次方案转长期须显式确认差异，不能仅凭切scope自动保存。",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC06 promote requires explicit diff confirmation and management",
+      "acceptance domain behaviors AC06 long term diff promotion explicit, clears only corresponding override; independent removal"
+    ]
+  },
+  {
+    "id": "AC07",
+    "title": "字段未改不覆盖",
+    "requirement": "R03",
+    "pageIds": [
+      "P04",
+      "P07"
+    ],
+    "given": "已有长期民谣，根面板未改内容方向",
+    "when": "只改新鲜程度并提交",
+    "then": "长期/会话中未改方向不被空数组覆盖；与旧长期设置的合并后状态也检查冲突，不能静默移除原少推。",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "acceptance domain behaviors AC07 unmentioned tags and AI null are retained"
+    ]
+  },
+  {
+    "id": "AC08",
+    "title": "正负冲突",
+    "requirement": "R03",
+    "pageIds": [
+      "P05",
+      "P06"
+    ],
+    "given": "想听民谣",
+    "when": "同时少推民谣",
+    "then": "阻止矛盾提交，要求用户保留一个；不自动猜",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC08 conflicting tag prompts explicit resolution",
+      "acceptance domain behaviors AC08 conflict includes old persistent negative and does not delete it"
+    ]
+  },
+  {
+    "id": "AC09",
+    "title": "黑名单优先",
+    "requirement": "R03",
+    "pageIds": [
+      "P02",
+      "P05"
+    ],
+    "given": "曲库含预置黑名单T04和A08",
+    "when": "改为探索并刷新",
+    "then": "T04和A08歌曲均不进入自动推荐；少推仍为软排序",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "acceptance domain behaviors AC09 hard blacklist survives exploration; soft negatives penalize once"
+    ]
+  },
+  {
+    "id": "AC10",
+    "title": "本次＋保护关闭",
+    "requirement": "R04",
+    "pageIds": [
+      "P07"
+    ],
+    "given": "保护关闭",
+    "when": "仅本次提交后模拟普通播放",
+    "then": "明确偏好不持久化；普通事件可按正常规则学习",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "acceptance domain behaviors AC10 scope/isolation orthogonal"
+    ]
+  },
+  {
+    "id": "AC11",
+    "title": "本次＋保护开启",
+    "requirement": "R04",
+    "pageIds": [
+      "P07",
+      "P09"
+    ],
+    "given": "范围session，保护active",
+    "when": "提交少推并模拟播放",
+    "then": "少推只本次；普通播放/时长/跳过长期资格为false",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC11 Demo 2 direct negative artist and undo",
+      "acceptance domain behaviors AC11 scope/isolation orthogonal"
+    ]
+  },
+  {
+    "id": "AC12",
+    "title": "长期＋保护开启",
+    "requirement": "R04",
+    "pageIds": [
+      "P07",
+      "P09"
+    ],
+    "given": "用户明确选long_term并开启保护",
+    "when": "提交偏好，模拟普通播放",
+    "then": "显式字段保存；隐式事件不参与长期学习",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "acceptance domain behaviors AC12 scope/isolation orthogonal",
+      "acceptance domain behaviors AC12-combination4 scope/isolation orthogonal"
+    ]
+  },
+  {
+    "id": "AC13",
+    "title": "显式收藏不丢失",
+    "requirement": "R04",
+    "pageIds": [
+      "P03",
+      "P09"
+    ],
+    "given": "临时保护中",
+    "when": "对虚构歌曲按红心/加歌单",
+    "then": "显式对象变化保留，不被当作普通播放隔离掉",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "acceptance domain behaviors AC13 explicit likes and playlist remain under protection"
+    ]
+  },
+  {
+    "id": "AC14",
+    "title": "跨页面保护",
+    "requirement": "R04",
+    "pageIds": [
+      "P02",
+      "P03",
+      "P09"
+    ],
+    "given": "临时保护中",
+    "when": "切推荐、搜索来源、歌单来源的受控播放",
+    "then": "常驻状态可见，隐式事件仍隔离",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC14 AC15 AC16 AC17 Demo 3 playlist isolation and reminder",
+      "acceptance domain behaviors AC14 all controlled origins protect, unknown is conservative"
+    ]
+  },
+  {
+    "id": "AC15",
+    "title": "30分钟闲置",
+    "requirement": "R04",
+    "pageIds": [
+      "P09"
+    ],
+    "given": "存在R03覆盖及R04保护",
+    "when": "暂停且推进30分钟无听歌活动",
+    "then": "R03覆盖结束；R04变review_required仍保护",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC14 AC15 AC16 AC17 Demo 3 playlist isolation and reminder",
+      "acceptance domain behaviors AC15 idle ends R03 while R04 keeps protecting"
+    ]
+  },
+  {
+    "id": "AC16",
+    "title": "4小时提醒",
+    "requirement": "R04",
+    "pageIds": [
+      "P09"
+    ],
+    "given": "保护开启",
+    "when": "推进到4小时，选择继续4小时",
+    "then": "到时不静默off；继续后新提醒期开始且无未保护间隙",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC14 AC15 AC16 AC17 Demo 3 playlist isolation and reminder",
+      "acceptance domain behaviors AC16 continuous playback max cap; edits never extend start"
+    ]
+  },
+  {
+    "id": "AC17",
+    "title": "歌曲中途关闭",
+    "requirement": "R04",
+    "pageIds": [
+      "P03",
+      "P09"
+    ],
+    "given": "同一歌曲在保护中播放",
+    "when": "中途关闭保护",
+    "then": "按时间分片，关闭前片段不回填，之后新片段可恢复",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC14 AC15 AC16 AC17 Demo 3 playlist isolation and reminder",
+      "acceptance domain behaviors AC17 disjoint half-open playback segments never backfill"
+    ]
+  },
+  {
+    "id": "AC18",
+    "title": "重复提交",
+    "requirement": "R03",
+    "pageIds": [
+      "P04"
+    ],
+    "given": "一个有效草稿",
+    "when": "双击确认并触发重试",
+    "then": "同operationId只应用一次，不延长初始会话上限",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "acceptance domain behaviors AC18 double submit uses same operation id exactly once"
+    ]
+  },
+  {
+    "id": "AC19",
+    "title": "保存未知与刷新失败",
+    "requirement": "R03",
+    "pageIds": [
+      "P04",
+      "P02"
+    ],
+    "given": "提交后网络状态未知或结果刷新失败",
+    "when": "重试",
+    "then": "先查同ID；区分设置保存与推荐展示；不产生假成功",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC19 save failure retry and refresh failure keeps protection",
+      "acceptance domain behaviors AC19 save failure retry, refresh failure preserves confirmed protection"
+    ]
+  },
+  {
+    "id": "AC20",
+    "title": "迟到结果",
+    "requirement": "R03",
+    "pageIds": [
+      "P02"
+    ],
+    "given": "revision2已应用",
+    "when": "revision1请求迟到",
+    "then": "不覆盖revision2的队列和状态",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC20 stale response discarded; version conflict retains draft",
+      "acceptance domain behaviors AC20 late request / same revision wrong request cannot overwrite queue"
+    ]
+  },
+  {
+    "id": "AC21",
+    "title": "撤销正确边界",
+    "requirement": "R03",
+    "pageIds": [
+      "P09"
+    ],
+    "given": "刚应用一个调整，随后独立按红心",
+    "when": "撤销调整",
+    "then": "只恢复调整字段，不回退红心、播放进度或已保护事件",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC21 undo conflict does not overwrite newer state",
+      "acceptance domain behaviors AC21 inverse patch preserves likes/playback and rejects subsequent related mutation"
+    ]
+  },
+  {
+    "id": "AC22",
+    "title": "负反馈快照",
+    "requirement": "R03",
+    "pageIds": [
+      "P03",
+      "P06"
+    ],
+    "given": "打开时歌曲T01，编辑时已播T02",
+    "when": "确认少推当前歌曲",
+    "then": "仍少推面板明确显示的T01",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "acceptance domain behaviors AC22 target is opening track snapshot"
+    ]
+  },
+  {
+    "id": "AC23",
+    "title": "空结果与降级",
+    "requirement": "R03",
+    "pageIds": [
+      "P02"
+    ],
+    "given": "所有可用候选已被强约束排除",
+    "when": "请求新推荐",
+    "then": "显示空状态、可返回；不解除黑名单，不中断当前播放",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC23 empty result conservative fallback",
+      "acceptance domain behaviors AC23 empty pool retains playback and hard constraints"
+    ]
+  },
+  {
+    "id": "AC24",
+    "title": "AI候选不执行",
+    "requirement": "R07",
+    "pageIds": [
+      "P10",
+      "P04"
+    ],
+    "given": "普通草稿，规则模拟",
+    "when": "解析并查看ready候选",
+    "then": "不更改生效状态；采用后才改草稿，仍需总确认",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC24 AI ready editable draft requires final confirmation",
+      "acceptance domain behaviors AC24 adopt edits only draft; null vs empty remains distinct"
+    ]
+  },
+  {
+    "id": "AC25",
+    "title": "AI权限与异常",
+    "requirement": "R07",
+    "pageIds": [
+      "P10",
+      "P07"
+    ],
+    "given": "输入长期、删除、强屏蔽或注入要求",
+    "when": "请求解析",
+    "then": "长期/保护仅建议；超权限不执行；无假置信度",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC25 AI 需要确认",
+      "AC25 AI 暂不支持",
+      "acceptance domain behaviors AC25 permissions remain suggestions; real adapter disabled"
+    ]
+  },
+  {
+    "id": "AC26",
+    "title": "AI取消与旧稿",
+    "requirement": "R07",
+    "pageIds": [
+      "P10"
+    ],
+    "given": "解析在进行中",
+    "when": "取消或改变draftRevision后返回结果",
+    "then": "旧结果丢弃，输入/用户草稿不被覆盖",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC26 cancel parse leaves no candidate",
+      "acceptance domain behaviors AC26 cancelled and stale parse cannot adopt"
+    ]
+  },
+  {
+    "id": "AC27",
+    "title": "数据重置与隐私",
+    "requirement": "R03",
+    "pageIds": [
+      "P01",
+      "P10"
+    ],
+    "given": "有本地演示事件和输入",
+    "when": "刷新/重置",
+    "then": "输入原文不持久化；只清项目命名空间；无外部音乐/模型请求",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC27 reload restores synthetic state; raw text absent; reset is namespaced; no outbound request",
+      "acceptance domain behaviors AC27 storage restoration and namespace reset leave unrelated keys"
+    ]
+  },
+  {
+    "id": "AC28",
+    "title": "键盘与小屏",
+    "requirement": "R03",
+    "pageIds": [
+      "P04",
+      "P05",
+      "P07"
+    ],
+    "given": "320px或200%缩放/键盘操作",
+    "when": "Tab、ShiftTab、Esc、选择标签",
+    "then": "焦点/文字/确认可达，无遮挡、无水平溢出",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC28 keyboard modal traps focus at 320px and 200% text"
+    ]
+  },
+  {
+    "id": "AC29",
+    "title": "诚实公开展示",
+    "requirement": "R03",
+    "pageIds": [
+      "P01",
+      "P03",
+      "P10"
+    ],
+    "given": "默认首次打开",
+    "when": "阅读并点播放/解析",
+    "then": "明确模拟、非官方；没有真实音频/AI/问卷效果宣称",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC29 honest first screen and actual simulated playback"
+    ]
+  },
+  {
+    "id": "AC30",
+    "title": "实验关闭独立",
+    "requirement": "R07",
+    "pageIds": [
+      "P02",
+      "P03"
+    ],
+    "given": "关闭R07 feature flag",
+    "when": "执行A/B/C完整流程",
+    "then": "核心推荐控制与临时保护仍可完成，无依赖解析器",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC30 disabling AI does not break three manual tasks",
+      "acceptance domain behaviors AC30 R07 flag off keeps manual execution independent"
+    ]
+  },
+  {
+    "id": "AC31",
+    "title": "方案取舍快速层",
+    "requirement": "PORTFOLIO_DECISIONS",
+    "pageIds": [
+      "P01"
+    ],
+    "given": "打开案例页并使用默认虚构种子",
+    "when": "浏览90秒快速层",
+    "then": "显示T02/T04/T07；每项包含采用方案、判断标准、至少一个代价和展开其他方案入口；内容来自portfolio-decisions.json",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC31 AC32 AC33 AC34 decisions JSON renders quick/deep labels and stacked alternatives",
+      "AC31 quick and deep presentation consume identical canonical decision values"
+    ]
+  },
+  {
+    "id": "AC32",
+    "title": "未采用与延后区分",
+    "requirement": "PORTFOLIO_DECISIONS",
+    "pageIds": [
+      "P01"
+    ],
+    "given": "展开完整方案取舍",
+    "when": "查看T01至T08的A/B/C方案",
+    "then": "selected/rejected/deferred分别显示为采用/未采用/延后，不只依赖颜色；每项有验证或反转条件",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC31 AC32 AC33 AC34 decisions JSON renders quick/deep labels and stacked alternatives",
+      "AC32 each canonical option renders the appropriate adopted/rejected/deferred label"
+    ]
+  },
+  {
+    "id": "AC33",
+    "title": "方案比较与实验术语",
+    "requirement": "PORTFOLIO_DECISIONS",
+    "pageIds": [
+      "P01"
+    ],
+    "given": "页面同时包含方案比较与实验设计",
+    "when": "搜索所有A/B相关文案",
+    "then": "演示任务写 Demo 1/2/3；产品候选写方案 A/B/C；随机实验写 A/B 对照实验；不得声称通过真实 A/B 测试选择 B",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC31 AC32 AC33 AC34 decisions JSON renders quick/deep labels and stacked alternatives"
+    ]
+  },
+  {
+    "id": "AC34",
+    "title": "移动端方案取舍可读性",
+    "requirement": "PORTFOLIO_DECISIONS",
+    "pageIds": [
+      "P01"
+    ],
+    "given": "视口为320x740或390x844并开启200%文本缩放人工检查",
+    "when": "展开方案取舍",
+    "then": "A/B/C改为纵向卡片或折叠，无横向溢出、文字裁切、不可达按钮或小型三列表",
+    "executionStatus": "PASS",
+    "actualResult": [
+      "AC31 AC32 AC33 AC34 decisions JSON renders quick/deep labels and stacked alternatives"
+    ]
+  }
+]

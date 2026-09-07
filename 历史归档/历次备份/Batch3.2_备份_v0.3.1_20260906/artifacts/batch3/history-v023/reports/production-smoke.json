@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "mode": "production_build_offline_after_initial_load",
+  "errors": [],
+  "externalRequests": [],
+  "noScrollOnSubmit": true,
+  "undoReplacesSavedReceipt": true
+}

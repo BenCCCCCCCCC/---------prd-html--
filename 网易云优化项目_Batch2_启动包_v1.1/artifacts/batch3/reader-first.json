@@ -1,0 +1,531 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\14057\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/e2e/reader.spec.ts",
+      "--max-failures=3"
+    ],
+    "configFile": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\playwright.config.ts",
+    "rootDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 3,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/batch3/reader-first.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 1,
+    "webServer": {
+      "command": "node node_modules/vite/bin/vite.js --host 127.0.0.1",
+      "url": "http://127.0.0.1:5173",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "e2e\\reader.spec.ts",
+      "file": "e2e/reader.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Batch3 complete original 01–19 body tables diagrams references and versions",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 4718,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -   1\u001b[39m\n\u001b[31m+ Received  + 165\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"description\": \"Ensure landmarks are unique\",\u001b[39m\n\u001b[31m+     \"help\": \"Landmarks should have a unique role or role/label/title (i.e. accessible name) combination\",\u001b[39m\n\u001b[31m+     \"helpUrl\": \"https://dequeuniversity.com/rules/axe/4.13/landmark-unique?application=playwright\",\u001b[39m\n\u001b[31m+     \"id\": \"landmark-unique\",\u001b[39m\n\u001b[31m+     \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+     \"nodes\": Array [\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"02｜证据、问题推导与研究边界 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(4)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"04｜典型诉求与交叉分析 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(5)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(5)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"08｜r03 / r04：范围与事件不能混为一谈 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"08｜R03 / R04：范围与事件不能混为一谈 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \"#section-08 > .original-section > .prd-table-scroll[role=\\\"region\\\"]:nth-child(4)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"08｜R03 / R04：范围与事件不能混为一谈 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \"#section-08 > .original-section > .prd-table-scroll[role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"16｜验收、阶段与需求追踪 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(4)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"tags\": Array [\u001b[39m\n\u001b[31m+       \"cat.semantics\",\u001b[39m\n\u001b[31m+       \"best-practice\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -   1\u001b[39m\n\u001b[31m+ Received  + 165\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"description\": \"Ensure landmarks are unique\",\u001b[39m\n\u001b[31m+     \"help\": \"Landmarks should have a unique role or role/label/title (i.e. accessible name) combination\",\u001b[39m\n\u001b[31m+     \"helpUrl\": \"https://dequeuniversity.com/rules/axe/4.13/landmark-unique?application=playwright\",\u001b[39m\n\u001b[31m+     \"id\": \"landmark-unique\",\u001b[39m\n\u001b[31m+     \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+     \"nodes\": Array [\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"02｜证据、问题推导与研究边界 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(4)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"04｜典型诉求与交叉分析 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(5)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(5)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"08｜r03 / r04：范围与事件不能混为一谈 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"08｜R03 / R04：范围与事件不能混为一谈 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \"#section-08 > .original-section > .prd-table-scroll[role=\\\"region\\\"]:nth-child(4)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"08｜R03 / R04：范围与事件不能混为一谈 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \"#section-08 > .original-section > .prd-table-scroll[role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"16｜验收、阶段与需求追踪 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(4)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"tags\": Array [\u001b[39m\n\u001b[31m+       \"cat.semantics\",\u001b[39m\n\u001b[31m+       \"best-practice\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\reader.spec.ts:87:65",
+                    "location": {
+                      "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\reader.spec.ts",
+                      "column": 65,
+                      "line": 87
+                    },
+                    "snippet": "  85 |     ),\n  86 |   );\n> 87 |   expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);\n     |                                                                 ^\n  88 | });\n  89 |\n  90 | test(\"Batch3 actual PRD original and reference ZIP downloads\", async ({"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\reader.spec.ts",
+                        "column": 65,
+                        "line": 87
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -   1\u001b[39m\n\u001b[31m+ Received  + 165\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"description\": \"Ensure landmarks are unique\",\u001b[39m\n\u001b[31m+     \"help\": \"Landmarks should have a unique role or role/label/title (i.e. accessible name) combination\",\u001b[39m\n\u001b[31m+     \"helpUrl\": \"https://dequeuniversity.com/rules/axe/4.13/landmark-unique?application=playwright\",\u001b[39m\n\u001b[31m+     \"id\": \"landmark-unique\",\u001b[39m\n\u001b[31m+     \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+     \"nodes\": Array [\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"02｜证据、问题推导与研究边界 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(4)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"04｜典型诉求与交叉分析 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(5)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(5)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"08｜r03 / r04：范围与事件不能混为一谈 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"08｜R03 / R04：范围与事件不能混为一谈 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \"#section-08 > .original-section > .prd-table-scroll[role=\\\"region\\\"]:nth-child(4)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"08｜R03 / R04：范围与事件不能混为一谈 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \"#section-08 > .original-section > .prd-table-scroll[role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"16｜验收、阶段与需求追踪 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(4)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"tags\": Array [\u001b[39m\n\u001b[31m+       \"cat.semantics\",\u001b[39m\n\u001b[31m+       \"best-practice\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  85 |     ),\n  86 |   );\n> 87 |   expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);\n     |                                                                 ^\n  88 | });\n  89 |\n  90 | test(\"Batch3 actual PRD original and reference ZIP downloads\", async ({\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\reader.spec.ts:87:65"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T18:58:34.421Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-reader-Batch3-complete-baec8-ams-references-and-versions\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-reader-Batch3-complete-baec8-ams-references-and-versions\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-reader-Batch3-complete-baec8-ams-references-and-versions\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\reader.spec.ts",
+                    "column": 65,
+                    "line": 87
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-6c20ee2528f027c02b69",
+          "file": "e2e/reader.spec.ts",
+          "line": 27,
+          "column": 1
+        },
+        {
+          "title": "Batch3 actual PRD original and reference ZIP downloads",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1604,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T18:58:40.515Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-8960b5877e4e062decc1",
+          "file": "e2e/reader.spec.ts",
+          "line": 90,
+          "column": 1
+        },
+        {
+          "title": "Batch3 reading navigation search table keyboard 320 100%",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5584,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -   1\u001b[39m\n\u001b[31m+ Received  + 165\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"description\": \"Ensure landmarks are unique\",\u001b[39m\n\u001b[31m+     \"help\": \"Landmarks should have a unique role or role/label/title (i.e. accessible name) combination\",\u001b[39m\n\u001b[31m+     \"helpUrl\": \"https://dequeuniversity.com/rules/axe/4.13/landmark-unique?application=playwright\",\u001b[39m\n\u001b[31m+     \"id\": \"landmark-unique\",\u001b[39m\n\u001b[31m+     \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+     \"nodes\": Array [\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"02｜证据、问题推导与研究边界 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(4)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"04｜典型诉求与交叉分析 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(5)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(5)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"08｜r03 / r04：范围与事件不能混为一谈 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"08｜R03 / R04：范围与事件不能混为一谈 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \"#section-08 > .original-section > .prd-table-scroll[role=\\\"region\\\"]:nth-child(4)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"08｜R03 / R04：范围与事件不能混为一谈 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \"#section-08 > .original-section > .prd-table-scroll[role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"16｜验收、阶段与需求追踪 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(4)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"tags\": Array [\u001b[39m\n\u001b[31m+       \"cat.semantics\",\u001b[39m\n\u001b[31m+       \"best-practice\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -   1\u001b[39m\n\u001b[31m+ Received  + 165\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"description\": \"Ensure landmarks are unique\",\u001b[39m\n\u001b[31m+     \"help\": \"Landmarks should have a unique role or role/label/title (i.e. accessible name) combination\",\u001b[39m\n\u001b[31m+     \"helpUrl\": \"https://dequeuniversity.com/rules/axe/4.13/landmark-unique?application=playwright\",\u001b[39m\n\u001b[31m+     \"id\": \"landmark-unique\",\u001b[39m\n\u001b[31m+     \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+     \"nodes\": Array [\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"02｜证据、问题推导与研究边界 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(4)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"04｜典型诉求与交叉分析 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(5)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(5)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"08｜r03 / r04：范围与事件不能混为一谈 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"08｜R03 / R04：范围与事件不能混为一谈 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \"#section-08 > .original-section > .prd-table-scroll[role=\\\"region\\\"]:nth-child(4)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"08｜R03 / R04：范围与事件不能混为一谈 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \"#section-08 > .original-section > .prd-table-scroll[role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"16｜验收、阶段与需求追踪 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(4)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"tags\": Array [\u001b[39m\n\u001b[31m+       \"cat.semantics\",\u001b[39m\n\u001b[31m+       \"best-practice\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\reader.spec.ts:174:69",
+                    "location": {
+                      "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\reader.spec.ts",
+                      "column": 69,
+                      "line": 174
+                    },
+                    "snippet": "  172 |       await page.screenshot({ path: `${dir}/return-section.png` });\n  173 |       await noOverflow(page);\n> 174 |       expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);\n      |                                                                     ^\n  175 |     });\n  176 |\n  177 | test(\"Batch3 all linked flows return to their exact section without applying or loading examples\", async ({"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\reader.spec.ts",
+                        "column": 69,
+                        "line": 174
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -   1\u001b[39m\n\u001b[31m+ Received  + 165\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"description\": \"Ensure landmarks are unique\",\u001b[39m\n\u001b[31m+     \"help\": \"Landmarks should have a unique role or role/label/title (i.e. accessible name) combination\",\u001b[39m\n\u001b[31m+     \"helpUrl\": \"https://dequeuniversity.com/rules/axe/4.13/landmark-unique?application=playwright\",\u001b[39m\n\u001b[31m+     \"id\": \"landmark-unique\",\u001b[39m\n\u001b[31m+     \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+     \"nodes\": Array [\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"02｜证据、问题推导与研究边界 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(4)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"02｜证据、问题推导与研究边界 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"04｜典型诉求与交叉分析 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(5)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"04｜典型诉求与交叉分析 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(5)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"05｜竞品输入、差异化与方案取舍 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"08｜r03 / r04：范围与事件不能混为一谈 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"08｜R03 / R04：范围与事件不能混为一谈 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \"#section-08 > .original-section > .prd-table-scroll[role=\\\"region\\\"]:nth-child(4)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"08｜R03 / R04：范围与事件不能混为一谈 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \"#section-08 > .original-section > .prd-table-scroll[role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"all\": Array [],\u001b[39m\n\u001b[31m+         \"any\": Array [\u001b[39m\n\u001b[31m+           Object {\u001b[39m\n\u001b[31m+             \"data\": Object {\u001b[39m\n\u001b[31m+               \"accessibleText\": \"16｜验收、阶段与需求追踪 表格，可横向滚动\",\u001b[39m\n\u001b[31m+               \"role\": \"region\",\u001b[39m\n\u001b[31m+             },\u001b[39m\n\u001b[31m+             \"id\": \"landmark-is-unique\",\u001b[39m\n\u001b[31m+             \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+             \"message\": \"The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+             \"relatedNodes\": Array [\u001b[39m\n\u001b[31m+               Object {\u001b[39m\n\u001b[31m+                 \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+                 \"target\": Array [\u001b[39m\n\u001b[31m+                   \".prd-table-scroll[aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(4)\",\u001b[39m\n\u001b[31m+                 ],\u001b[39m\n\u001b[31m+               },\u001b[39m\n\u001b[31m+             ],\u001b[39m\n\u001b[31m+           },\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+         \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m+   The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable\",\u001b[39m\n\u001b[31m+         \"html\": \"<div class=\\\"prd-table-scroll\\\" tabindex=\\\"0\\\" role=\\\"region\\\" aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\">\",\u001b[39m\n\u001b[31m+         \"impact\": \"moderate\",\u001b[39m\n\u001b[31m+         \"none\": Array [],\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".prd-table-scroll[aria-label=\\\"16｜验收、阶段与需求追踪 表格，可横向滚动\\\"][role=\\\"region\\\"]:nth-child(3)\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+     \"tags\": Array [\u001b[39m\n\u001b[31m+       \"cat.semantics\",\u001b[39m\n\u001b[31m+       \"best-practice\",\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  172 |       await page.screenshot({ path: `${dir}/return-section.png` });\n  173 |       await noOverflow(page);\n> 174 |       expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);\n      |                                                                     ^\n  175 |     });\n  176 |\n  177 | test(\"Batch3 all linked flows return to their exact section without applying or loading examples\", async ({\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\reader.spec.ts:174:69"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T18:58:42.267Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-reader-Batch3-reading--f8a99-rch-table-keyboard-320-100-\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-reader-Batch3-reading--f8a99-rch-table-keyboard-320-100-\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-reader-Batch3-reading--f8a99-rch-table-keyboard-320-100-\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\reader.spec.ts",
+                    "column": 69,
+                    "line": 174
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-ba9934c656f09c64da30",
+          "file": "e2e/reader.spec.ts",
+          "line": 117,
+          "column": 5
+        },
+        {
+          "title": "Batch3 reading navigation search table keyboard 320 200%",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1353,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at noOverflow (F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\helpers.ts:39:5)\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\reader.spec.ts:128:7",
+                    "location": {
+                      "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\helpers.ts",
+                      "column": 5,
+                      "line": 39
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39mhelpers.ts:39\n\n  37 |       () => document.documentElement.scrollWidth <= innerWidth,\n  38 |     ),\n> 39 |   ).toBe(true);\n     |     ^\n  40 | }\n  41 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\helpers.ts",
+                        "column": 5,
+                        "line": 39
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n   at helpers.ts:39\n\n  37 |       () => document.documentElement.scrollWidth <= innerWidth,\n  38 |     ),\n> 39 |   ).toBe(true);\n     |     ^\n  40 | }\n  41 |\n    at noOverflow (F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\helpers.ts:39:5)\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\reader.spec.ts:128:7"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T18:58:49.001Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-reader-Batch3-reading--80c0e-rch-table-keyboard-320-200-\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-reader-Batch3-reading--80c0e-rch-table-keyboard-320-200-\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-reader-Batch3-reading--80c0e-rch-table-keyboard-320-200-\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\helpers.ts",
+                    "column": 5,
+                    "line": 39
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-c97c7c7c9695bc710d4b",
+          "file": "e2e/reader.spec.ts",
+          "line": 117,
+          "column": 5
+        },
+        {
+          "title": "Batch3 reading navigation search table keyboard 390 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-315dbc39b864f2aface1",
+          "file": "e2e/reader.spec.ts",
+          "line": 117,
+          "column": 5
+        },
+        {
+          "title": "Batch3 reading navigation search table keyboard 390 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-95ad52f72c0c3dfb78e4",
+          "file": "e2e/reader.spec.ts",
+          "line": 117,
+          "column": 5
+        },
+        {
+          "title": "Batch3 reading navigation search table keyboard 768 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-5c24bed958589b61e186",
+          "file": "e2e/reader.spec.ts",
+          "line": 117,
+          "column": 5
+        },
+        {
+          "title": "Batch3 reading navigation search table keyboard 768 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-a223a227d7a5e602436c",
+          "file": "e2e/reader.spec.ts",
+          "line": 117,
+          "column": 5
+        },
+        {
+          "title": "Batch3 reading navigation search table keyboard 1440 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-8e24b51935aa5f557ae0",
+          "file": "e2e/reader.spec.ts",
+          "line": 117,
+          "column": 5
+        },
+        {
+          "title": "Batch3 reading navigation search table keyboard 1440 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-a9bd9a04e283d3205de1",
+          "file": "e2e/reader.spec.ts",
+          "line": 117,
+          "column": 5
+        },
+        {
+          "title": "Batch3 all linked flows return to their exact section without applying or loading examples",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-0c4eeb3994d5b60d3f80",
+          "file": "e2e/reader.spec.ts",
+          "line": 177,
+          "column": 1
+        },
+        {
+          "title": "Batch3 route navigation keeps dirty draft and session clock while clearing private AI input",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-853ad613d197a364911b",
+          "file": "e2e/reader.spec.ts",
+          "line": 197,
+          "column": 1
+        },
+        {
+          "title": "Batch3 print contains all original sections tables and static figures",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-f2739cfe9c7cf4c5f300",
+          "file": "e2e/reader.spec.ts",
+          "line": 245,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "message": "\u001b[31mTesting stopped early after 3 maximum allowed failures.\u001b[39m"
+    }
+  ],
+  "stats": {
+    "startTime": "2026-09-05T18:58:32.566Z",
+    "duration": 18361.643,
+    "expected": 1,
+    "skipped": 9,
+    "unexpected": 3,
+    "flaky": 0
+  }
+}

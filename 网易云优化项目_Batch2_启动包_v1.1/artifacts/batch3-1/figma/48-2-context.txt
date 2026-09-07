@@ -1,0 +1,29 @@
+const imgBaseNetEasePlayerScreenshotLocked = "[temporary-asset-url-omitted]";
+
+export default function D01Player() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="48:2" data-name="D_01_Player">
+      <div className="absolute h-[844px] left-0 top-0 w-[390px]" data-node-id="48:3" data-name="Base / NetEase Player Screenshot (locked)">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgBaseNetEasePlayerScreenshotLocked} />
+      </div>
+      <button className="absolute block cursor-pointer h-[44px] left-[76px] overflow-clip top-[520px] w-[160px]" data-node-id="48:4" data-name="Action / 调整本次推荐偏好 / 44px">
+        <div className="absolute bg-[var(--netease-prototype-color-bg-surface,#141416)] h-[28px] left-0 rounded-[14px] top-[8px] w-[154px]" data-node-id="48:5" data-name="Visual / 调整本次推荐偏好" />
+        <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium leading-[normal] left-[10px] text-[12px] text-[color:var(--netease-prototype-color-text-primary,white)] text-left top-[13px] whitespace-nowrap" data-node-id="48:6">
+          调整本次推荐偏好
+        </p>
+        <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium leading-[normal] left-[132px] text-[18px] text-[color:var(--netease-prototype-color-text-secondary,#a5a5ad)] text-left top-[10px] whitespace-nowrap" data-node-id="48:7">
+          ›
+        </p>
+      </button>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Images and SVGs will be stored as constants, e.g. const image = '[temporary-asset-url-omitted]'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

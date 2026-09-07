@@ -1,0 +1,248 @@
+{
+  "method": "Full 390x844 frame, no exclusion masks. Figma overlays composited on original player. Same explore/folk/long-term/protection draft choices; clock text, canonical duration and necessary expanded rules are documented differences.",
+  "results": [
+    {
+      "node": "48:2",
+      "state": "player",
+      "framePixels": 329160,
+      "changedOver12": 16171,
+      "meanAbsoluteChannelDifference": 3.3430459351075466,
+      "maskedPixels": 0,
+      "geometry": {
+        ".product": {
+          "x": 210,
+          "y": 65,
+          "width": 390,
+          "height": 846
+        },
+        ".record-stage": {
+          "x": 210,
+          "y": 161,
+          "width": 390,
+          "height": 424
+        },
+        ".adjust-entry": {
+          "x": 286,
+          "y": 585,
+          "width": 160,
+          "height": 44
+        },
+        ".track-heading": {
+          "x": 210,
+          "y": 629,
+          "width": 390,
+          "height": 70
+        },
+        ".progress-line": {
+          "x": 235,
+          "y": 706,
+          "width": 340,
+          "height": 2
+        },
+        ".play-controls": {
+          "x": 210,
+          "y": 759,
+          "width": 390,
+          "height": 58
+        },
+        ".sheet-inner": null,
+        ".segmented": null,
+        ".category-tabs": null,
+        ".radio-row": null,
+        ".switch-row": null
+      },
+      "approval": "MANUAL_REVIEW_REQUIRED"
+    },
+    {
+      "node": "48:8",
+      "state": "root",
+      "framePixels": 329160,
+      "changedOver12": 21067,
+      "meanAbsoluteChannelDifference": 5.356503422854134,
+      "maskedPixels": 0,
+      "geometry": {
+        ".product": {
+          "x": 210,
+          "y": 65,
+          "width": 390,
+          "height": 846
+        },
+        ".record-stage": {
+          "x": 210,
+          "y": 161,
+          "width": 390,
+          "height": 424
+        },
+        ".adjust-entry": {
+          "x": 286,
+          "y": 585,
+          "width": 160,
+          "height": 44
+        },
+        ".track-heading": {
+          "x": 210,
+          "y": 629,
+          "width": 390,
+          "height": 70
+        },
+        ".progress-line": {
+          "x": 235,
+          "y": 706,
+          "width": 340,
+          "height": 2
+        },
+        ".play-controls": {
+          "x": 210,
+          "y": 759,
+          "width": 390,
+          "height": 58
+        },
+        ".sheet-inner": {
+          "x": 210,
+          "y": 467,
+          "width": 390,
+          "height": 444
+        },
+        ".segmented": null,
+        ".category-tabs": null,
+        ".radio-row": null,
+        ".switch-row": null
+      },
+      "approval": "MANUAL_REVIEW_REQUIRED"
+    },
+    {
+      "node": "50:60",
+      "state": "want",
+      "framePixels": 329160,
+      "changedOver12": 45386,
+      "meanAbsoluteChannelDifference": 10.215536517195284,
+      "maskedPixels": 0,
+      "geometry": {
+        ".product": {
+          "x": 210,
+          "y": 65,
+          "width": 390,
+          "height": 846
+        },
+        ".record-stage": {
+          "x": 210,
+          "y": 161,
+          "width": 390,
+          "height": 424
+        },
+        ".adjust-entry": {
+          "x": 286,
+          "y": 585,
+          "width": 160,
+          "height": 44
+        },
+        ".track-heading": {
+          "x": 210,
+          "y": 629,
+          "width": 390,
+          "height": 70
+        },
+        ".progress-line": {
+          "x": 235,
+          "y": 706,
+          "width": 340,
+          "height": 2
+        },
+        ".play-controls": {
+          "x": 210,
+          "y": 759,
+          "width": 390,
+          "height": 58
+        },
+        ".sheet-inner": {
+          "x": 210,
+          "y": 282,
+          "width": 390,
+          "height": 629
+        },
+        ".segmented": {
+          "x": 232,
+          "y": 411,
+          "width": 346,
+          "height": 48
+        },
+        ".category-tabs": {
+          "x": 232,
+          "y": 517,
+          "width": 346,
+          "height": 44
+        },
+        ".radio-row": null,
+        ".switch-row": null
+      },
+      "approval": "MANUAL_REVIEW_REQUIRED"
+    },
+    {
+      "node": "69:45",
+      "state": "impact",
+      "framePixels": 329160,
+      "changedOver12": 42823,
+      "meanAbsoluteChannelDifference": 11.97010369830275,
+      "maskedPixels": 0,
+      "geometry": {
+        ".product": {
+          "x": 210,
+          "y": 65,
+          "width": 390,
+          "height": 846
+        },
+        ".record-stage": {
+          "x": 210,
+          "y": 161,
+          "width": 390,
+          "height": 424
+        },
+        ".adjust-entry": {
+          "x": 286,
+          "y": 585,
+          "width": 160,
+          "height": 44
+        },
+        ".track-heading": {
+          "x": 210,
+          "y": 629,
+          "width": 390,
+          "height": 70
+        },
+        ".progress-line": {
+          "x": 235,
+          "y": 706,
+          "width": 340,
+          "height": 2
+        },
+        ".play-controls": {
+          "x": 210,
+          "y": 759,
+          "width": 390,
+          "height": 58
+        },
+        ".sheet-inner": {
+          "x": 210,
+          "y": 411,
+          "width": 390,
+          "height": 500
+        },
+        ".segmented": null,
+        ".category-tabs": null,
+        ".radio-row": {
+          "x": 232,
+          "y": 494,
+          "width": 346,
+          "height": 66
+        },
+        ".switch-row": {
+          "x": 232,
+          "y": 655,
+          "width": 346,
+          "height": 48
+        }
+      },
+      "approval": "MANUAL_REVIEW_REQUIRED"
+    }
+  ]
+}

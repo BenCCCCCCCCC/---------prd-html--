@@ -1,0 +1,988 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\14057\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.pnpm\\@playwright+test@1.62.1\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/e2e/closeout.spec.ts",
+      "--grep",
+      "refresh failure"
+    ],
+    "configFile": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\playwright.config.ts",
+    "rootDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/batch3-1/feedback-layout.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 1,
+    "webServer": {
+      "command": "node node_modules/vite/bin/vite.js --host 127.0.0.1",
+      "url": "http://127.0.0.1:5173",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "e2e\\closeout.spec.ts",
+      "file": "e2e/closeout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "closeout refresh failure truthful protection off 320 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2208,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:06.315Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-cd9e6e5117386a0b53a4",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection active 320 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2113,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:08.666Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-f7803e413994d31921f9",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection review_required 320 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2504,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:10.789Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-9fe87da4911d29512c09",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection off 320 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2162,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:13.301Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-dd80cbd479b64d7afe87",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection active 320 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2101,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:15.473Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-cccc6719796af449b70d",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection review_required 320 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2544,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:17.585Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-ce17d026e4385221fd74",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection off 390 100%",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1339,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m10\u001b[39m\nReceived:    \u001b[31m56\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m10\u001b[39m\nReceived:    \u001b[31m56\u001b[39m\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts:228:34",
+                    "location": {
+                      "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts",
+                      "column": 34,
+                      "line": 228
+                    },
+                    "snippet": "  226 |             content: el.scrollHeight,\n  227 |           }));\n> 228 |         expect(copySize.content).toBeLessThanOrEqual(copySize.visible + 1);\n      |                                  ^\n  229 |         expect((await getState(page)).protection).toBe(protection);\n  230 |         await mkdir(\"artifacts/batch3-1/regression-closeout/protection\", {\n  231 |           recursive: true,"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts",
+                        "column": 34,
+                        "line": 228
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m10\u001b[39m\nReceived:    \u001b[31m56\u001b[39m\n\n  226 |             content: el.scrollHeight,\n  227 |           }));\n> 228 |         expect(copySize.content).toBeLessThanOrEqual(copySize.visible + 1);\n      |                                  ^\n  229 |         expect((await getState(page)).protection).toBe(protection);\n  230 |         await mkdir(\"artifacts/batch3-1/regression-closeout/protection\", {\n  231 |           recursive: true,\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts:228:34"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:20.140Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-closeout-closeout-refr-ad497-ful-protection-off-390-100-\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-closeout-closeout-refr-ad497-ful-protection-off-390-100-\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-closeout-closeout-refr-ad497-ful-protection-off-390-100-\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts",
+                    "column": 34,
+                    "line": 228
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-2a6dc14ab6b9b9704c55",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection active 390 100%",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1383,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m10\u001b[39m\nReceived:    \u001b[31m56\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m10\u001b[39m\nReceived:    \u001b[31m56\u001b[39m\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts:228:34",
+                    "location": {
+                      "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts",
+                      "column": 34,
+                      "line": 228
+                    },
+                    "snippet": "  226 |             content: el.scrollHeight,\n  227 |           }));\n> 228 |         expect(copySize.content).toBeLessThanOrEqual(copySize.visible + 1);\n      |                                  ^\n  229 |         expect((await getState(page)).protection).toBe(protection);\n  230 |         await mkdir(\"artifacts/batch3-1/regression-closeout/protection\", {\n  231 |           recursive: true,"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts",
+                        "column": 34,
+                        "line": 228
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m10\u001b[39m\nReceived:    \u001b[31m56\u001b[39m\n\n  226 |             content: el.scrollHeight,\n  227 |           }));\n> 228 |         expect(copySize.content).toBeLessThanOrEqual(copySize.visible + 1);\n      |                                  ^\n  229 |         expect((await getState(page)).protection).toBe(protection);\n  230 |         await mkdir(\"artifacts/batch3-1/regression-closeout/protection\", {\n  231 |           recursive: true,\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts:228:34"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:22.271Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-closeout-closeout-refr-3f0aa--protection-active-390-100-\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-closeout-closeout-refr-3f0aa--protection-active-390-100-\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-closeout-closeout-refr-3f0aa--protection-active-390-100-\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts",
+                    "column": 34,
+                    "line": 228
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-6446c308cee438389cda",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection review_required 390 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2613,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:24.519Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-4c06b8afd918fdb81221",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection off 390 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2175,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:27.271Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-938435cf3ac2a629eb4b",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection active 390 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2085,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:29.456Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-ce6b05829e2e0a9ce044",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection review_required 390 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2543,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:31.550Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-6af85628338e862ce2de",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection off 768 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2142,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:34.103Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-546f7e946567d5c3e2c5",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection active 768 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2145,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:36.255Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-3797922ecbfb24077c60",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection review_required 768 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2570,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:38.408Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-2029dde7c829e646c131",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection off 768 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2197,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:40.990Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-bab56d6429868fa5ab74",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection active 768 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2104,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:43.195Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-81554d26e22d92f3ad60",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection review_required 768 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2566,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:45.307Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-f5b5115dcbfa910c9be0",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection off 1440 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2191,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:47.883Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-365026cec4cda5e4df49",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection active 1440 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2125,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:50.083Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-079974412582e40bcc7d",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection review_required 1440 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2531,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:52.217Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-fba7868f96c4ae7172e3",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection off 1440 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2179,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:54.757Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-aac8dc3ee2e53cbbd11e",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection active 1440 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2143,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:56.945Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-db507b26b4a690ba072c",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        },
+        {
+          "title": "closeout refresh failure truthful protection review_required 1440 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2552,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:05:59.095Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-f282ae478fbf60ac2437",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-05T21:05:05.634Z",
+    "duration": 56173.598999999995,
+    "expected": 22,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

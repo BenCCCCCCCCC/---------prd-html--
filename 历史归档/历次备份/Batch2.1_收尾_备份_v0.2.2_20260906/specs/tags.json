@@ -1,0 +1,111 @@
+{
+  "version": "demo_tags_v0.5",
+  "provenance": "Synthetic demo taxonomy; not NetEase tags; all matches are soft preferences.",
+  "tags": [
+    {
+      "id": "genre_folk",
+      "label": "民谣",
+      "category": "曲风",
+      "approvedAliases": [
+        "民谣"
+      ]
+    },
+    {
+      "id": "genre_pop",
+      "label": "流行",
+      "category": "曲风",
+      "approvedAliases": [
+        "流行",
+        "流行歌"
+      ]
+    },
+    {
+      "id": "genre_rock",
+      "label": "摇滚",
+      "category": "曲风",
+      "approvedAliases": [
+        "摇滚"
+      ]
+    },
+    {
+      "id": "genre_classical",
+      "label": "古典",
+      "category": "曲风",
+      "approvedAliases": [
+        "古典"
+      ]
+    },
+    {
+      "id": "mood_calm",
+      "label": "安静",
+      "category": "情绪",
+      "approvedAliases": [
+        "安静",
+        "舒缓",
+        "平静"
+      ]
+    },
+    {
+      "id": "mood_sad",
+      "label": "伤感",
+      "category": "情绪",
+      "approvedAliases": [
+        "伤感",
+        "悲伤"
+      ]
+    },
+    {
+      "id": "mood_energetic",
+      "label": "有活力",
+      "category": "情绪",
+      "approvedAliases": [
+        "有活力",
+        "有劲"
+      ]
+    },
+    {
+      "id": "scene_study",
+      "label": "学习",
+      "category": "场景",
+      "approvedAliases": [
+        "学习",
+        "写作业"
+      ]
+    },
+    {
+      "id": "scene_exercise",
+      "label": "运动",
+      "category": "场景",
+      "approvedAliases": [
+        "运动",
+        "锻炼"
+      ]
+    },
+    {
+      "id": "lang_zh",
+      "label": "中文",
+      "category": "语种",
+      "approvedAliases": [
+        "中文",
+        "华语"
+      ]
+    },
+    {
+      "id": "lang_en",
+      "label": "英文",
+      "category": "语种",
+      "approvedAliases": [
+        "英文",
+        "英语"
+      ]
+    },
+    {
+      "id": "theme_instrumental",
+      "label": "纯音乐",
+      "category": "主题",
+      "approvedAliases": [
+        "纯音乐"
+      ]
+    }
+  ]
+}

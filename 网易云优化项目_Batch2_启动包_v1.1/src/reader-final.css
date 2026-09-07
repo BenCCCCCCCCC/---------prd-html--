@@ -1,0 +1,42 @@
+/* Batch 3.2: document-only disclosure and review metadata. Demo styles stay frozen. */
+.reader-page .document-meta {
+  margin-bottom: 0.5rem;
+}
+.reader-page .document-status {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+.reader-page .prototype-parameters {
+  margin: 1.5rem 0;
+  border-block: 1px solid var(--line);
+}
+.reader-page .prototype-parameters > summary {
+  cursor: pointer;
+  padding: 0.75rem 0;
+  min-height: 44px;
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+.reader-page .prototype-parameters > :not(summary) {
+  margin-inline: 0;
+}
+@media print {
+  .reader-page .prototype-parameters {
+    border: 0;
+    margin: 4mm 0;
+  }
+  .reader-page .prototype-parameters > summary {
+    font-size: 9pt;
+    font-weight: 400;
+    padding: 0 0 2mm;
+    min-height: 0;
+    list-style: none;
+  }
+  .reader-page .prototype-parameters::details-content {
+    content-visibility: visible;
+  }
+  .reader-page .document-status {
+    font-size: 9pt;
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-05T12:46:14.294Z",
+  "unchanged": [
+    {
+      "file": "src/domain/model.ts",
+      "before": "12ab52949aa3d004aa5788a488dce84feeca7e63cd791040a3f3fa9b73d90d00",
+      "after": "12ab52949aa3d004aa5788a488dce84feeca7e63cd791040a3f3fa9b73d90d00",
+      "status": "UNCHANGED"
+    },
+    {
+      "file": "src/domain/ai.ts",
+      "before": "bafeeeb1adf5ebcb90b59a5124bd7603beb2243f48aee4249cbb295b00079f82",
+      "after": "bafeeeb1adf5ebcb90b59a5124bd7603beb2243f48aee4249cbb295b00079f82",
+      "status": "UNCHANGED"
+    },
+    {
+      "file": "src/storage.ts",
+      "before": "4f9d17d3d54342d628b3b37d5b380c14923932ab52d091c26499d3c402ec0881",
+      "after": "4f9d17d3d54342d628b3b37d5b380c14923932ab52d091c26499d3c402ec0881",
+      "status": "UNCHANGED"
+    },
+    {
+      "file": "src/Portfolio.tsx",
+      "before": "445353fdaf01220443d60457092ec5a2475013c84066519ed3866904390eedc1",
+      "after": "445353fdaf01220443d60457092ec5a2475013c84066519ed3866904390eedc1",
+      "status": "UNCHANGED"
+    },
+    {
+      "file": "src/components.tsx",
+      "before": "348b70aa9aebe39bea17444783b72f79532d0540720f10383068d1a87c5051db",
+      "after": "348b70aa9aebe39bea17444783b72f79532d0540720f10383068d1a87c5051db",
+      "status": "UNCHANGED"
+    },
+    {
+      "file": "src/styles.css",
+      "before": "803a9c13dc4ffea12e77d472ede6f4e198213b6c3ede57a4744b8c6b1010e52e",
+      "after": "803a9c13dc4ffea12e77d472ede6f4e198213b6c3ede57a4744b8c6b1010e52e",
+      "status": "UNCHANGED"
+    },
+    {
+      "file": "tests/e2e/flows.spec.ts",
+      "before": "6153f40100af6a0d8336020931acbb73d72e324a6d46c2267e2347e092f1704f",
+      "after": "6153f40100af6a0d8336020931acbb73d72e324a6d46c2267e2347e092f1704f",
+      "status": "UNCHANGED"
+    },
+    {
+      "file": "tests/e2e/recovery.spec.ts",
+      "before": "f38078a7074032cba60e37fc55abdeaec325c8baabcb233d0ea610980623e827",
+      "after": "f38078a7074032cba60e37fc55abdeaec325c8baabcb233d0ea610980623e827",
+      "status": "UNCHANGED"
+    },
+    {
+      "file": "pnpm-lock.yaml",
+      "before": "bc43cc75ffba6abb5b849019fcd58369dda05f45bcf3f02f1e1141e9725c6b4e",
+      "after": "bc43cc75ffba6abb5b849019fcd58369dda05f45bcf3f02f1e1141e9725c6b4e",
+      "status": "UNCHANGED"
+    }
+  ],
+  "changes": [
+    {
+      "file": "src/alignment.css",
+      "before": null,
+      "after": "d74241010038fca524d524f1d6ed4a42d86c69df558e80ac787a5a287f4180ff",
+      "kind": "ADDED"
+    },
+    {
+      "file": "src/Demo.tsx",
+      "before": "cc510cde2de2d4d4101d80ba2aaf5e01202ed190a712822abc52076e2970fed2",
+      "after": "418cbd6041b61345f01b95f8c10b4ecd4d6673b9cb447ba470b9527afd0648c3",
+      "kind": "MODIFIED"
+    },
+    {
+      "file": "src/generated/alignment-tokens.css",
+      "before": null,
+      "after": "7f8af39c1b51ad6f0304fc723e6fdefbc19f89603e900fbbdcbecb935031731c",
+      "kind": "ADDED"
+    },
+    {
+      "file": "src/generated/verification.json",
+      "before": "7f6564459d98896d4eb5f638e926e4e92e42e0339e7bf996ff2e4f1dd227a936",
+      "after": "0785193b6b50c790196c4c71844261a81844d798b3284437dd8fd0d213cd34fa",
+      "kind": "MODIFIED"
+    },
+    {
+      "file": "src/main.tsx",
+      "before": "5c4d423c648f6db51eb643aafc22c54c85f672d67f5ea84ba301b77725136293",
+      "after": "310fa5664b4fd18af4d6b570764a8a933f29a727cc6f5612dcba8057183ac08d",
+      "kind": "MODIFIED"
+    },
+    {
+      "file": "src/PreferenceControls.tsx",
+      "before": null,
+      "after": "a3a085ccf7b4bb7c7b99ce51a017f6d6a1af2548cd5da031c69a917cc7720c4a",
+      "kind": "ADDED"
+    },
+    {
+      "file": "tests/e2e/alignment.spec.ts",
+      "before": null,
+      "after": "e29b8f590b5bf74e80182cf8027fe6465d07c6c10ecc277a843705ee69383866",
+      "kind": "ADDED"
+    },
+    {
+      "file": "tests/visual/screens.spec.ts",
+      "before": "aeb2bb69b03e78608e576d527e5552ea2fea405793495b0302475969c5ed9528",
+      "after": "462a7f0f082f5ea6375cb45003b0b2a49f36df113760bfcdd62c14226b053e16",
+      "kind": "MODIFIED"
+    },
+    {
+      "file": "scripts/alignment-capture.mjs",
+      "before": null,
+      "after": "f7147ed2e78ac0c2bee0036530a258aeebfafb21fa62fe9e8b82e32ef17e4a9b",
+      "kind": "ADDED"
+    },
+    {
+      "file": "scripts/alignment-compare.mjs",
+      "before": null,
+      "after": "26e272eed591fd9e99c44681280bdb8e466c49bc5b0284133c3c0abe54e9d191",
+      "kind": "ADDED"
+    },
+    {
+      "file": "scripts/batch2-1-audit.mjs",
+      "before": null,
+      "after": "e2f56264a6476f354cc54c5b1ff1bc80044306b7fde5044c35f4eb88dc06c312",
+      "kind": "ADDED"
+    },
+    {
+      "file": "scripts/generate.mjs",
+      "before": "792376e7ea48277de10c9ba224fa42b20ce71c0e45517231a04ad5cbeb49fbb9",
+      "after": "f7c8cd4680474b0cacfda95a2358e7bf070058b6dd5098efedd4ea59d91ccf0a",
+      "kind": "MODIFIED"
+    },
+    {
+      "file": "scripts/package_batch2_1.py",
+      "before": null,
+      "after": "b11b98d243130129cf3d681ad7ce17b79e46faa2461fbd5c35ed5641dc1bfaa0",
+      "kind": "ADDED"
+    },
+    {
+      "file": "docs/BATCH2_1_BUILD_PLAN.md",
+      "before": null,
+      "after": "97b3f84f24a29662a814bc02c3d781127f1bece78be293ac156d425e3fcc2241",
+      "kind": "ADDED"
+    },
+    {
+      "file": "docs/FIGMA_ALIGNMENT_ADDENDUM.md",
+      "before": null,
+      "after": "63abd07daf7b8211c9d4c88ed9c0e3eec8af9972d2f1efef9ccd871471fe9907",
+      "kind": "ADDED"
+    },
+    {
+      "file": "docs/HANDOFF.md",
+      "before": "7287225740ae736ac551e390f35477d0714b258da94ea7ba1622968a2efa48a2",
+      "after": "eb8013bfed74c31e706569d6f18a5086508fd82c3c43de39e873741f2873d9b3",
+      "kind": "MODIFIED"
+    },
+    {
+      "file": "qa/ACCESSIBILITY_REVIEW.md",
+      "before": "5f3a368e78b8e2321f781b59dc6d250b6f495659ed65610ea29f21b78795544e",
+      "after": "2a74bd35b1291c8f07fe08af5a5dca903f28b4ed0ebec9e7c56e8e8819120fdb",
+      "kind": "MODIFIED"
+    },
+    {
+      "file": "qa/BATCH2_1_SCREENSHOT_INDEX.md",
+      "before": null,
+      "after": "8952b537ab745518bc26a060f1eb064fcd2d1f5b1867d8cb6d63120c639216d3",
+      "kind": "ADDED"
+    },
+    {
+      "file": "qa/FIGMA_ALIGNMENT_REVIEW.md",
+      "before": null,
+      "after": "478d09022de4c07817ee7fdcc6cd150e223c9221a34fc632fa8cce0dabf094a0",
+      "kind": "ADDED"
+    },
+    {
+      "file": "qa/PERFORMANCE_REVIEW.md",
+      "before": "921ab1c393a4c8658937eacece315513c03a9b4df85a985d9c87c68c5faa71bf",
+      "after": "73be17dbdf7205890307894f72e00d7c44b6a633f7263ffea11a94c802566da7",
+      "kind": "MODIFIED"
+    },
+    {
+      "file": "qa/TEST_RESULTS.md",
+      "before": "94f8b4d39c6e21f86cfbedfd58889947d543266eb63f1679051965320d47beb7",
+      "after": "36aa594768273ca9333784b9f984175c6c90763e2378484b9bc57eb98cecbed6",
+      "kind": "MODIFIED"
+    },
+    {
+      "file": "qa/VISUAL_REVIEW.md",
+      "before": "3ec7126cebf881e4b23c569668d2ebb601d63b0c1bdf11317495b56c5522b656",
+      "after": "b1385b99816b1babfb848a19d28d1da8bbe93f94c2d3a83a1cab4859715c55f3",
+      "kind": "MODIFIED"
+    }
+  ],
+  "note": "Source/docs/tests/scripts audit against pre-change copy; artifact and package inventory is in delivery checksum JSON. Original specification hashes are checked by scripts/invariants.mjs.",
+  "legacyScreenshots": 64,
+  "legacyHashes": "UNCHANGED",
+  "candidateScreenshots": 64,
+  "runtimeRasterAndFonts": "NONE",
+  "ownerBaselineApproval": "PENDING"
+}

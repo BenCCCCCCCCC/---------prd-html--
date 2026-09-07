@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "before": "0.3.0",
+  "current": "0.3.1",
+  "preexistingModifiedFiles": [],
+  "newAuthoritativeInput": "finalization_input only",
+  "oldPngPreserved": 855,
+  "frozenUnchanged": [
+    "docs/PRD_v0.5.1.md",
+    "docs/IMPLEMENTATION_CONTRACT.md",
+    "docs/AI_CONTRACT.md",
+    "src/domain/model.ts",
+    "src/domain/ai.ts",
+    "src/storage.ts",
+    "src/ProductFeedback.tsx",
+    "src/PreferenceControls.tsx",
+    "src/alignment.css",
+    "src/styles.css"
+  ],
+  "oldPrdSha256": "ee82185ef668fd81ce506d5ca83f33cd4472b264d6ed52bbd52e15ad4bf2786d",
+  "newPrdSha256": "4c673b161bcfe829cce85c234d4071e128a673fcde525c2e09913c2d598b94cd",
+  "candidateExact": true,
+  "docxExact": true,
+  "wordImageCount": 1,
+  "printPages": 16,
+  "all19HeadingsInPdfAndDocx": true,
+  "ownerApproval": "MANUAL_REVIEW_REQUIRED",
+  "realUsers": "NOT_RUN",
+  "realModel": "NOT_RUN",
+  "frozenDirectoriesUnchanged": [
+    "data",
+    "specs",
+    "src/domain"
+  ],
+  "dependencyLockUnchanged": true,
+  "priorHistoryVerbatimPreserved": [
+    "docs/HANDOFF.md",
+    "docs/APPROVAL_STATUS.md",
+    "README.md"
+  ],
+  "priorReportsArchivedAt": "artifacts/batch3-1/pre-batch-reports",
+  "allInputManifestHashesMatch": true
+}

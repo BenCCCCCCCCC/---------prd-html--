@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "0.5.0",
+  "status": "specification_not_implemented",
+  "parameterProvenance": "All numeric thresholds below are project design/demo settings, not NetEase internal rules or measured findings.",
+  "scope": {
+    "core": [
+      "R03",
+      "R04"
+    ],
+    "optionalExperiment": [
+      "R07"
+    ],
+    "deferred": [
+      "R05",
+      "R06"
+    ],
+    "realModelEnabled": false,
+    "realAudioEnabled": false,
+    "remoteTelemetryEnabled": false
+  },
+  "segmentation": {
+    "observationDays": 28,
+    "recommendationActiveDays": {
+      "highMin": 16,
+      "mediumMin": 4,
+      "lowMin": 1,
+      "none": 0
+    },
+    "minimumObservedDaysForFrequencyClass": 28,
+    "activeDayMinutesBoundaries": [
+      0,
+      30,
+      60,
+      120
+    ],
+    "firstUseAgeDaysBoundaries": [
+      0,
+      8,
+      31
+    ],
+    "minimumStartsForDependenceComparison": 20,
+    "frequencyIsNotNeedSegment": true,
+    "calendarTimezoneFallback": "Asia/Shanghai",
+    "intensityDenominator": "all_music_listening_active_days",
+    "highFrequencyRationale": "initial recruitment cut: approx 4 recommendation-active days/week over 4 weeks; not empirically validated"
+  },
+  "session": {
+    "idleMinutes": 30,
+    "maxHours": 4,
+    "isolationOnExpiry": "review_required_keep_protecting",
+    "resumeIsolationRequiresExplicitChoice": true,
+    "sessionOverridesSyncAcrossDevices": false,
+    "restartMaxTimerOnPreferenceEdit": false,
+    "protectionBeginsAtAppliedTime": true,
+    "neverBackfillProtectedSegments": true
+  },
+  "feedback": {
+    "maxPositiveTags": 3,
+    "manualNewNegativeTargetsPerOperation": 1,
+    "aiNewNegativeTargetsPerOperation": 3,
+    "maxNegativeTargetsPerScope": 10,
+    "duplicateNegativePenalty": "max_not_sum",
+    "softNegativeExpiry": "session_end_or_explicit_long_term_removal",
+    "blacklistDemo": "seeded_read_only",
+    "defaultWriteScope": "session",
+    "persistedFieldClearsCorrespondingSessionOverride": true,
+    "promoteSessionRequiresExplicitDiffConfirmation": true,
+    "validateConflictAgainstPostCommitEffectiveState": true
+  },
+  "ranking": {
+    "formulaVersion": "demo_rank_v0.5",
+    "positiveWeight": 0.3,
+    "noveltyWeight": 0.2,
+    "negativePenalty": 0.6,
+    "freshnessSign": {
+      "familiar": -1,
+      "balanced": 0,
+      "explore": 1
+    },
+    "tieBreak": "trackId_ascending",
+    "listLength": 8,
+    "positiveMatchDenominator": "number_of_effective_positive_tags",
+    "hardConstraints": [
+      "playable",
+      "seeded_track_blacklist",
+      "seeded_artist_blacklist"
+    ]
+  },
+  "measurement": {
+    "effectivePlaySeconds": 30,
+    "minimumEligibleTrackDurationSeconds": 60,
+    "postApplyWindowMinutes": 30,
+    "postApplyFirstStarts": 5,
+    "visibleExposureRatio": 0.5,
+    "visibleExposureMs": 1000,
+    "toastMs": 10000,
+    "persistentUndoUntil": "next_related_mutation_or_session_end",
+    "zeroDenominator": "NA"
+  },
+  "ai": {
+    "maxInputUnicodeCodePoints": 200,
+    "adapterDefault": "local_rule_preview",
+    "semanticStatuses": [
+      "ready",
+      "needs_clarification",
+      "unsupported"
+    ],
+    "transportStatuses": [
+      "ok",
+      "error",
+      "cancelled"
+    ],
+    "modelConfidenceDisplay": false,
+    "modelExecutionAuthority": "none",
+    "scopeAndIsolationSuggestionsAreExecutable": false,
+    "futureProviderTimeoutMs": 5000,
+    "futureMaxRetry": 1,
+    "futureTotalTimeBudgetMs": 8000,
+    "futureRealCallsRequireSeparateAuthorization": true
+  },
+  "browserDemo": {
+    "storage": "sessionStorage_only_for_synthetic_state",
+    "rawInputStorage": "memory_only",
+    "namespace": "netease-control-demo:v0.5",
+    "restoreOnSameTabRefresh": true,
+    "resetAffectsOnlyNamespace": true,
+    "outboundMusicOrModelRequests": false
+  }
+}

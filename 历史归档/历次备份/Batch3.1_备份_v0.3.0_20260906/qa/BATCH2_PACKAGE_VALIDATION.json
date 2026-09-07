@@ -1,0 +1,555 @@
+{
+  "version": "1.1.0",
+  "date": "2026-09-05",
+  "status": "pass",
+  "scope": "Batch 2 v1.1 local-Beta startup package static validation; no application runtime",
+  "summary": {
+    "checks": 56,
+    "passed": 56,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "check": "all_active_json_parse",
+      "passed": true,
+      "details": {
+        "count": 13,
+        "errors": []
+      },
+      "group": "data"
+    },
+    {
+      "check": "ai_eval_jsonl_parse_and_count",
+      "passed": true,
+      "details": {
+        "count": 40,
+        "expected": 40,
+        "errors": []
+      },
+      "group": "data"
+    },
+    {
+      "check": "acceptance_cases_count_unique_contiguous",
+      "passed": true,
+      "details": {
+        "count": 34,
+        "expected": 34,
+        "uniqueIds": 34
+      },
+      "group": "data"
+    },
+    {
+      "check": "acceptance_cases_tradeoff_cases_present",
+      "passed": true,
+      "details": {
+        "required": [
+          "AC31",
+          "AC32",
+          "AC33",
+          "AC34"
+        ]
+      },
+      "group": "data"
+    },
+    {
+      "check": "acceptance_AC33_distinguishes_three_naming_systems",
+      "passed": true,
+      "details": "演示任务写 Demo 1/2/3；产品候选写方案 A/B/C；随机实验写 A/B 对照实验；不得声称通过真实 A/B 测试选择 B",
+      "group": "tradeoffs"
+    },
+    {
+      "check": "acceptance_cases_all_not_run_before_build",
+      "passed": true,
+      "details": null,
+      "group": "claims"
+    },
+    {
+      "check": "ranking_fixtures_count_unique",
+      "passed": true,
+      "details": {
+        "count": 4,
+        "uniqueIds": 4
+      },
+      "group": "data"
+    },
+    {
+      "check": "invalid_output_fixtures_count_unique",
+      "passed": true,
+      "details": {
+        "count": 6,
+        "uniqueIds": 6
+      },
+      "group": "data"
+    },
+    {
+      "check": "synthetic_catalog_track_count",
+      "passed": true,
+      "details": {
+        "count": 24,
+        "expected": 24
+      },
+      "group": "data"
+    },
+    {
+      "check": "synthetic_catalog_no_remote_audio",
+      "passed": true,
+      "details": null,
+      "group": "safety"
+    },
+    {
+      "check": "external_decision_ids_contiguous",
+      "passed": true,
+      "details": {
+        "ids": [
+          "EXT-01",
+          "EXT-02",
+          "EXT-03",
+          "EXT-04",
+          "EXT-05",
+          "EXT-06",
+          "EXT-07",
+          "EXT-08",
+          "EXT-09",
+          "EXT-10",
+          "EXT-11"
+        ]
+      },
+      "group": "research"
+    },
+    {
+      "check": "external_decisions_approved",
+      "passed": true,
+      "details": {
+        "status": "approved_for_local_beta",
+        "approvedCount": 11
+      },
+      "group": "research"
+    },
+    {
+      "check": "external_claim_policy_present",
+      "passed": true,
+      "details": "external sources support design decisions only; they are not user research, NetEase internal facts, or measured project outcomes",
+      "group": "claims"
+    },
+    {
+      "check": "portfolio_decisions_count_contiguous",
+      "passed": true,
+      "details": {
+        "ids": [
+          "T01",
+          "T02",
+          "T03",
+          "T04",
+          "T05",
+          "T06",
+          "T07",
+          "T08"
+        ]
+      },
+      "group": "tradeoffs"
+    },
+    {
+      "check": "portfolio_quick_scan_exact",
+      "passed": true,
+      "details": {
+        "actual": [
+          "T02",
+          "T04",
+          "T07"
+        ]
+      },
+      "group": "tradeoffs"
+    },
+    {
+      "check": "portfolio_terminology_distinguishes_design_and_experiment",
+      "passed": true,
+      "details": {
+        "designComparison": "方案 A/B/C",
+        "experimentComparison": "A/B 对照实验",
+        "rejectedLabel": "未采用",
+        "deferredLabel": "延后",
+        "selectedLabel": "采用",
+        "demoScenario": "Demo 1/2/3（主动调整 / 即时负反馈 / 临时收听）"
+      },
+      "group": "tradeoffs"
+    },
+    {
+      "check": "portfolio_terminology_distinguishes_demo_design_experiment",
+      "passed": true,
+      "details": {
+        "designComparison": "方案 A/B/C",
+        "experimentComparison": "A/B 对照实验",
+        "rejectedLabel": "未采用",
+        "deferredLabel": "延后",
+        "selectedLabel": "采用",
+        "demoScenario": "Demo 1/2/3（主动调整 / 即时负反馈 / 临时收听）"
+      },
+      "group": "tradeoffs"
+    },
+    {
+      "check": "portfolio_each_decision_has_A_B_C",
+      "passed": true,
+      "details": null,
+      "group": "tradeoffs"
+    },
+    {
+      "check": "portfolio_each_decision_selects_B_consistently",
+      "passed": true,
+      "details": null,
+      "group": "tradeoffs"
+    },
+    {
+      "check": "portfolio_each_decision_has_criteria_tradeoff_validation",
+      "passed": true,
+      "details": null,
+      "group": "tradeoffs"
+    },
+    {
+      "check": "portfolio_statuses_limited_and_explicit",
+      "passed": true,
+      "details": null,
+      "group": "tradeoffs"
+    },
+    {
+      "check": "core_scope_and_deferred_scope",
+      "passed": true,
+      "details": {
+        "core": [
+          "R03",
+          "R04"
+        ],
+        "optionalExperiment": [
+          "R07"
+        ],
+        "deferred": [
+          "R05",
+          "R06"
+        ],
+        "realModelEnabled": false,
+        "realAudioEnabled": false,
+        "remoteTelemetryEnabled": false
+      },
+      "group": "product"
+    },
+    {
+      "check": "real_provider_audio_telemetry_disabled",
+      "passed": true,
+      "details": null,
+      "group": "safety"
+    },
+    {
+      "check": "ai_authority_none_and_adapter_local",
+      "passed": true,
+      "details": {
+        "maxInputUnicodeCodePoints": 200,
+        "adapterDefault": "local_rule_preview",
+        "semanticStatuses": [
+          "ready",
+          "needs_clarification",
+          "unsupported"
+        ],
+        "transportStatuses": [
+          "ok",
+          "error",
+          "cancelled"
+        ],
+        "modelConfidenceDisplay": false,
+        "modelExecutionAuthority": "none",
+        "scopeAndIsolationSuggestionsAreExecutable": false,
+        "futureProviderTimeoutMs": 5000,
+        "futureMaxRetry": 1,
+        "futureTotalTimeBudgetMs": 8000,
+        "futureRealCallsRequireSeparateAuthorization": true
+      },
+      "group": "safety"
+    },
+    {
+      "check": "temporary_expiry_keeps_protection",
+      "passed": true,
+      "details": "review_required_keep_protecting",
+      "group": "product"
+    },
+    {
+      "check": "frequency_is_not_need_segment",
+      "passed": true,
+      "details": {
+        "observationDays": 28,
+        "recommendationActiveDays": {
+          "highMin": 16,
+          "mediumMin": 4,
+          "lowMin": 1,
+          "none": 0
+        },
+        "minimumObservedDaysForFrequencyClass": 28,
+        "activeDayMinutesBoundaries": [
+          0,
+          30,
+          60,
+          120
+        ],
+        "firstUseAgeDaysBoundaries": [
+          0,
+          8,
+          31
+        ],
+        "minimumStartsForDependenceComparison": 20,
+        "frequencyIsNotNeedSegment": true,
+        "calendarTimezoneFallback": "Asia/Shanghai",
+        "intensityDenominator": "all_music_listening_active_days",
+        "highFrequencyRationale": "initial recruitment cut: approx 4 recommendation-active days/week over 4 weeks; not empirically validated"
+      },
+      "group": "product"
+    },
+    {
+      "check": "required_v11_files_present",
+      "passed": true,
+      "details": {
+        "missing": [],
+        "count": 14
+      },
+      "group": "harness"
+    },
+    {
+      "check": "approval_doc_archived_not_active",
+      "passed": true,
+      "details": null,
+      "group": "harness"
+    },
+    {
+      "check": "master_prompt_reads_tradeoff_sources",
+      "passed": true,
+      "details": null,
+      "group": "harness"
+    },
+    {
+      "check": "master_prompt_has_tradeoff_gate",
+      "passed": true,
+      "details": null,
+      "group": "harness"
+    },
+    {
+      "check": "master_prompt_uses_demo_numbers_not_flow_letters",
+      "passed": true,
+      "details": null,
+      "group": "harness"
+    },
+    {
+      "check": "master_prompt_consolidated_handback_after_gate",
+      "passed": true,
+      "details": null,
+      "group": "harness"
+    },
+    {
+      "check": "agents_enforces_tradeoff_and_ab_terminology",
+      "passed": true,
+      "details": null,
+      "group": "harness"
+    },
+    {
+      "check": "prd_markdown_v051_and_tradeoff_section",
+      "passed": true,
+      "details": null,
+      "group": "documents"
+    },
+    {
+      "check": "html_spec_v051_and_tradeoff_section",
+      "passed": true,
+      "details": null,
+      "group": "documents"
+    },
+    {
+      "check": "html_spec_tradeoff_subsections_sequential",
+      "passed": true,
+      "details": {
+        "subsections": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "group": "documents"
+    },
+    {
+      "check": "tradeoff_doc_has_rejected_deferred_and_answer_frame",
+      "passed": true,
+      "details": null,
+      "group": "tradeoffs"
+    },
+    {
+      "check": "interview_guide_has_resume_claim_boundary",
+      "passed": true,
+      "details": null,
+      "group": "claims"
+    },
+    {
+      "check": "product_decision_ids_unique_D01_D19",
+      "passed": true,
+      "details": {
+        "ids": [
+          "D01",
+          "D02",
+          "D03",
+          "D04",
+          "D05",
+          "D06",
+          "D07",
+          "D08",
+          "D09",
+          "D10",
+          "D11",
+          "D12",
+          "D13",
+          "D14",
+          "D15",
+          "D16",
+          "D17",
+          "D18",
+          "D19"
+        ]
+      },
+      "group": "product"
+    },
+    {
+      "check": "no_stale_active_references",
+      "passed": true,
+      "details": {
+        "hits": []
+      },
+      "group": "harness"
+    },
+    {
+      "check": "no_stale_preapproval_status_in_active_docs",
+      "passed": true,
+      "details": {
+        "hits": []
+      },
+      "group": "harness"
+    },
+    {
+      "check": "no_design_ab_claimed_as_completed_experiment",
+      "passed": true,
+      "details": null,
+      "group": "claims"
+    },
+    {
+      "check": "source_register_ids_contiguous",
+      "passed": true,
+      "details": {
+        "count": 28
+      },
+      "group": "research"
+    },
+    {
+      "check": "source_register_urls_well_formed",
+      "passed": true,
+      "details": {
+        "count": 28,
+        "bad": []
+      },
+      "group": "research"
+    },
+    {
+      "check": "four_project_skills_frontmatter",
+      "passed": true,
+      "details": {
+        "count": 4,
+        "errors": []
+      },
+      "group": "harness"
+    },
+    {
+      "check": "safety_scan_no_api_key_literal",
+      "passed": true,
+      "details": {
+        "hits": []
+      },
+      "group": "safety"
+    },
+    {
+      "check": "application_code_absent_before_codex",
+      "passed": true,
+      "details": {
+        "files": []
+      },
+      "group": "harness"
+    },
+    {
+      "check": "prd_docx_contains_tradeoff_and_ac31_34",
+      "passed": true,
+      "details": null,
+      "group": "documents"
+    },
+    {
+      "check": "html_docx_contains_tradeoff_and_ac31_34",
+      "passed": true,
+      "details": null,
+      "group": "documents"
+    },
+    {
+      "check": "html_docx_has_current_start_authorization",
+      "passed": true,
+      "details": null,
+      "group": "documents"
+    },
+    {
+      "check": "prd_docx_render_page_count",
+      "passed": true,
+      "details": {
+        "count": 20,
+        "expected": 20
+      },
+      "group": "documents"
+    },
+    {
+      "check": "html_docx_render_page_count",
+      "passed": true,
+      "details": {
+        "count": 11,
+        "expected": 11
+      },
+      "group": "documents"
+    },
+    {
+      "check": "final_render_visual_review_evidence_present",
+      "passed": true,
+      "details": {
+        "files": [
+          "/mnt/data/qa_render_prd_pairs/prd_recheck_17_18.png",
+          "/mnt/data/qa_render_prd_pairs/prd_recheck_19_20.png",
+          "/mnt/data/qa_render_html_v051/page-11.png"
+        ]
+      },
+      "group": "documents"
+    },
+    {
+      "check": "approval_status_markdown_current",
+      "passed": true,
+      "details": null,
+      "group": "harness"
+    },
+    {
+      "check": "research_addendum_current",
+      "passed": true,
+      "details": null,
+      "group": "research"
+    },
+    {
+      "check": "handoff_can_start_and_boundaries",
+      "passed": true,
+      "details": null,
+      "group": "harness"
+    }
+  ],
+  "notRun": [
+    "React application runtime",
+    "real model/API evaluation",
+    "real user usability testing",
+    "cross-browser interaction testing",
+    "public deployment",
+    "remote push"
+  ],
+  "claimBoundary": "PASS means package consistency and final DOCX readability only; it is not evidence of product value, model accuracy, accessibility compliance, business impact, or completed online A/B testing."
+}

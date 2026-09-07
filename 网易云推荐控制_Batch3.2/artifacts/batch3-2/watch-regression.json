@@ -1,0 +1,6 @@
+{
+  "purpose": "Vite remains available while Office temp file is locked",
+  "httpStatus": 200,
+  "exclusiveArtifactLock": true,
+  "status": "PASS"
+}

@@ -1,0 +1,252 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\14057\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.pnpm\\@playwright+test@1.62.1\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/e2e/flows.spec.ts",
+      "tests/e2e/reader.spec.ts",
+      "tests/e2e/closeout.spec.ts",
+      "--grep",
+      "AC20|all linked flows|refresh failure truthful protection off 768 100"
+    ],
+    "configFile": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\playwright.config.ts",
+    "rootDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/batch3-1/anchor-targeted.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 1,
+    "webServer": {
+      "command": "node node_modules/vite/bin/vite.js --host 127.0.0.1",
+      "url": "http://127.0.0.1:5173",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "e2e\\closeout.spec.ts",
+      "file": "e2e/closeout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "closeout refresh failure truthful protection off 768 100%",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1404,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m31\u001b[39m\nReceived:    \u001b[31m56\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m31\u001b[39m\nReceived:    \u001b[31m56\u001b[39m\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts:228:34",
+                    "location": {
+                      "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts",
+                      "column": 34,
+                      "line": 228
+                    },
+                    "snippet": "  226 |             content: el.scrollHeight,\n  227 |           }));\n> 228 |         expect(copySize.content).toBeLessThanOrEqual(copySize.visible + 1);\n      |                                  ^\n  229 |         expect((await getState(page)).protection).toBe(protection);\n  230 |         await mkdir(\"artifacts/batch3-1/regression-closeout/protection\", {\n  231 |           recursive: true,"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts",
+                        "column": 34,
+                        "line": 228
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m31\u001b[39m\nReceived:    \u001b[31m56\u001b[39m\n\n  226 |             content: el.scrollHeight,\n  227 |           }));\n> 228 |         expect(copySize.content).toBeLessThanOrEqual(copySize.visible + 1);\n      |                                  ^\n  229 |         expect((await getState(page)).protection).toBe(protection);\n  230 |         await mkdir(\"artifacts/batch3-1/regression-closeout/protection\", {\n  231 |           recursive: true,\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts:228:34"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:02:27.844Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-closeout-closeout-refr-dde73-ful-protection-off-768-100-\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-closeout-closeout-refr-dde73-ful-protection-off-768-100-\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-closeout-closeout-refr-dde73-ful-protection-off-768-100-\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\closeout.spec.ts",
+                    "column": 34,
+                    "line": 228
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "c42772850286bd1f238f-546f7e946567d5c3e2c5",
+          "file": "e2e/closeout.spec.ts",
+          "line": 191,
+          "column": 7
+        }
+      ]
+    },
+    {
+      "title": "e2e\\flows.spec.ts",
+      "file": "e2e/flows.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "AC20 stale response discarded; version conflict retains draft",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1692,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:02:30.129Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aee7ddca96caeed56580-71bf441407a90e85f98c",
+          "file": "e2e/flows.spec.ts",
+          "line": 175,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "e2e\\reader.spec.ts",
+      "file": "e2e/reader.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Batch3 all linked flows return to their exact section without applying or loading examples",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3697,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T21:02:31.981Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-0c4eeb3994d5b60d3f80",
+          "file": "e2e/reader.spec.ts",
+          "line": 182,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-05T21:02:26.991Z",
+    "duration": 8805.458,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

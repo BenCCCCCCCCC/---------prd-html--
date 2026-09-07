@@ -1,0 +1,657 @@
+[
+  {
+    "name": "player",
+    "rectangles": {
+      ".product": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 819
+      },
+      ".record": {
+        "x": 83,
+        "y": 112,
+        "width": 224,
+        "height": 224
+      },
+      ".tonearm": {
+        "x": 198.8782196044922,
+        "y": 91.2876205444336,
+        "width": 94.96229553222656,
+        "height": 121.42475128173828
+      },
+      ".track-heading": {
+        "x": 24,
+        "y": 360,
+        "width": 342,
+        "height": 74
+      },
+      ".adjust-entry": null,
+      ".product .primary": {
+        "x": 24,
+        "y": 574,
+        "width": 342,
+        "height": 52
+      },
+      "dialog[open]": null,
+      ".segmented": null,
+      ".category-tabs": null,
+      ".switch-row": null
+    }
+  },
+  {
+    "name": "root",
+    "rectangles": {
+      ".product": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 819
+      },
+      ".record": {
+        "x": 83,
+        "y": 112,
+        "width": 224,
+        "height": 224
+      },
+      ".tonearm": {
+        "x": 198.8782196044922,
+        "y": 91.2876205444336,
+        "width": 94.96229553222656,
+        "height": 121.42475128173828
+      },
+      ".track-heading": {
+        "x": 24,
+        "y": 360,
+        "width": 342,
+        "height": 74
+      },
+      ".adjust-entry": null,
+      ".product .primary": {
+        "x": 24,
+        "y": 574,
+        "width": 342,
+        "height": 52
+      },
+      "dialog[open]": {
+        "x": 0,
+        "y": 315,
+        "width": 390,
+        "height": 529
+      },
+      ".segmented": null,
+      ".category-tabs": null,
+      ".switch-row": null
+    }
+  },
+  {
+    "name": "want",
+    "rectangles": {
+      ".product": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 819
+      },
+      ".record": {
+        "x": 83,
+        "y": 112,
+        "width": 224,
+        "height": 224
+      },
+      ".tonearm": {
+        "x": 198.8782196044922,
+        "y": 91.2876205444336,
+        "width": 94.96229553222656,
+        "height": 121.42475128173828
+      },
+      ".track-heading": {
+        "x": 24,
+        "y": 360,
+        "width": 342,
+        "height": 74
+      },
+      ".adjust-entry": null,
+      ".product .primary": {
+        "x": 24,
+        "y": 574,
+        "width": 342,
+        "height": 52
+      },
+      "dialog[open]": {
+        "x": 0,
+        "y": 84.40625,
+        "width": 390,
+        "height": 759.59375
+      },
+      ".segmented": {
+        "x": 22,
+        "y": 221.40625,
+        "width": 346,
+        "height": 48
+      },
+      ".category-tabs": null,
+      ".switch-row": null
+    }
+  },
+  {
+    "name": "impact-session-off",
+    "rectangles": {
+      ".product": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 819
+      },
+      ".record": {
+        "x": 83,
+        "y": 112,
+        "width": 224,
+        "height": 224
+      },
+      ".tonearm": {
+        "x": 198.8782196044922,
+        "y": 91.2876205444336,
+        "width": 94.96229553222656,
+        "height": 121.42475128173828
+      },
+      ".track-heading": {
+        "x": 24,
+        "y": 360,
+        "width": 342,
+        "height": 74
+      },
+      ".adjust-entry": null,
+      ".product .primary": {
+        "x": 24,
+        "y": 574,
+        "width": 342,
+        "height": 52
+      },
+      "dialog[open]": {
+        "x": 0,
+        "y": 135,
+        "width": 390,
+        "height": 709
+      },
+      ".segmented": null,
+      ".category-tabs": null,
+      ".switch-row": null
+    }
+  },
+  {
+    "name": "impact-session-on",
+    "rectangles": {
+      ".product": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 819
+      },
+      ".record": {
+        "x": 83,
+        "y": 112,
+        "width": 224,
+        "height": 224
+      },
+      ".tonearm": {
+        "x": 198.8782196044922,
+        "y": 91.2876205444336,
+        "width": 94.96229553222656,
+        "height": 121.42475128173828
+      },
+      ".track-heading": {
+        "x": 24,
+        "y": 360,
+        "width": 342,
+        "height": 74
+      },
+      ".adjust-entry": null,
+      ".product .primary": {
+        "x": 24,
+        "y": 574,
+        "width": 342,
+        "height": 52
+      },
+      "dialog[open]": {
+        "x": 0,
+        "y": 161,
+        "width": 390,
+        "height": 683
+      },
+      ".segmented": null,
+      ".category-tabs": null,
+      ".switch-row": null
+    }
+  },
+  {
+    "name": "impact-longterm-on",
+    "rectangles": {
+      ".product": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 819
+      },
+      ".record": {
+        "x": 83,
+        "y": 112,
+        "width": 224,
+        "height": 224
+      },
+      ".tonearm": {
+        "x": 198.8782196044922,
+        "y": 91.2876205444336,
+        "width": 94.96229553222656,
+        "height": 121.42475128173828
+      },
+      ".track-heading": {
+        "x": 24,
+        "y": 360,
+        "width": 342,
+        "height": 74
+      },
+      ".adjust-entry": null,
+      ".product .primary": {
+        "x": 24,
+        "y": 574,
+        "width": 342,
+        "height": 52
+      },
+      "dialog[open]": {
+        "x": 0,
+        "y": 95,
+        "width": 390,
+        "height": 749
+      },
+      ".segmented": null,
+      ".category-tabs": null,
+      ".switch-row": null
+    }
+  },
+  {
+    "name": "impact-longterm-off",
+    "rectangles": {
+      ".product": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 819
+      },
+      ".record": {
+        "x": 83,
+        "y": 112,
+        "width": 224,
+        "height": 224
+      },
+      ".tonearm": {
+        "x": 198.8782196044922,
+        "y": 91.2876205444336,
+        "width": 94.96229553222656,
+        "height": 121.42475128173828
+      },
+      ".track-heading": {
+        "x": 24,
+        "y": 360,
+        "width": 342,
+        "height": 74
+      },
+      ".adjust-entry": null,
+      ".product .primary": {
+        "x": 24,
+        "y": 574,
+        "width": 342,
+        "height": 52
+      },
+      "dialog[open]": {
+        "x": 0,
+        "y": 84.40625,
+        "width": 390,
+        "height": 759.59375
+      },
+      ".segmented": null,
+      ".category-tabs": null,
+      ".switch-row": null
+    }
+  },
+  {
+    "name": "negative",
+    "rectangles": {
+      ".product": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 819
+      },
+      ".record": {
+        "x": 83,
+        "y": 112,
+        "width": 224,
+        "height": 224
+      },
+      ".tonearm": {
+        "x": 198.8782196044922,
+        "y": 91.2876205444336,
+        "width": 94.96229553222656,
+        "height": 121.42475128173828
+      },
+      ".track-heading": {
+        "x": 24,
+        "y": 360,
+        "width": 342,
+        "height": 74
+      },
+      ".adjust-entry": null,
+      ".product .primary": {
+        "x": 24,
+        "y": 574,
+        "width": 342,
+        "height": 52
+      },
+      "dialog[open]": {
+        "x": 0,
+        "y": 161,
+        "width": 390,
+        "height": 683
+      },
+      ".segmented": null,
+      ".category-tabs": null,
+      ".switch-row": null
+    }
+  },
+  {
+    "name": "toast",
+    "rectangles": {
+      ".product": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 941
+      },
+      ".record": {
+        "x": 83,
+        "y": 112,
+        "width": 224,
+        "height": 224
+      },
+      ".tonearm": {
+        "x": 198.8782196044922,
+        "y": 91.2876205444336,
+        "width": 94.96229553222656,
+        "height": 121.42475128173828
+      },
+      ".track-heading": {
+        "x": 24,
+        "y": 360,
+        "width": 342,
+        "height": 74
+      },
+      ".adjust-entry": null,
+      ".product .primary": {
+        "x": 24,
+        "y": 574,
+        "width": 342,
+        "height": 52
+      },
+      "dialog[open]": null,
+      ".segmented": null,
+      ".category-tabs": null,
+      ".switch-row": null
+    }
+  },
+  {
+    "name": "undo",
+    "rectangles": {
+      ".product": {
+        "x": 0,
+        "y": -12,
+        "width": 390,
+        "height": 1011
+      },
+      ".record": {
+        "x": 83,
+        "y": 100,
+        "width": 224,
+        "height": 224
+      },
+      ".tonearm": {
+        "x": 198.8782196044922,
+        "y": 79.2876205444336,
+        "width": 94.96229553222656,
+        "height": 121.42475128173828
+      },
+      ".track-heading": {
+        "x": 24,
+        "y": 348,
+        "width": 342,
+        "height": 74
+      },
+      ".adjust-entry": null,
+      ".product .primary": {
+        "x": 24,
+        "y": 562,
+        "width": 342,
+        "height": 52
+      },
+      "dialog[open]": null,
+      ".segmented": null,
+      ".category-tabs": null,
+      ".switch-row": null
+    }
+  },
+  {
+    "name": "reminder",
+    "rectangles": {
+      ".product": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 1088
+      },
+      ".record": {
+        "x": 83,
+        "y": 259,
+        "width": 224,
+        "height": 224
+      },
+      ".tonearm": {
+        "x": 198.8782196044922,
+        "y": 238.28761291503906,
+        "width": 94.96229553222656,
+        "height": 121.42475891113281
+      },
+      ".track-heading": {
+        "x": 24,
+        "y": 507,
+        "width": 342,
+        "height": 74
+      },
+      ".adjust-entry": null,
+      ".product .primary": {
+        "x": 24,
+        "y": 721,
+        "width": 342,
+        "height": 52
+      },
+      "dialog[open]": null,
+      ".segmented": null,
+      ".category-tabs": null,
+      ".switch-row": null
+    }
+  },
+  {
+    "name": "refresh-failed",
+    "rectangles": {
+      ".product": {
+        "x": 0,
+        "y": -162,
+        "width": 390,
+        "height": 1099
+      },
+      ".record": {
+        "x": 83,
+        "y": -50,
+        "width": 224,
+        "height": 224
+      },
+      ".tonearm": {
+        "x": 198.8782196044922,
+        "y": -70.7123794555664,
+        "width": 94.96229553222656,
+        "height": 121.42475891113281
+      },
+      ".track-heading": {
+        "x": 24,
+        "y": 198,
+        "width": 342,
+        "height": 74
+      },
+      ".adjust-entry": null,
+      ".product .primary": {
+        "x": 24,
+        "y": 412,
+        "width": 342,
+        "height": 52
+      },
+      "dialog[open]": null,
+      ".segmented": null,
+      ".category-tabs": null,
+      ".switch-row": null
+    }
+  },
+  {
+    "name": "ai-ready",
+    "rectangles": {
+      ".product": {
+        "x": 0,
+        "y": 117,
+        "width": 390,
+        "height": 1099
+      },
+      ".record": {
+        "x": 83,
+        "y": 229,
+        "width": 224,
+        "height": 224
+      },
+      ".tonearm": {
+        "x": 198.8782196044922,
+        "y": 208.28761291503906,
+        "width": 94.96229553222656,
+        "height": 121.42475891113281
+      },
+      ".track-heading": {
+        "x": 24,
+        "y": 477,
+        "width": 342,
+        "height": 74
+      },
+      ".adjust-entry": null,
+      ".product .primary": {
+        "x": 24,
+        "y": 691,
+        "width": 342,
+        "height": 52
+      },
+      "dialog[open]": {
+        "x": 0,
+        "y": 84.40625,
+        "width": 390,
+        "height": 759.59375
+      },
+      ".segmented": null,
+      ".category-tabs": null,
+      ".switch-row": null
+    }
+  },
+  {
+    "name": "ai-clarification",
+    "rectangles": {
+      ".product": {
+        "x": 0,
+        "y": 117,
+        "width": 390,
+        "height": 1099
+      },
+      ".record": {
+        "x": 83,
+        "y": 229,
+        "width": 224,
+        "height": 224
+      },
+      ".tonearm": {
+        "x": 198.8782196044922,
+        "y": 208.28761291503906,
+        "width": 94.96229553222656,
+        "height": 121.42475891113281
+      },
+      ".track-heading": {
+        "x": 24,
+        "y": 477,
+        "width": 342,
+        "height": 74
+      },
+      ".adjust-entry": null,
+      ".product .primary": {
+        "x": 24,
+        "y": 691,
+        "width": 342,
+        "height": 52
+      },
+      "dialog[open]": {
+        "x": 0,
+        "y": 84.40625,
+        "width": 390,
+        "height": 759.59375
+      },
+      ".segmented": null,
+      ".category-tabs": null,
+      ".switch-row": null
+    }
+  },
+  {
+    "name": "ai-unsupported",
+    "rectangles": {
+      ".product": {
+        "x": 0,
+        "y": 117,
+        "width": 390,
+        "height": 1099
+      },
+      ".record": {
+        "x": 83,
+        "y": 229,
+        "width": 224,
+        "height": 224
+      },
+      ".tonearm": {
+        "x": 198.8782196044922,
+        "y": 208.28761291503906,
+        "width": 94.96229553222656,
+        "height": 121.42475891113281
+      },
+      ".track-heading": {
+        "x": 24,
+        "y": 477,
+        "width": 342,
+        "height": 74
+      },
+      ".adjust-entry": null,
+      ".product .primary": {
+        "x": 24,
+        "y": 691,
+        "width": 342,
+        "height": 52
+      },
+      "dialog[open]": {
+        "x": 0,
+        "y": 84.40625,
+        "width": 390,
+        "height": 759.59375
+      },
+      ".segmented": null,
+      ".category-tabs": null,
+      ".switch-row": null
+    }
+  }
+]

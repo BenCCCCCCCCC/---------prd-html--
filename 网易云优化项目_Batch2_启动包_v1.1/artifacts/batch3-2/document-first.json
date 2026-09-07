@@ -1,0 +1,955 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\14057\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.pnpm\\@playwright+test@1.62.1\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/e2e/reader.spec.ts",
+      "tests/e2e/finalization.spec.ts"
+    ],
+    "configFile": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\playwright.config.ts",
+    "rootDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "F:/html/网易云优化项目_Batch2_启动包_v1.1/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/batch3-2/document-first.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 1,
+    "webServer": {
+      "command": "node node_modules/vite/bin/vite.js --host 127.0.0.1",
+      "url": "http://127.0.0.1:5173",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "e2e\\finalization.spec.ts",
+      "file": "e2e/finalization.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "B32 limited text diff preserves 15 untouched sections and every original formula",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 262,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n\u001b[32m- Expected  - 13\u001b[39m\n\u001b[31m+ Received  + 13\u001b[39m\n\n\u001b[32m- ## 02｜需求依据\u001b[39m\n\u001b[32m-\u001b[39m\n\u001b[31m+ ## 02｜需求依据\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[31m+ \u001b[43m\r\u001b[49m\u001b[39m\n\u001b[32m- 当前依据为既有产品观察、课程反馈、公开资料及20个模拟问卷案例；尚无真实问卷原始数据。下列诉求是待验证假设，不能用模拟案例估计需求发生率。[S01–S04]\u001b[39m\n\u001b[32m-\u001b[39m\n\u001b[31m+ 当前依据为既有产品观察、课程反馈、公开资料及20个模拟问卷案例；尚无真实问卷原始数据。下列诉求是待验证假设，不能用模拟案例估计需求发生率。[S01–S04]\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[31m+ \u001b[43m\r\u001b[49m\u001b[39m\n\u001b[32m- | 依据 / 现象 | 问题推导 | 方案与验证 |\u001b[39m\n\u001b[31m+ | 依据 / 现象 | 问题推导 | 方案与验证 |\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[32m- | --- | --- | --- |\u001b[39m\n\u001b[31m+ | --- | --- | --- |\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[32m- | 既有观察记录控制入口分散。 | 用户可能找不到纠偏路径；入口难找与调整无效需要分别判断。 | R03聚合入口；分别测发现、完成和调整后体验。 |\u001b[39m\n\u001b[31m+ | 既有观察记录控制入口分散。 | 用户可能找不到纠偏路径；入口难找与调整无效需要分别判断。 | R03聚合入口；分别测发现、完成和调整后体验。 |\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[32m- | 精准偏好、探索、控制新手的诉求不同。 | 相同使用频率不代表相同推荐需求。 | 按意图与熟练度分层，再与频率、强度交叉分析。 |\u001b[39m\n\u001b[31m+ | 精准偏好、探索、控制新手的诉求不同。 | 相同使用频率不代表相同推荐需求。 | 按意图与熟练度分层，再与频率、强度交叉分析。 |\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[32m- | 临时收听不一定代表长期兴趣。 | 情境性行为可能被用于长期学习；实际影响需事件证据核验。 | R04提供隔离控制；先验隔离正确性，再测理解与长期体验。 |\u001b[39m\n\u001b[31m+ | 临时收听不一定代表长期兴趣。 | 情境性行为可能被用于长期学习；实际影响需事件证据核验。 | R04提供隔离控制；先验隔离正确性，再测理解与长期体验。 |\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[32m- | 一句话可同时表达多个条件。 | 可能减少逐项选择，也可能增加解析与确认成本。 | R07与手动调整对照，不以使用AI本身作为收益。 |\u001b[39m\n\u001b[32m-\u001b[39m\n\u001b[31m+ | 一句话可同时表达多个条件。 | 可能减少逐项选择，也可能增加解析与确认成本。 | R07与手动调整对照，不以使用AI本身作为收益。 |\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[31m+ \u001b[43m\r\u001b[49m\u001b[39m\n\u001b[32m- 推荐不合意也可能来自版权或候选池变化、热点、兴趣改变、网络失败。需求验证需区分这些替代解释。既有观察对应2026-08-28的产品画面；W3原报告与公开反馈逐条来源尚待补齐。[S01]\u001b[39m\n\u001b[32m-\u001b[39m\n\u001b[31m+ 推荐不合意也可能来自版权或候选池变化、热点、兴趣改变、网络失败。需求验证需区分这些替代解释。既有观察对应2026-08-28的产品画面；W3原报告与公开反馈逐条来源尚待补齐。[S01]\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[31m+ \u001b[43m\r\u001b[49m\u001b[39m\n\u001b[2m  ↵\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n\u001b[32m- Expected  - 13\u001b[39m\n\u001b[31m+ Received  + 13\u001b[39m\n\n\u001b[32m- ## 02｜需求依据\u001b[39m\n\u001b[32m-\u001b[39m\n\u001b[31m+ ## 02｜需求依据\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[31m+ \u001b[43m\r\u001b[49m\u001b[39m\n\u001b[32m- 当前依据为既有产品观察、课程反馈、公开资料及20个模拟问卷案例；尚无真实问卷原始数据。下列诉求是待验证假设，不能用模拟案例估计需求发生率。[S01–S04]\u001b[39m\n\u001b[32m-\u001b[39m\n\u001b[31m+ 当前依据为既有产品观察、课程反馈、公开资料及20个模拟问卷案例；尚无真实问卷原始数据。下列诉求是待验证假设，不能用模拟案例估计需求发生率。[S01–S04]\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[31m+ \u001b[43m\r\u001b[49m\u001b[39m\n\u001b[32m- | 依据 / 现象 | 问题推导 | 方案与验证 |\u001b[39m\n\u001b[31m+ | 依据 / 现象 | 问题推导 | 方案与验证 |\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[32m- | --- | --- | --- |\u001b[39m\n\u001b[31m+ | --- | --- | --- |\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[32m- | 既有观察记录控制入口分散。 | 用户可能找不到纠偏路径；入口难找与调整无效需要分别判断。 | R03聚合入口；分别测发现、完成和调整后体验。 |\u001b[39m\n\u001b[31m+ | 既有观察记录控制入口分散。 | 用户可能找不到纠偏路径；入口难找与调整无效需要分别判断。 | R03聚合入口；分别测发现、完成和调整后体验。 |\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[32m- | 精准偏好、探索、控制新手的诉求不同。 | 相同使用频率不代表相同推荐需求。 | 按意图与熟练度分层，再与频率、强度交叉分析。 |\u001b[39m\n\u001b[31m+ | 精准偏好、探索、控制新手的诉求不同。 | 相同使用频率不代表相同推荐需求。 | 按意图与熟练度分层，再与频率、强度交叉分析。 |\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[32m- | 临时收听不一定代表长期兴趣。 | 情境性行为可能被用于长期学习；实际影响需事件证据核验。 | R04提供隔离控制；先验隔离正确性，再测理解与长期体验。 |\u001b[39m\n\u001b[31m+ | 临时收听不一定代表长期兴趣。 | 情境性行为可能被用于长期学习；实际影响需事件证据核验。 | R04提供隔离控制；先验隔离正确性，再测理解与长期体验。 |\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[32m- | 一句话可同时表达多个条件。 | 可能减少逐项选择，也可能增加解析与确认成本。 | R07与手动调整对照，不以使用AI本身作为收益。 |\u001b[39m\n\u001b[32m-\u001b[39m\n\u001b[31m+ | 一句话可同时表达多个条件。 | 可能减少逐项选择，也可能增加解析与确认成本。 | R07与手动调整对照，不以使用AI本身作为收益。 |\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[31m+ \u001b[43m\r\u001b[49m\u001b[39m\n\u001b[32m- 推荐不合意也可能来自版权或候选池变化、热点、兴趣改变、网络失败。需求验证需区分这些替代解释。既有观察对应2026-08-28的产品画面；W3原报告与公开反馈逐条来源尚待补齐。[S01]\u001b[39m\n\u001b[32m-\u001b[39m\n\u001b[31m+ 推荐不合意也可能来自版权或候选池变化、热点、兴趣改变、网络失败。需求验证需区分这些替代解释。既有观察对应2026-08-28的产品画面；W3原报告与公开反馈逐条来源尚待补齐。[S01]\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[31m+ \u001b[43m\r\u001b[49m\u001b[39m\n\u001b[2m  ↵\u001b[22m\n    at forEach (F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\finalization.spec.ts:17:63)\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\finalization.spec.ts:16:14",
+                    "location": {
+                      "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\finalization.spec.ts",
+                      "column": 63,
+                      "line": 17
+                    },
+                    "snippet": "  15 |   expect(parts(current)).toHaveLength(19);\n  16 |   parts(old).forEach((section, i) => {\n> 17 |     if (![0, 4, 6, 11].includes(i)) expect(parts(current)[i]).toBe(section);\n     |                                                               ^\n  18 |   });\n  19 |   for (const code of old.match(/```text[\\s\\S]*?```/g) ?? [])\n  20 |     expect(current).toContain(code);"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\finalization.spec.ts",
+                        "column": 63,
+                        "line": 17
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n\u001b[32m- Expected  - 13\u001b[39m\n\u001b[31m+ Received  + 13\u001b[39m\n\n\u001b[32m- ## 02｜需求依据\u001b[39m\n\u001b[32m-\u001b[39m\n\u001b[31m+ ## 02｜需求依据\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[31m+ \u001b[43m\r\u001b[49m\u001b[39m\n\u001b[32m- 当前依据为既有产品观察、课程反馈、公开资料及20个模拟问卷案例；尚无真实问卷原始数据。下列诉求是待验证假设，不能用模拟案例估计需求发生率。[S01–S04]\u001b[39m\n\u001b[32m-\u001b[39m\n\u001b[31m+ 当前依据为既有产品观察、课程反馈、公开资料及20个模拟问卷案例；尚无真实问卷原始数据。下列诉求是待验证假设，不能用模拟案例估计需求发生率。[S01–S04]\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[31m+ \u001b[43m\r\u001b[49m\u001b[39m\n\u001b[32m- | 依据 / 现象 | 问题推导 | 方案与验证 |\u001b[39m\n\u001b[31m+ | 依据 / 现象 | 问题推导 | 方案与验证 |\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[32m- | --- | --- | --- |\u001b[39m\n\u001b[31m+ | --- | --- | --- |\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[32m- | 既有观察记录控制入口分散。 | 用户可能找不到纠偏路径；入口难找与调整无效需要分别判断。 | R03聚合入口；分别测发现、完成和调整后体验。 |\u001b[39m\n\u001b[31m+ | 既有观察记录控制入口分散。 | 用户可能找不到纠偏路径；入口难找与调整无效需要分别判断。 | R03聚合入口；分别测发现、完成和调整后体验。 |\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[32m- | 精准偏好、探索、控制新手的诉求不同。 | 相同使用频率不代表相同推荐需求。 | 按意图与熟练度分层，再与频率、强度交叉分析。 |\u001b[39m\n\u001b[31m+ | 精准偏好、探索、控制新手的诉求不同。 | 相同使用频率不代表相同推荐需求。 | 按意图与熟练度分层，再与频率、强度交叉分析。 |\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[32m- | 临时收听不一定代表长期兴趣。 | 情境性行为可能被用于长期学习；实际影响需事件证据核验。 | R04提供隔离控制；先验隔离正确性，再测理解与长期体验。 |\u001b[39m\n\u001b[31m+ | 临时收听不一定代表长期兴趣。 | 情境性行为可能被用于长期学习；实际影响需事件证据核验。 | R04提供隔离控制；先验隔离正确性，再测理解与长期体验。 |\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[32m- | 一句话可同时表达多个条件。 | 可能减少逐项选择，也可能增加解析与确认成本。 | R07与手动调整对照，不以使用AI本身作为收益。 |\u001b[39m\n\u001b[32m-\u001b[39m\n\u001b[31m+ | 一句话可同时表达多个条件。 | 可能减少逐项选择，也可能增加解析与确认成本。 | R07与手动调整对照，不以使用AI本身作为收益。 |\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[31m+ \u001b[43m\r\u001b[49m\u001b[39m\n\u001b[32m- 推荐不合意也可能来自版权或候选池变化、热点、兴趣改变、网络失败。需求验证需区分这些替代解释。既有观察对应2026-08-28的产品画面；W3原报告与公开反馈逐条来源尚待补齐。[S01]\u001b[39m\n\u001b[32m-\u001b[39m\n\u001b[31m+ 推荐不合意也可能来自版权或候选池变化、热点、兴趣改变、网络失败。需求验证需区分这些替代解释。既有观察对应2026-08-28的产品画面；W3原报告与公开反馈逐条来源尚待补齐。[S01]\u001b[7m\r\u001b[27m\u001b[39m\n\u001b[31m+ \u001b[43m\r\u001b[49m\u001b[39m\n\u001b[2m  ↵\u001b[22m\n\n  15 |   expect(parts(current)).toHaveLength(19);\n  16 |   parts(old).forEach((section, i) => {\n> 17 |     if (![0, 4, 6, 11].includes(i)) expect(parts(current)[i]).toBe(section);\n     |                                                               ^\n  18 |   });\n  19 |   for (const code of old.match(/```text[\\s\\S]*?```/g) ?? [])\n  20 |     expect(current).toContain(code);\n    at forEach (F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\finalization.spec.ts:17:63)\n    at F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\finalization.spec.ts:16:14"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:28:26.415Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-finalization-B32-limit-6cd41--and-every-original-formula\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-finalization-B32-limit-6cd41--and-every-original-formula\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\e2e-finalization-B32-limit-6cd41--and-every-original-formula\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\tests\\e2e\\finalization.spec.ts",
+                    "column": 63,
+                    "line": 17
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "a537f799db3dd161c911-b9a45f76505e1986833d",
+          "file": "e2e/finalization.spec.ts",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "B32 parameter search expands text and printing restores prior disclosure state",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1600,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:28:27.459Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a537f799db3dd161c911-39925c6a5142c99e6ada",
+          "file": "e2e/finalization.spec.ts",
+          "line": 41,
+          "column": 1
+        },
+        {
+          "title": "B32 document disclosure questions and keyboard 320 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3829,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:28:29.199Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a537f799db3dd161c911-143d9b1d49fca0c13d8b",
+          "file": "e2e/finalization.spec.ts",
+          "line": 71,
+          "column": 5
+        },
+        {
+          "title": "B32 document disclosure questions and keyboard 320 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3855,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:28:33.038Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a537f799db3dd161c911-361aa56ee933b2710e83",
+          "file": "e2e/finalization.spec.ts",
+          "line": 71,
+          "column": 5
+        },
+        {
+          "title": "B32 document disclosure questions and keyboard 390 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3713,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:28:36.905Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a537f799db3dd161c911-182cb17c32d3de968dec",
+          "file": "e2e/finalization.spec.ts",
+          "line": 71,
+          "column": 5
+        },
+        {
+          "title": "B32 document disclosure questions and keyboard 390 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3869,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:28:40.628Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a537f799db3dd161c911-dba6dbff62ae8bd52565",
+          "file": "e2e/finalization.spec.ts",
+          "line": 71,
+          "column": 5
+        },
+        {
+          "title": "B32 document disclosure questions and keyboard 768 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3779,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:28:44.507Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a537f799db3dd161c911-3709eaa1f4afe5e14692",
+          "file": "e2e/finalization.spec.ts",
+          "line": 71,
+          "column": 5
+        },
+        {
+          "title": "B32 document disclosure questions and keyboard 768 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3970,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:28:48.297Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a537f799db3dd161c911-74c67e106f525b2b6455",
+          "file": "e2e/finalization.spec.ts",
+          "line": 71,
+          "column": 5
+        },
+        {
+          "title": "B32 document disclosure questions and keyboard 1440 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3899,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:28:52.277Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a537f799db3dd161c911-8763fdcf0470efc159ae",
+          "file": "e2e/finalization.spec.ts",
+          "line": 71,
+          "column": 5
+        },
+        {
+          "title": "B32 document disclosure questions and keyboard 1440 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4168,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:28:56.186Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a537f799db3dd161c911-92c66cbb3c825fee2a20",
+          "file": "e2e/finalization.spec.ts",
+          "line": 71,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "e2e\\reader.spec.ts",
+      "file": "e2e/reader.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Batch3 complete original 01–19 body tables diagrams references and versions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3796,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:29:00.393Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-6c20ee2528f027c02b69",
+          "file": "e2e/reader.spec.ts",
+          "line": 32,
+          "column": 1
+        },
+        {
+          "title": "Batch3 actual PRD original and reference ZIP downloads",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1778,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:29:04.199Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-8960b5877e4e062decc1",
+          "file": "e2e/reader.spec.ts",
+          "line": 96,
+          "column": 1
+        },
+        {
+          "title": "Batch3 reading navigation search table keyboard 320 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5818,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:29:05.987Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-ba9934c656f09c64da30",
+          "file": "e2e/reader.spec.ts",
+          "line": 124,
+          "column": 5
+        },
+        {
+          "title": "Batch3 reading navigation search table keyboard 320 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6033,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:29:11.816Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-c97c7c7c9695bc710d4b",
+          "file": "e2e/reader.spec.ts",
+          "line": 124,
+          "column": 5
+        },
+        {
+          "title": "Batch3 reading navigation search table keyboard 390 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5915,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:29:17.857Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-315dbc39b864f2aface1",
+          "file": "e2e/reader.spec.ts",
+          "line": 124,
+          "column": 5
+        },
+        {
+          "title": "Batch3 reading navigation search table keyboard 390 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6130,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:29:23.783Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-95ad52f72c0c3dfb78e4",
+          "file": "e2e/reader.spec.ts",
+          "line": 124,
+          "column": 5
+        },
+        {
+          "title": "Batch3 reading navigation search table keyboard 768 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5937,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:29:29.923Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-5c24bed958589b61e186",
+          "file": "e2e/reader.spec.ts",
+          "line": 124,
+          "column": 5
+        },
+        {
+          "title": "Batch3 reading navigation search table keyboard 768 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6180,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:29:35.872Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-a223a227d7a5e602436c",
+          "file": "e2e/reader.spec.ts",
+          "line": 124,
+          "column": 5
+        },
+        {
+          "title": "Batch3 reading navigation search table keyboard 1440 100%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6140,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:29:42.062Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-8e24b51935aa5f557ae0",
+          "file": "e2e/reader.spec.ts",
+          "line": 124,
+          "column": 5
+        },
+        {
+          "title": "Batch3 reading navigation search table keyboard 1440 200%",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6590,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:29:48.212Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-a9bd9a04e283d3205de1",
+          "file": "e2e/reader.spec.ts",
+          "line": 124,
+          "column": 5
+        },
+        {
+          "title": "Batch3 all linked flows return to their exact section without applying or loading examples",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4046,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:29:54.813Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-0c4eeb3994d5b60d3f80",
+          "file": "e2e/reader.spec.ts",
+          "line": 184,
+          "column": 1
+        },
+        {
+          "title": "Batch3 route navigation keeps dirty draft and session clock while clearing private AI input",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2356,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:29:58.868Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-853ad613d197a364911b",
+          "file": "e2e/reader.spec.ts",
+          "line": 205,
+          "column": 1
+        },
+        {
+          "title": "Batch3 print contains all original sections tables and static figures",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7028,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:30:01.235Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-f2739cfe9c7cf4c5f300",
+          "file": "e2e/reader.spec.ts",
+          "line": 260,
+          "column": 1
+        },
+        {
+          "title": "Batch3 secondary overview and its internal anchors preserve the active prototype state",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1909,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-06T09:30:08.272Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "929de32f9bdf84c9b85c-9f642d92fae3702462b4",
+          "file": "e2e/reader.spec.ts",
+          "line": 279,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-06T09:28:25.319Z",
+    "duration": 105107.587,
+    "expected": 23,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

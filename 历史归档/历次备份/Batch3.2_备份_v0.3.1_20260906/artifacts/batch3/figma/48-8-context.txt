@@ -1,0 +1,70 @@
+Batch 3 live Figma read · 2026-09-05T18:48:18.280Z
+file: ZbKyQeHug7rM5P88GBSmlY · node: 48:8
+
+export default function D02AdjustDefault() {
+  return (
+    <div className="relative size-full" data-node-id="48:8" data-name="D_02_Adjust_Default">
+      <div className="absolute bg-[rgba(0,0,0,0.42)] h-[844px] left-0 top-0 w-[390px]" data-node-id="48:9" data-name="Overlay / Dim 42%" />
+      <div className="absolute bg-[var(--netease-prototype-color-bg-sheet,#1b1b1f)] h-[444px] left-0 rounded-tl-[24px] rounded-tr-[24px] top-[400px] w-[390px]" data-node-id="48:10" data-name="Sheet Background / Full Width" />
+      <div className="absolute bg-[rgba(161,161,171,0.8)] h-[4px] left-[177px] rounded-[2px] top-[413px] w-[36px]" data-node-id="48:11" data-name="Grabber" />
+      <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Bold'] font-bold leading-[normal] left-[22px] text-[19px] text-[color:var(--netease-prototype-color-text-primary,white)] top-[435px] whitespace-nowrap" data-node-id="48:12">
+        调整推荐偏好
+      </p>
+      <button className="[word-break:break-word] absolute block cursor-pointer h-[62px] leading-[normal] left-[22px] overflow-clip text-left top-[476px] w-[346px] whitespace-nowrap" data-node-id="48:13" data-name="Action / 本次想听">
+        <p className="absolute font-['Noto_Sans_SC:Medium'] font-medium left-0 text-[16px] text-[color:var(--netease-prototype-color-text-primary,white)] top-[7px]" data-node-id="48:14">
+          本次想听
+        </p>
+        <p className="absolute font-['Noto_Sans_SC:Regular'] font-normal left-0 text-[13px] text-[color:var(--netease-prototype-color-text-secondary,#a5a5ad)] top-[31px]" data-node-id="48:15">
+          平衡
+        </p>
+        <p className="absolute font-['Noto_Sans_SC:Medium'] font-medium left-[338px] text-[19px] text-[color:var(--netease-prototype-color-text-secondary,#a5a5ad)] top-[15px]" data-node-id="48:16">
+          ›
+        </p>
+      </button>
+      <div className="absolute bg-[var(--netease-prototype-color-stroke-divider,#303036)] h-px left-[22px] top-[542px] w-[346px]" data-node-id="48:17" data-name="Divider / 本次想听" />
+      <button className="[word-break:break-word] absolute block cursor-pointer h-[62px] leading-[normal] left-[22px] overflow-clip text-left top-[547px] w-[346px] whitespace-nowrap" data-node-id="48:18" data-name="Action / 不想听">
+        <p className="absolute font-['Noto_Sans_SC:Medium'] font-medium left-0 text-[16px] text-[color:var(--netease-prototype-color-text-primary,white)] top-[7px]" data-node-id="48:19">
+          不想听
+        </p>
+        <p className="absolute font-['Noto_Sans_SC:Regular'] font-normal left-0 text-[13px] text-[color:var(--netease-prototype-color-text-secondary,#a5a5ad)] top-[31px]" data-node-id="48:20">
+          暂无
+        </p>
+        <p className="absolute font-['Noto_Sans_SC:Medium'] font-medium left-[338px] text-[19px] text-[color:var(--netease-prototype-color-text-secondary,#a5a5ad)] top-[15px]" data-node-id="48:21">
+          ›
+        </p>
+      </button>
+      <div className="absolute bg-[var(--netease-prototype-color-stroke-divider,#303036)] h-px left-[22px] top-[613px] w-[346px]" data-node-id="48:22" data-name="Divider / 不想听" />
+      <button className="[word-break:break-word] absolute block cursor-pointer h-[62px] leading-[normal] left-[22px] overflow-clip text-left top-[618px] w-[346px] whitespace-nowrap" data-node-id="48:23" data-name="Action / 影响范围">
+        <p className="absolute font-['Noto_Sans_SC:Medium'] font-medium left-0 text-[16px] text-[color:var(--netease-prototype-color-text-primary,white)] top-[7px]" data-node-id="48:24">
+          影响范围
+        </p>
+        <p className="absolute font-['Noto_Sans_SC:Regular'] font-normal left-0 text-[13px] text-[color:var(--netease-prototype-color-text-secondary,#a5a5ad)] top-[31px]" data-node-id="48:25">
+          仅本次推荐
+        </p>
+        <p className="absolute font-['Noto_Sans_SC:Medium'] font-medium left-[338px] text-[19px] text-[color:var(--netease-prototype-color-text-secondary,#a5a5ad)] top-[15px]" data-node-id="48:26">
+          ›
+        </p>
+      </button>
+      <div className="absolute bg-[var(--netease-prototype-color-stroke-divider,#303036)] h-px left-[22px] top-[684px] w-[346px]" data-node-id="48:27" data-name="Divider / 影响范围" />
+      <button className="absolute block border border-[var(--netease-prototype-color-text-secondary,#a5a5ad)] border-solid cursor-pointer h-[48px] left-[22px] overflow-clip rounded-[24px] top-[780px] w-[164px]" data-node-id="48:28" data-name="Action / 取消">
+        <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium leading-[normal] left-[69px] text-[14px] text-[color:var(--netease-prototype-color-text-primary,white)] text-left top-[14px] whitespace-nowrap" data-node-id="48:29">
+          取消
+        </p>
+      </button>
+      <div className="absolute bg-[var(--netease-prototype-red-500,#ff3a3d)] h-[48px] left-[204px] overflow-clip rounded-[24px] top-[780px] w-[164px]" data-node-id="48:30" data-name="Action / 确认调整">
+        <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium leading-[normal] left-[50px] text-[14px] text-[color:var(--netease-prototype-color-text-primary,white)] top-[15px] whitespace-nowrap" data-node-id="48:31">
+          确认调整
+        </p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Images and SVGs will be stored as constants, e.g. const image = '[temporary-asset-url-omitted] These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

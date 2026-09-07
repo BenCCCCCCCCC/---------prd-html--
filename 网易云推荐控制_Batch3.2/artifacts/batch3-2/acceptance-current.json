@@ -1,0 +1,297 @@
+[
+  {
+    "id": "AC01",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC01 AC02 AC03 initial draft / return / cancel / focus return",
+      "acceptance domain behaviors AC01 initial no dirty fields default session"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC02",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC01 AC02 AC03 initial draft / return / cancel / focus return",
+      "acceptance domain behaviors AC02 draft is detached and return retains values"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC03",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC01 AC02 AC03 initial draft / return / cancel / focus return"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC04",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC04 4th tag blocked without replacing selection"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC05",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC05 Demo 1 exploration changes queue and undo",
+      "acceptance domain behaviors AC05 session writes leave persistent state intact"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC06",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC06 promote requires explicit diff confirmation and management",
+      "acceptance domain behaviors AC06 long term diff promotion explicit, clears only corresponding override; independent removal"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC07",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "acceptance domain behaviors AC07 unmentioned tags and AI null are retained"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC08",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC08 conflicting tag prompts explicit resolution",
+      "acceptance domain behaviors AC08 conflict includes old persistent negative and does not delete it"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC09",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "acceptance domain behaviors AC09 hard blacklist survives exploration; soft negatives penalize once"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC10",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "acceptance domain behaviors AC10 scope/isolation orthogonal"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC11",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC11 Demo 2 direct negative artist and undo",
+      "acceptance domain behaviors AC11 scope/isolation orthogonal"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC12",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "acceptance domain behaviors AC12 scope/isolation orthogonal",
+      "acceptance domain behaviors AC12-combination4 scope/isolation orthogonal"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC13",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "acceptance domain behaviors AC13 explicit likes and playlist remain under protection"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC14",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC14 AC15 AC16 AC17 Demo 3 playlist isolation and reminder",
+      "acceptance domain behaviors AC14 all controlled origins protect, unknown is conservative"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC15",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC14 AC15 AC16 AC17 Demo 3 playlist isolation and reminder",
+      "acceptance domain behaviors AC15 idle ends R03 while R04 keeps protecting"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC16",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC14 AC15 AC16 AC17 Demo 3 playlist isolation and reminder",
+      "acceptance domain behaviors AC16 continuous playback max cap; edits never extend start"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC17",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC14 AC15 AC16 AC17 Demo 3 playlist isolation and reminder",
+      "acceptance domain behaviors AC17 disjoint half-open playback segments never backfill"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC18",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "acceptance domain behaviors AC18 double submit uses same operation id exactly once"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC19",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC19 save failure retry and refresh failure keeps protection",
+      "acceptance domain behaviors AC19 save failure retry, refresh failure preserves confirmed protection"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC20",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC20 stale response discarded; version conflict retains draft",
+      "acceptance domain behaviors AC20 late request / same revision wrong request cannot overwrite queue"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC21",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC21 undo conflict does not overwrite newer state",
+      "acceptance domain behaviors AC21 inverse patch preserves likes/playback and rejects subsequent related mutation"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC22",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "acceptance domain behaviors AC22 target is opening track snapshot"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC23",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC23 empty result conservative fallback",
+      "acceptance domain behaviors AC23 empty pool retains playback and hard constraints"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC24",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC24 AI ready editable draft requires final confirmation",
+      "acceptance domain behaviors AC24 adopt edits only draft; null vs empty remains distinct"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC25",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC25 AI 需要确认",
+      "AC25 AI 暂不支持",
+      "acceptance domain behaviors AC25 permissions remain suggestions; real adapter disabled"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC26",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC26 cancel parse leaves no candidate",
+      "acceptance domain behaviors AC26 cancelled and stale parse cannot adopt"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC27",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC27 reload restores synthetic state; raw text absent; reset is namespaced; no outbound request",
+      "acceptance domain behaviors AC27 storage restoration and namespace reset leave unrelated keys"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC28",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC28 keyboard modal traps focus at 320px and 200% text"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC29",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC29 honest first screen and actual simulated playback"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC30",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC30 disabling AI does not break three manual tasks",
+      "acceptance domain behaviors AC30 R07 flag off keeps manual execution independent"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC31",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC31 AC32 AC33 AC34 decisions JSON renders quick/deep labels and stacked alternatives",
+      "AC31 quick and deep presentation consume identical canonical decision values"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC32",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC31 AC32 AC33 AC34 decisions JSON renders quick/deep labels and stacked alternatives",
+      "AC32 each canonical option renders the appropriate adopted/rejected/deferred label"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC33",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC31 AC32 AC33 AC34 decisions JSON renders quick/deep labels and stacked alternatives"
+    ],
+    "newProductApproval": false
+  },
+  {
+    "id": "AC34",
+    "localRegression": "PASS",
+    "executedTitles": [
+      "AC31 AC32 AC33 AC34 decisions JSON renders quick/deep labels and stacked alternatives"
+    ],
+    "newProductApproval": false
+  }
+]

@@ -1,0 +1,287 @@
+[
+  {
+    "name": "open",
+    "y": 0,
+    "focus": "<body><div id=\"root\"><div class=\"prototype-host\"><div class=\"demo-page\"><header class=\"demo-toolbar\"><a href=\"#/\" data-discover=\"true\">← 返回完整 PRD</a><",
+    "elements": {
+      ".product": {
+        "y": 105,
+        "h": 846,
+        "scroll": 846,
+        "client": 846
+      },
+      ".adjust-entry": {
+        "y": 625,
+        "h": 44,
+        "scroll": 44,
+        "client": 44
+      },
+      ".product-notes": {
+        "y": 951,
+        "h": 590,
+        "scroll": 590,
+        "client": 590
+      },
+      ".sheet": {
+        "y": 0,
+        "h": 0,
+        "scroll": 0,
+        "client": 0
+      },
+      ".sheet-inner": null,
+      ".modal-annotations": null,
+      ".product-feedback": null,
+      ".feedback-copy": null
+    }
+  },
+  {
+    "name": "tools",
+    "y": 579,
+    "focus": "<button class=\"full\" aria-expanded=\"true\">测试工具 · 收起</button>",
+    "elements": {
+      ".product": {
+        "y": -474,
+        "h": 846,
+        "scroll": 846,
+        "client": 846
+      },
+      ".adjust-entry": {
+        "y": 46,
+        "h": 44,
+        "scroll": 44,
+        "client": 44
+      },
+      ".product-notes": {
+        "y": 372,
+        "h": 1445,
+        "scroll": 1445,
+        "client": 1445
+      },
+      ".sheet": {
+        "y": 0,
+        "h": 0,
+        "scroll": 0,
+        "client": 0
+      },
+      ".sheet-inner": null,
+      ".modal-annotations": null,
+      ".product-feedback": null,
+      ".feedback-copy": null
+    }
+  },
+  {
+    "name": "failure",
+    "y": 579,
+    "focus": "<button class=\"full\" aria-expanded=\"true\">测试工具 · 收起</button>",
+    "elements": {
+      ".product": {
+        "y": -474,
+        "h": 846,
+        "scroll": 846,
+        "client": 846
+      },
+      ".adjust-entry": {
+        "y": 46,
+        "h": 44,
+        "scroll": 44,
+        "client": 44
+      },
+      ".product-notes": {
+        "y": 372,
+        "h": 1445,
+        "scroll": 1445,
+        "client": 1445
+      },
+      ".sheet": {
+        "y": 0,
+        "h": 0,
+        "scroll": 0,
+        "client": 0
+      },
+      ".sheet-inner": null,
+      ".modal-annotations": null,
+      ".product-feedback": null,
+      ".feedback-copy": null
+    }
+  },
+  {
+    "name": "root",
+    "y": 579,
+    "focus": "<summary>研发规则标注 · R03 · 调整推荐偏好</summary>",
+    "elements": {
+      ".product": {
+        "y": -474,
+        "h": 846,
+        "scroll": 846,
+        "client": 846
+      },
+      ".adjust-entry": {
+        "y": 46,
+        "h": 44,
+        "scroll": 44,
+        "client": 44
+      },
+      ".product-notes": {
+        "y": 372,
+        "h": 963,
+        "scroll": 963,
+        "client": 963
+      },
+      ".sheet": {
+        "y": 353,
+        "h": 491,
+        "scroll": 491,
+        "client": 491
+      },
+      ".sheet-inner": {
+        "y": 397,
+        "h": 447,
+        "scroll": 447,
+        "client": 447
+      },
+      ".modal-annotations": {
+        "y": 353,
+        "h": 44,
+        "scroll": 44,
+        "client": 44
+      },
+      ".product-feedback": null,
+      ".feedback-copy": null
+    }
+  },
+  {
+    "name": "want",
+    "y": 579,
+    "focus": "<body><div id=\"root\"><div class=\"prototype-host\"><div class=\"demo-page\"><header class=\"demo-toolbar\"><a href=\"#/\" data-discover=\"true\">← 返回完整 PRD</a><",
+    "elements": {
+      ".product": {
+        "y": -474,
+        "h": 846,
+        "scroll": 846,
+        "client": 846
+      },
+      ".adjust-entry": {
+        "y": 46,
+        "h": 44,
+        "scroll": 44,
+        "client": 44
+      },
+      ".product-notes": {
+        "y": 372,
+        "h": 963,
+        "scroll": 963,
+        "client": 963
+      },
+      ".sheet": {
+        "y": 153,
+        "h": 691,
+        "scroll": 691,
+        "client": 691
+      },
+      ".sheet-inner": {
+        "y": 197,
+        "h": 647,
+        "scroll": 647,
+        "client": 647
+      },
+      ".modal-annotations": {
+        "y": 153,
+        "h": 44,
+        "scroll": 44,
+        "client": 44
+      },
+      ".product-feedback": null,
+      ".feedback-copy": null
+    }
+  },
+  {
+    "name": "complete",
+    "y": 579,
+    "focus": "<button class=\"primary\">确认调整</button>",
+    "elements": {
+      ".product": {
+        "y": -474,
+        "h": 846,
+        "scroll": 846,
+        "client": 846
+      },
+      ".adjust-entry": {
+        "y": 46,
+        "h": 44,
+        "scroll": 44,
+        "client": 44
+      },
+      ".product-notes": {
+        "y": 372,
+        "h": 963,
+        "scroll": 963,
+        "client": 963
+      },
+      ".sheet": {
+        "y": 353,
+        "h": 491,
+        "scroll": 491,
+        "client": 491
+      },
+      ".sheet-inner": {
+        "y": 397,
+        "h": 447,
+        "scroll": 447,
+        "client": 447
+      },
+      ".modal-annotations": {
+        "y": 353,
+        "h": 44,
+        "scroll": 44,
+        "client": 44
+      },
+      ".product-feedback": null,
+      ".feedback-copy": null
+    }
+  },
+  {
+    "name": "commit",
+    "y": 579,
+    "focus": "<button class=\"adjust-entry\" data-annotation-target=\"adjust-entry\"><span>调整本次推荐偏好 <span aria-hidden=\"true\">›</span></span></button>",
+    "elements": {
+      ".product": {
+        "y": -474,
+        "h": 846,
+        "scroll": 846,
+        "client": 846
+      },
+      ".adjust-entry": {
+        "y": 46,
+        "h": 44,
+        "scroll": 44,
+        "client": 44
+      },
+      ".product-notes": {
+        "y": 372,
+        "h": 1476.5,
+        "scroll": 1477,
+        "client": 1477
+      },
+      ".sheet": {
+        "y": 0,
+        "h": 0,
+        "scroll": 0,
+        "client": 0
+      },
+      ".sheet-inner": null,
+      ".modal-annotations": null,
+      ".product-feedback": {
+        "y": 146,
+        "h": 71,
+        "scroll": 69,
+        "client": 69
+      },
+      ".feedback-copy": {
+        "y": 155,
+        "h": 9,
+        "scroll": 56,
+        "client": 9
+      }
+    }
+  }
+]

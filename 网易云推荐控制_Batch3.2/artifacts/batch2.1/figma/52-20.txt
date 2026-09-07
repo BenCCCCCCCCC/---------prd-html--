@@ -1,0 +1,51 @@
+export default function D04DontDefault() {
+  return (
+    <div className="relative size-full" data-node-id="52:20" data-name="D_04_Dont_Default">
+      <div className="absolute bg-[rgba(0,0,0,0.42)] h-[844px] left-0 top-0 w-[390px]" data-node-id="52:21" data-name="Overlay / Dim 42%" />
+      <div className="absolute bg-[#131317] h-[484px] left-0 rounded-[24px] top-[360px] w-[390px]" data-node-id="52:22" data-name="Sheet Background / Full Width" />
+      <div className="absolute bg-[rgba(145,145,156,0.6)] h-[4px] left-[171px] rounded-[3px] top-[372px] w-[48px]" data-node-id="52:23" data-name="Grabber" />
+      <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Bold'] font-bold h-[30px] leading-[27px] left-[22px] text-[#f2f2f5] text-[20px] top-[397px] w-[260px]" data-node-id="52:24">
+        选择不喜欢的内容
+      </p>
+      <p className="-translate-x-full [word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium h-[20px] leading-[16px] left-[369px] text-[#91919c] text-[12px] text-right top-[398px] w-[110px] whitespace-pre-wrap" data-node-id="52:25">{`音乐黑名单  ›`}</p>
+      <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] font-normal h-[20px] leading-[16px] left-[22px] text-[#91919c] text-[12px] top-[429px] w-[260px]" data-node-id="52:26">
+        调整后续推荐，不会加入黑名单
+      </p>
+      <div className="absolute h-[52px] left-[22px] overflow-clip top-[469px] w-[346px]" data-node-id="52:27" data-name="Action / 不喜欢歌曲">
+        <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium h-[28px] leading-[20px] left-0 text-[#f2f2f5] text-[15px] top-[10px] w-[268px]" data-node-id="52:28">
+          不喜欢歌曲：牵丝戏
+        </p>
+        <div className="absolute bg-[#131317] border-[#91919c] border-[1.5px] border-solid left-[316px] rounded-[12px] size-[24px] top-[14px]" data-node-id="52:29" data-name="Radio" />
+      </div>
+      <div className="absolute bg-[#26262e] h-px left-[22px] top-[532px] w-[346px]" data-node-id="52:30" data-name="Divider / 歌曲" />
+      <button className="absolute block cursor-pointer h-[52px] left-[22px] overflow-clip top-[543px] w-[346px]" data-node-id="52:31" data-name="Action / 不喜欢音乐人">
+        <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium h-[28px] leading-[20px] left-0 text-[#f2f2f5] text-[15px] text-left top-[10px] w-[292px]" data-node-id="52:32">
+          不喜欢音乐人：Aki阿杰 / 银临
+        </p>
+        <div className="absolute bg-[#131317] border-[#91919c] border-[1.5px] border-solid left-[316px] rounded-[12px] size-[24px] top-[14px]" data-node-id="52:33" data-name="Radio" />
+      </button>
+      <div className="absolute bg-[#26262e] h-px left-[22px] top-[606px] w-[346px]" data-node-id="52:34" data-name="Divider / 音乐人" />
+      <div className="absolute h-[52px] left-[22px] overflow-clip top-[617px] w-[346px]" data-node-id="52:35" data-name="Action / 不喜欢风格">
+        <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium h-[28px] leading-[20px] left-0 text-[#f2f2f5] text-[15px] top-[10px] w-[268px]" data-node-id="52:36">
+          不喜欢风格：民谣
+        </p>
+        <div className="absolute bg-[#131317] border-[#91919c] border-[1.5px] border-solid left-[316px] rounded-[12px] size-[24px] top-[14px]" data-node-id="52:37" data-name="Radio" />
+      </div>
+      <div className="absolute h-[48px] left-[22px] overflow-clip top-[776px] w-[346px]" data-node-id="52:38" data-name="Action / 完成">
+        <div className="absolute bg-[#ff3b40] h-[48px] left-0 rounded-[24px] top-0 w-[346px]" data-node-id="52:39" data-name="Visual" />
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans_SC:Bold'] font-bold h-[26px] leading-[23px] left-[173px] text-[#f2f2f5] text-[17px] text-center top-[11px] w-[346px]" data-node-id="52:40">
+          完成
+        </p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

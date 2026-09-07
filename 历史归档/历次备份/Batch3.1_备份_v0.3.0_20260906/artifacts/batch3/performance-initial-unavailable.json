@@ -1,0 +1,10 @@
+{
+  "mode": "local_lab_only",
+  "environment": {
+    "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+    "benchmarkIndex": 2529,
+    "credits": {}
+  },
+  "score": null,
+  "inp": "NOT_MEASURED: navigation lab run is not field INP"
+}

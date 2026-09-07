@@ -1,0 +1,14 @@
+src/generated
+specs
+data
+design
+docs
+qa
+archive
+approval
+node_modules
+dist
+artifacts
+MANIFEST.json
+pnpm-lock.yaml
+package-lock.json

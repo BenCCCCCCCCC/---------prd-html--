@@ -1,0 +1,177 @@
+{
+  "sourceSha256": "ee82185ef668fd81ce506d5ca83f33cd4472b264d6ed52bbd52e15ad4bf2786d",
+  "sections": [
+    {
+      "id": "01",
+      "title": "## 01｜项目定义与交付边界",
+      "status": "PASS",
+      "completeTextSha256": "0bf65b6d8abeaf05eb721c4f838a74b510db6ef8e812029a8bc2456053af2a64",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 2
+    },
+    {
+      "id": "02",
+      "title": "## 02｜证据、问题推导与研究边界",
+      "status": "PASS",
+      "completeTextSha256": "5357c7749e814b811d7f43932e374f51aec54e38ca677a5466685944c1136a7b",
+      "tables": 2,
+      "staticTextDiagrams": 0,
+      "references": 5
+    },
+    {
+      "id": "03",
+      "title": "## 03｜用户分层：先定义口径，再讨论高频",
+      "status": "PASS",
+      "completeTextSha256": "73ddd906342c55d58b3184662c8e9f62c5d89585acc53f06a10190081c310832",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 1
+    },
+    {
+      "id": "04",
+      "title": "## 04｜典型诉求与交叉分析",
+      "status": "PASS",
+      "completeTextSha256": "41564c088506f5323a44b7bd23deb484e89014a958756ce8b2c96a0a47a7c992",
+      "tables": 2,
+      "staticTextDiagrams": 0,
+      "references": 1
+    },
+    {
+      "id": "05",
+      "title": "## 05｜竞品输入、差异化与方案取舍",
+      "status": "PASS",
+      "completeTextSha256": "c3479d532542134dc075c92b535d1f5e937de5be931bf3f5003ceeab0aa568a3",
+      "tables": 2,
+      "staticTextDiagrams": 0,
+      "references": 4
+    },
+    {
+      "id": "06",
+      "title": "## 06｜R03：入口、字段与提交规则",
+      "status": "PASS",
+      "completeTextSha256": "278a32b4b4492e9c9cd4b5b82e7f1988e374e397680cfce72fe0e25eaa92e756",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 0
+    },
+    {
+      "id": "07",
+      "title": "## 07｜推荐规则：可执行演示与真实算法边界",
+      "status": "PASS",
+      "completeTextSha256": "4e2d72f5bbcc907ce2628c573975305b437d606f55a5d0668eb0dba3655a5645",
+      "tables": 1,
+      "staticTextDiagrams": 1,
+      "references": 1
+    },
+    {
+      "id": "08",
+      "title": "## 08｜R03 / R04：范围与事件不能混为一谈",
+      "status": "PASS",
+      "completeTextSha256": "c164ef07a8fca3c87ccacca4a5ba06a65da383dc611a80435eccedb74b747bdb",
+      "tables": 2,
+      "staticTextDiagrams": 0,
+      "references": 0
+    },
+    {
+      "id": "09",
+      "title": "## 09｜会话生命周期与忘记关闭",
+      "status": "PASS",
+      "completeTextSha256": "3c9186bc827a4ea44cfff90280880012529fb4bac104763ab32d7bf5a6e90fc8",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 1
+    },
+    {
+      "id": "10",
+      "title": "## 10｜信息结构、正向与逆向流程",
+      "status": "PASS",
+      "completeTextSha256": "13f50400d4446eaf5e0408a62d9d57d7714420f6d63212f08692dbfddbf7fcdc",
+      "tables": 1,
+      "staticTextDiagrams": 1,
+      "references": 0
+    },
+    {
+      "id": "11",
+      "title": "## 11｜多角色流程与执行一致性",
+      "status": "PASS",
+      "completeTextSha256": "622efdd3e9288adf8b7b3cbbe49724df0f9aca7dfdbb74cc420164a82f4961c9",
+      "tables": 0,
+      "staticTextDiagrams": 0,
+      "references": 0
+    },
+    {
+      "id": "12",
+      "title": "## 12｜异常、数据边界与成本风险",
+      "status": "PASS",
+      "completeTextSha256": "6f15e265a09e6388f2c50e7b5dc002a255f49001355bee03daea027807f2e441",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 0
+    },
+    {
+      "id": "13",
+      "title": "## 13｜R07：受控自然语言实验",
+      "status": "PASS",
+      "completeTextSha256": "638da2b47d3f97630376b43492d1f1daec1c822fee3d076095e56fe82069b5cd",
+      "tables": 1,
+      "staticTextDiagrams": 1,
+      "references": 2
+    },
+    {
+      "id": "14",
+      "title": "## 14｜指标：结果、过程、反向",
+      "status": "PASS",
+      "completeTextSha256": "d0689ea361968b2555a5ebd94f116006e222a6bcb807d4ed6b85c9754eaaa357",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 1
+    },
+    {
+      "id": "15",
+      "title": "## 15｜埋点与 A/B：归因和上线门槛",
+      "status": "PASS",
+      "completeTextSha256": "3401e818508aead51815f5bdaad519410fe01c86e93e4ba048c9a8c11177efbb",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 1
+    },
+    {
+      "id": "16",
+      "title": "## 16｜验收、阶段与需求追踪",
+      "status": "PASS",
+      "completeTextSha256": "ee4b211b7ecd6d04a9792601c92729598237b5f88b420dc2fe1a93d318204cb5",
+      "tables": 2,
+      "staticTextDiagrams": 0,
+      "references": 0
+    },
+    {
+      "id": "17",
+      "title": "## 17｜后续需求、投入产出与待补证据",
+      "status": "PASS",
+      "completeTextSha256": "01681d7eb02d5410c005c85bf249c16cc65ee91fbea9075434d2dfd9174d5e3d",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 0
+    },
+    {
+      "id": "18",
+      "title": "## 18｜资料索引与作品集诚实表达",
+      "status": "PASS",
+      "completeTextSha256": "c75e3cbaf1f6c7fdbeea6dde7a51395983b0e304a4eab9afe81031a5079415b8",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 5
+    },
+    {
+      "id": "19",
+      "title": "## 19｜方案取舍、未采用方案与反转条件",
+      "status": "PASS",
+      "completeTextSha256": "e5cc0a7dde80a9335e751b8ca9ba69b16a9a286e66cd87d1faf667ab7b446021",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 0
+    }
+  ],
+  "imageCount": 1
+}

@@ -1,0 +1,11 @@
+{
+  "docs/PRD_v0.5.1.md": "ee82185ef668fd81ce506d5ca83f33cd4472b264d6ed52bbd52e15ad4bf2786d",
+  "design/flow_roles.png": "942c8bdf7332574eaa017f7ac3472388f0abd10f8e98ff26d6ade1b9620d3a9f",
+  "docs/SOURCES.md": "5a471199a7570683a520104d804bf05f5977484da26d6da597025a897e39c725",
+  "docs/TRADEOFFS_AND_REJECTED_ALTERNATIVES.md": "fe433fcf2b98a25af85444ed7fe53b93c4998e8b2602ecfcbafe216273511551",
+  "docs/TEST_PLAN.md": "a99510fa92a3167cbe4d2f532b1ba20ff4bca6c9fddccea570cbb09baddfe64f",
+  "specs/product-config.json": "246455d377011e2ba4f778dda5180791636e3e39331cceda460cdd8749b8d222",
+  "specs/events.spec.json": "2a4104e434876d799159ab581a8b15a442da5834e4f4cc2ea4552b71f771f9a6",
+  "specs/portfolio-decisions.json": "7787c8e08b8af5294d4b39f71c9fc92df839448cd67f8ff0a2831b2493fe3653",
+  "data/acceptance_cases.json": "de5152642b482795d78074e9591c36418838d9b65ae8bc4148e88770ba196cf6"
+}

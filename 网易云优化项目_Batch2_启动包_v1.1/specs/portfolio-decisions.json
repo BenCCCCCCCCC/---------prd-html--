@@ -1,0 +1,291 @@
+{
+  "schemaVersion": "0.1.0",
+  "status": "approved_for_local_beta",
+  "terminology": {
+    "designComparison": "方案 A/B/C",
+    "experimentComparison": "A/B 对照实验",
+    "rejectedLabel": "未采用",
+    "deferredLabel": "延后",
+    "selectedLabel": "采用",
+    "demoScenario": "Demo 1/2/3（主动调整 / 即时负反馈 / 临时收听）"
+  },
+  "quickScanDecisionIds": [
+    "T02",
+    "T04",
+    "T07"
+  ],
+  "decisions": [
+    {
+      "id": "T01",
+      "title": "用户分层",
+      "question": "如何解释相似频率用户的不同推荐诉求？",
+      "selectedOption": "B",
+      "criteria": [
+        "解释力",
+        "证据诚实",
+        "可招募与分析",
+        "维护成本"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "只按高频/低频",
+          "status": "rejected",
+          "reason": "不能解释意图、熟练度和临时情境"
+        },
+        {
+          "id": "B",
+          "label": "多维分轴与交叉组合",
+          "status": "selected",
+          "reason": "能形成可执行口径并避免频率替代需求"
+        },
+        {
+          "id": "C",
+          "label": "虚构完整 Persona",
+          "status": "rejected",
+          "reason": "缺少真实访谈，不应编造姓名与细节"
+        }
+      ],
+      "tradeoff": "记录与分析更复杂",
+      "validation": "覆盖相似频率、不同意图与熟练度的任务测试"
+    },
+    {
+      "id": "T02",
+      "title": "入口形态",
+      "question": "怎样在不重做首页的情况下完成当下纠偏？",
+      "selectedOption": "B",
+      "criteria": [
+        "场景接近度",
+        "可发现性",
+        "实现范围",
+        "可验证性"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "独立推荐控制中心",
+          "status": "rejected",
+          "reason": "入口更深、范围和学习成本更大"
+        },
+        {
+          "id": "B",
+          "label": "可见入口 + Bottom Sheet",
+          "status": "selected",
+          "reason": "靠近当前听歌任务、复用现有页面、可形成闭环"
+        },
+        {
+          "id": "C",
+          "label": "手势作为主要入口",
+          "status": "deferred",
+          "reason": "不可发现且可能与系统或播放器手势冲突"
+        }
+      ],
+      "tradeoff": "弹层空间有限，需要信息分层",
+      "validation": "入口发现、首次完成、返回取消和缩放可达性"
+    },
+    {
+      "id": "T03",
+      "title": "首版范围",
+      "question": "哪些需求进入首版本地 Beta？",
+      "selectedOption": "B",
+      "criteria": [
+        "问题闭环",
+        "归因",
+        "实现复杂度",
+        "作品集相关性"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "R03-R07 全量实现",
+          "status": "rejected",
+          "reason": "范围过宽、无法定位价值来源"
+        },
+        {
+          "id": "B",
+          "label": "R03/R04 核心 + R07 实验",
+          "status": "selected",
+          "reason": "兼顾完整控制链路、画像保护和 AI 边界"
+        },
+        {
+          "id": "C",
+          "label": "只做 R03",
+          "status": "rejected",
+          "reason": "无法验证临时画像保护与 AI 产品能力"
+        }
+      ],
+      "tradeoff": "仍需维护确定性状态和 AI 候选链路",
+      "validation": "各模块独立验收；R07 失败不阻断核心流程"
+    },
+    {
+      "id": "T04",
+      "title": "控制模型",
+      "question": "显式设置范围和隐式行为隔离是否合并？",
+      "selectedOption": "B",
+      "criteria": [
+        "用户预期",
+        "事件边界",
+        "权限",
+        "可测试性"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "一个“不影响推荐”开关",
+          "status": "rejected",
+          "reason": "无法区分控制对象与后果"
+        },
+        {
+          "id": "B",
+          "label": "显式范围与临时收听拆分",
+          "status": "selected",
+          "reason": "分别解释设置存储和普通行为学习"
+        },
+        {
+          "id": "C",
+          "label": "所有调整仅会话生效",
+          "status": "rejected",
+          "reason": "不能满足明确长期保存需求"
+        }
+      ],
+      "tradeoff": "增加一个需要验证的概念",
+      "validation": "让用户复述四种组合及关闭后的后果"
+    },
+    {
+      "id": "T05",
+      "title": "负反馈强度",
+      "question": "纠偏应该是软降权、强屏蔽还是仅跳过？",
+      "selectedOption": "B",
+      "criteria": [
+        "可恢复性",
+        "探索保护",
+        "用户预期",
+        "纠偏信号"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "全部加入黑名单",
+          "status": "rejected",
+          "reason": "过强且可能永久收窄推荐"
+        },
+        {
+          "id": "B",
+          "label": "少推与黑名单分层",
+          "status": "selected",
+          "reason": "同时支持轻度纠偏和强约束"
+        },
+        {
+          "id": "C",
+          "label": "只允许跳过",
+          "status": "rejected",
+          "reason": "系统仍只能继续猜测"
+        }
+      ],
+      "tradeoff": "需要处理冲突并解释仍可能出现",
+      "validation": "用户能否选择符合真实意图的反馈强度"
+    },
+    {
+      "id": "T06",
+      "title": "临时收听到期",
+      "question": "如何减少遗忘又不静默恢复长期学习？",
+      "selectedOption": "B",
+      "criteria": [
+        "数据权限",
+        "遗忘风险",
+        "打扰成本",
+        "状态清晰度"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "4小时自动关闭",
+          "status": "rejected",
+          "reason": "可能在用户不知情时恢复学习"
+        },
+        {
+          "id": "B",
+          "label": "到时待确认且继续保护",
+          "status": "selected",
+          "reason": "不阻断听歌，也不静默放行"
+        },
+        {
+          "id": "C",
+          "label": "永不提醒、仅手动关闭",
+          "status": "rejected",
+          "reason": "忘记关闭和常驻状态负担更高"
+        }
+      ],
+      "tradeoff": "增加确认和提醒设计",
+      "validation": "理解当前保护状态、关闭后果和不追溯回填"
+    },
+    {
+      "id": "T07",
+      "title": "AI 实现",
+      "question": "公开首版是否直接连接真实 LLM？",
+      "selectedOption": "B",
+      "criteria": [
+        "稳定性",
+        "安全与成本",
+        "可复现评估",
+        "AI 产品展示"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "真实 LLM 首发",
+          "status": "rejected",
+          "reason": "密钥、费用、漂移和网络会削弱稳定性"
+        },
+        {
+          "id": "B",
+          "label": "本地解析器 + 关闭的模型 Adapter",
+          "status": "selected",
+          "reason": "先验证 Schema、权限、修正、确认和 Eval"
+        },
+        {
+          "id": "C",
+          "label": "完全删除 AI",
+          "status": "rejected",
+          "reason": "无法展示 AI 能力边界与验证设计"
+        }
+      ],
+      "tradeoff": "不能声称真实模型效果，语言覆盖有限",
+      "validation": "合成与非法用例；未来真实模型与本地基线比较"
+    },
+    {
+      "id": "T08",
+      "title": "公开叙事",
+      "question": "没有真实结果时如何建立作品集可信度？",
+      "selectedOption": "B",
+      "criteria": [
+        "证据诚实",
+        "可读性",
+        "产品深度",
+        "求职风险"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "补模拟问卷和增长数字",
+          "status": "rejected",
+          "reason": "会把合成数据包装成真实成果"
+        },
+        {
+          "id": "B",
+          "label": "证据状态 + 已完成/未证明/下一步",
+          "status": "selected",
+          "reason": "不依赖假数字也能展示判断与验证能力"
+        },
+        {
+          "id": "C",
+          "label": "只展示 UI，不谈证据",
+          "status": "rejected",
+          "reason": "无法支撑产品与 AI 决策深度"
+        }
+      ],
+      "tradeoff": "需要严格控制首屏信息密度",
+      "validation": "90秒内能否复述问题、决策、证据边界和下一步"
+    }
+  ]
+}

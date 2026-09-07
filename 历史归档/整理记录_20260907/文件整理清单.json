@@ -1,0 +1,338 @@
+[
+  {
+    "action": "move",
+    "from": "F:\\html\\Batch2_交付",
+    "to": "F:\\html\\历史归档\\历次交付\\Batch2_交付"
+  },
+  {
+    "action": "move",
+    "from": "F:\\html\\Batch2.1_交付",
+    "to": "F:\\html\\历史归档\\历次交付\\Batch2.1_交付"
+  },
+  {
+    "action": "move",
+    "from": "F:\\html\\Batch2.1_备份_修改前",
+    "to": "F:\\html\\历史归档\\历次备份\\Batch2.1_备份_修改前"
+  },
+  {
+    "action": "move",
+    "from": "F:\\html\\Batch2.1_收尾_交付_v0.2.3",
+    "to": "F:\\html\\历史归档\\历次交付\\Batch2.1_收尾_交付_v0.2.3"
+  },
+  {
+    "action": "move",
+    "from": "F:\\html\\Batch2.1_收尾_备份_v0.2.2_20260906",
+    "to": "F:\\html\\历史归档\\历次备份\\Batch2.1_收尾_备份_v0.2.2_20260906"
+  },
+  {
+    "action": "move",
+    "from": "F:\\html\\Batch3_交付_v0.3.0",
+    "to": "F:\\html\\历史归档\\历次交付\\Batch3_交付_v0.3.0"
+  },
+  {
+    "action": "move",
+    "from": "F:\\html\\Batch3_备份_v0.2.3_20260906",
+    "to": "F:\\html\\历史归档\\历次备份\\Batch3_备份_v0.2.3_20260906"
+  },
+  {
+    "action": "move",
+    "from": "F:\\html\\Batch3.1_交付_v0.3.1",
+    "to": "F:\\html\\历史归档\\历次交付\\Batch3.1_交付_v0.3.1"
+  },
+  {
+    "action": "move",
+    "from": "F:\\html\\Batch3.1_备份_v0.3.0_20260906",
+    "to": "F:\\html\\历史归档\\历次备份\\Batch3.1_备份_v0.3.0_20260906"
+  },
+  {
+    "action": "move",
+    "from": "F:\\html\\Batch3.2_备份_v0.3.1_20260906",
+    "to": "F:\\html\\历史归档\\历次备份\\Batch3.2_备份_v0.3.1_20260906"
+  },
+  {
+    "action": "move",
+    "from": "F:\\html\\Batch2.1_CODEX_视觉对齐修正指令.md",
+    "to": "F:\\html\\历史归档\\旧指令\\Batch2.1_CODEX_视觉对齐修正指令.md"
+  },
+  {
+    "action": "delete_redundant_or_regenerable",
+    "path": "F:\\html\\finalization_input",
+    "files": [
+      {
+        "path": "F:\\html\\finalization_input\\00_使用说明.md",
+        "bytes": 980,
+        "sha256": "B00318A8EA8E7C049838A475BB4401C93B06A791C5AB011EC570B632C08879B6"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\BATCH3_1_CODEX_定稿与播放器复刻.md",
+        "bytes": 11880,
+        "sha256": "36BFE02748858F21AED43DA9BA5EE9128995F599275EB00470824F1AEB7D2D58"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\content\\网易云音乐_PRD_v0.6_提交候选.docx",
+        "bytes": 337876,
+        "sha256": "D95E3C354A8AC0C125E49782CD1729C81AA5A085BA51450EC154C54C612642BE"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\content\\PRD_v0.6_提交候选.md",
+        "bytes": 32045,
+        "sha256": "4C673B161BCFE829CCE85C234D4071E128A673FCDE525C2E09913C2D598B94CD"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\content\\SOURCES.md",
+        "bytes": 1708,
+        "sha256": "794DF42458E5AE299B70DD94A13AEB4A96505026311AF77E20DDE825F4E78B0B"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\design\\flow_roles.png",
+        "bytes": 292506,
+        "sha256": "942C8BDF7332574EAA017F7AC3472388F0ABD10F8E98FF26D6ADE1B9620D3A9F"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\internal\\CONTENT_QA.json",
+        "bytes": 1395,
+        "sha256": "E04E1E347B2C420868C3475A1BE8A250D54C66A1BFFF31247A161276A1052CBC"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\internal\\CONTENT_QA.md",
+        "bytes": 1062,
+        "sha256": "FE6BE8E7CD653AE31110204A22C89588E135BA0C50AB2D7F64F3774DEF3463A8"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\internal\\INPUT_MANIFEST.json",
+        "bytes": 3259,
+        "sha256": "D0759E8BF22766086CA1D3CEE6245AAF6DE55094812FDA509040695CC8398070"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\internal\\PRD_v0.5.1_历史原稿.md",
+        "bytes": 48432,
+        "sha256": "EE82185EF668FD81CE506D5CA83F33CD4472B264D6ED52BBD52E15AD4BF2786D"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\internal\\REVIEW_AND_CHANGE_MAP.md",
+        "bytes": 9500,
+        "sha256": "5D76164C1A8D027A9DF2343B9622E9D1CE6BE47226307BAC66BD0DC43A52373E"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\internal\\SOURCES_原始记录.md",
+        "bytes": 5158,
+        "sha256": "5A471199A7570683A520104D804BF05F5977484DA26D6DA597025A897E39C725"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\reference\\48-2-context.txt",
+        "bytes": 2594,
+        "sha256": "C578E171F8FE028647F69F8CE937B4753B18A8F9216A42E4A4A1A882C287C9B7"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\reference\\48-2.png",
+        "bytes": 168765,
+        "sha256": "0F40FD9EBA3C1B35B4428C61B07276AB629DF67C2268D686437926D4D36585AF"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\reference\\48-8-context.txt",
+        "bytes": 6434,
+        "sha256": "AEB72283A6069047631A1948F3C97A812BE060C94C98088BD12240D5C2030A89"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\reference\\48-8.png",
+        "bytes": 16515,
+        "sha256": "46F06B3A7E6972700B592E3E70F734CE08D42BE032D7A3991905789F4CAFB883"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\reference\\50-60-context.txt",
+        "bytes": 7209,
+        "sha256": "EFA2E22CA13D12DC5E517B059D8758E85D184F377B99522EF31D3ABF0276C4CF"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\reference\\50-60.png",
+        "bytes": 18715,
+        "sha256": "3A15BD88710A0709A0147F4044B03126B098AEABD5BE80D0D3AB9E6C1C5CDE01"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\reference\\69-45-context.txt",
+        "bytes": 5731,
+        "sha256": "E7BEF0C6CBC944F876F4553B0C9BB75B1977E040EAFACB5738F623A86C7C8D98"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\reference\\69-45.png",
+        "bytes": 29360,
+        "sha256": "AB1172AB110201935D782F8B0D1E33F4613E9F5250ED8769B3427E06D0842BAA"
+      },
+      {
+        "path": "F:\\html\\finalization_input\\specs\\annotations.json",
+        "bytes": 9021,
+        "sha256": "E9122596D23E74E807D6316D37D74FC5FAD051ECCCDA1E7FFAB3F612525C26D1"
+      }
+    ],
+    "bytes": 1010145.0
+  },
+  {
+    "action": "delete_redundant_or_regenerable",
+    "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\.cache",
+    "files": [
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\.cache\\npm-lock\\package.json",
+        "bytes": 1514,
+        "sha256": "3943C86B3F46C70E4892355ABF7A8158414F589A467AFE84A787E69672253BBE"
+      }
+    ],
+    "bytes": 1514.0
+  },
+  {
+    "action": "delete_redundant_or_regenerable",
+    "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite",
+    "files": [
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\_metadata.json",
+        "bytes": 2266,
+        "sha256": "DCA8784342EE74C3180EBAF8E038FD20AB495DE8830AE7DD0A8640D48BA81FB7"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\ajv_dist_2020.js",
+        "bytes": 251251,
+        "sha256": "D17725C896872DC2677A6FFDCC78414647792CA2568BBE240E2B299135EB8133"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\ajv_dist_2020.js.map",
+        "bytes": 445763,
+        "sha256": "CB3E2CE3C0FB51966DB2311AC49A4C6C15CA2AAF051FCB77785FE30A664FA8F7"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\lib-Dz5vyMGF.js",
+        "bytes": 55424,
+        "sha256": "FCC3E3DFBB6F53520F0F35B920B90E79EF07AF0DB0A11FAB134D5449FBB6F3C4"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\lib-Dz5vyMGF.js.map",
+        "bytes": 96633,
+        "sha256": "301384FB098919A79ADCCDEEB7A87A0DBB05152C027B25BAF62720D2EF337436"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\package.json",
+        "bytes": 23,
+        "sha256": "3CA9D4AFD21425087CF31893B8F9F63C81B0B8408DB5E343CA76E5F8AA26AB9A"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\react_jsx-dev-runtime.js",
+        "bytes": 10530,
+        "sha256": "27760C48F8B3BF945283D34A342A49888093F5A5BC0DF9EE4F91205D161A4517"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\react_jsx-dev-runtime.js.map",
+        "bytes": 18160,
+        "sha256": "8E6E3E0FCB60FBAFD6C32B879CFEBFDF124629552AEFCA5A2C5107F712168553"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\react_jsx-runtime.js",
+        "bytes": 10844,
+        "sha256": "0DCA0B04D6310D730C6684C4F6766152247437321C7B795B24F3E76F1156A5F4"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\react_jsx-runtime.js.map",
+        "bytes": 18728,
+        "sha256": "B650DB4FC18F54A8E01D7B85812C7FEA6B95751CC60350F7A575377DF9259679"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\react-dom_client.js",
+        "bytes": 821008,
+        "sha256": "3F8D7EFF68674A313E763180349E7D1C19887A2F5B7961EA16693CB7313FBDB6"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\react-dom_client.js.map",
+        "bytes": 1499187,
+        "sha256": "5D865F88F7DA2000A0E94EF0DC56CF9AE9A1389FC0CD2503FBC49510B63645E7"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\react-dom.js",
+        "bytes": 14633,
+        "sha256": "839622BC168462458F0CC6E125263BA2174279DE96A7CF39280529F391BECCF3"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\react-dom.js.map",
+        "bytes": 25728,
+        "sha256": "A5E8A86B5BB800AB6449B84CA3C242E5B9AFB96E6C3AF5118EE633D121407884"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\react-markdown.js",
+        "bytes": 420862,
+        "sha256": "CC6770F72E7FF4FDD85FC4AE0C4EAF09CA1A462DEA06A92BA2113F990BBE6523"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\react-markdown.js.map",
+        "bytes": 711821,
+        "sha256": "232A442FAB85EB18F696DB0B30E6F147D1E0FF7E40ED2D8CC399DCBA1DEC7DCF"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\react-router-dom.js",
+        "bytes": 402765,
+        "sha256": "B94898878CFC8B9A46E7344181A7F9BDA69D397BD7ED61CF04FA8EAE14DBA06A"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\react-router-dom.js.map",
+        "bytes": 769881,
+        "sha256": "CCBBB3EEE8A91EF33B1FBA38C871D875701957F6315CD9550D16B2FA9E7CC29C"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\react.js",
+        "bytes": 38310,
+        "sha256": "DF15615AA9D5D817927C4D8C6B01B7DFC75291105FFD0B84B4AF2488ECE3A05C"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\react.js.map",
+        "bytes": 68879,
+        "sha256": "EE5F32C790D0A995468B46D994A69D6D4C448F1CDBCDF4A28691CD3CAE400736"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\remark-gfm.js",
+        "bytes": 132157,
+        "sha256": "C2B9F61E078823B8AB586D49DC9CCB992ABFFF3424F8412B4269571A14D50B45"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\remark-gfm.js.map",
+        "bytes": 236397,
+        "sha256": "D69F9B52BC98C0DCCEE4B8BA8E3161E705FE15F86A4BE19C4E99FF8FBDFFB338"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\deps\\rolldown-runtime-DC62tzP2.js",
+        "bytes": 1445,
+        "sha256": "F74CE63FE4684F55BE3EA69DA3A4528DA464F9D5F63CDA903B76EB13E92D1954"
+      },
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite\\vitest\\da39a3ee5e6b4b0d3255bfef95601890afd80709\\results.json",
+        "bytes": 268,
+        "sha256": "4DD6012CC0265D2C21B593F7B235371282C8DFAD705855A3D362B3061F1FB00D"
+      }
+    ],
+    "bytes": 6052963.0
+  },
+  {
+    "action": "delete_redundant_or_regenerable",
+    "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\node_modules\\.vite-temp",
+    "files": [],
+    "bytes": null
+  },
+  {
+    "action": "delete_redundant_or_regenerable",
+    "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results",
+    "files": [
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\test-results\\.last-run.json",
+        "bytes": 45,
+        "sha256": "91D1C43004802CD49950D78EB11C8FA7D05DA8FFFFE219A8B13B2F561BC00903"
+      }
+    ],
+    "bytes": 45.0
+  },
+  {
+    "action": "delete_redundant_or_regenerable",
+    "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\artifacts\\batch3-2\\office-lock-check.tmp",
+    "files": [
+      {
+        "path": "F:\\html\\网易云优化项目_Batch2_启动包_v1.1\\artifacts\\batch3-2\\office-lock-check.tmp",
+        "bytes": 1,
+        "sha256": "4BF5122F344554C53BDE2EBB8CD2B7E3D1600AD631C385A5D7CCE23C7785459A"
+      }
+    ],
+    "bytes": 1.0
+  }
+]

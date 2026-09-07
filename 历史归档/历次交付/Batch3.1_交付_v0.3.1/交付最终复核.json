@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "fullHandoffIdentical": true,
+  "all855PriorPngInEngineeringZip": true,
+  "readingBuildAndServerIdenticalToTestedProduction": true,
+  "readingSourceExact": true,
+  "readingNoInternalHistoryFiles": true,
+  "archives": {
+    "engineering": {
+      "archive": "网易云推荐控制_Batch3.1_v0.3.1_完整项目.zip",
+      "bytes": 134279582,
+      "sha256": "4ae790b000a0c0ab81d9c14d408d53c0c46309867d34974b23e55080d2379ed8",
+      "fileCount": 1837,
+      "crc": "PASS",
+      "allFileHashes": "PASS"
+    },
+    "reading": {
+      "archive": "网易云推荐控制_PRD_v0.6_提交阅读包_候选.zip",
+      "bytes": 3089093,
+      "sha256": "6e636f91027b95d07668f01502717c1166b574e2cd20bcc40d9e83cdd31fd8c5",
+      "fileCount": 27,
+      "crc": "PASS",
+      "allFileHashes": "PASS"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+export default function D03WantExploreFolk() {
+  return (
+    <div className="relative size-full" data-node-id="50:60" data-name="D_03_Want_Explore_Folk">
+      <div className="absolute bg-[rgba(0,0,0,0.42)] h-[844px] left-0 top-0 w-[390px]" data-node-id="50:61" data-name="Overlay / Dim 42%" />
+      <div className="absolute bg-[var(--netease-prototype-color-bg-sheet,#1b1b1f)] h-[601px] left-0 rounded-tl-[24px] rounded-tr-[24px] top-[243px] w-[390px]" data-node-id="50:62" data-name="Sheet Background / Full Width" />
+      <div className="absolute bg-[rgba(161,161,171,0.8)] h-[4px] left-[177px] rounded-[2px] top-[254px] w-[36px]" data-node-id="50:63" data-name="Grabber" />
+      <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Bold'] font-bold leading-[normal] left-[22px] text-[19px] text-[color:var(--netease-prototype-color-text-primary,white)] top-[282px] whitespace-nowrap" data-node-id="50:64">
+        本次想听
+      </p>
+      <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium leading-[normal] left-[22px] text-[15px] text-[color:var(--netease-prototype-color-text-primary,white)] top-[342px] whitespace-nowrap" data-node-id="50:65">
+        新鲜程度
+      </p>
+      <div className="absolute bg-[var(--netease-prototype-color-bg-surface,#141416)] h-[42px] left-[22px] rounded-[21px] top-[370px] w-[346px]" data-node-id="50:66" data-name="Control / Freshness Track" />
+      <div className="absolute bg-[#383840] h-[38px] left-[257px] rounded-[19px] top-[372px] w-[106px]" data-node-id="50:67" data-name="Selection / 探索" />
+      <div className="absolute h-[44px] left-[22px] overflow-clip top-[369px] w-[116px]" data-node-id="50:68" data-name="Action / 熟悉">
+        <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium leading-[normal] left-[47px] text-[#9e9ea8] text-[12px] top-[14px] whitespace-nowrap" data-node-id="50:69">
+          熟悉
+        </p>
+      </div>
+      <div className="absolute h-[44px] left-[137px] overflow-clip top-[369px] w-[116px]" data-node-id="50:70" data-name="Action / 平衡">
+        <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium leading-[normal] left-[47px] text-[#9e9ea8] text-[12px] top-[14px] whitespace-nowrap" data-node-id="50:71">
+          平衡
+        </p>
+      </div>
+      <div className="absolute h-[44px] left-[252px] overflow-clip top-[369px] w-[116px]" data-node-id="50:72" data-name="Action / 探索">
+        <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium leading-[normal] left-[47px] text-[#ff3b40] text-[12px] top-[14px] whitespace-nowrap" data-node-id="50:73">
+          探索
+        </p>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium leading-[normal] left-[22px] text-[15px] text-[color:var(--netease-prototype-color-text-primary,white)] top-[440px] whitespace-nowrap" data-node-id="50:74">
+        内容方向
+      </p>
+      <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium leading-[normal] left-[22px] text-[15px] text-[color:var(--netease-prototype-color-text-secondary,#a5a5ad)] top-[474px] whitespace-pre" data-node-id="50:75">{`曲风       情绪       场景       语种       主题`}</p>
+      <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium leading-[normal] left-[22px] text-[15px] text-[color:var(--netease-prototype-red-500,#ff3a3d)] top-[474px] whitespace-nowrap" data-node-id="50:76">
+        曲风
+      </p>
+      <div className="absolute bg-[var(--netease-prototype-red-500,#ff3a3d)] h-[3px] left-[22px] rounded-[2px] top-[498px] w-[22px]" data-node-id="50:77" data-name="Underline / 曲风" />
+      <div className="absolute h-[44px] left-[20px] overflow-clip top-[512px] w-[108px]" data-node-id="50:78" data-name="Action / 民谣">
+        <div className="absolute bg-[#470911] h-[34px] left-[2px] rounded-[17px] top-[5px] w-[104px]" data-node-id="50:79" data-name="Visual" />
+        <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium leading-[normal] left-[42px] text-[#ff3a3d] text-[12px] top-[13px] whitespace-nowrap" data-node-id="50:80">
+          民谣
+        </p>
+      </div>
+      <div className="absolute h-[44px] left-[141px] overflow-clip top-[512px] w-[108px]" data-node-id="50:81" data-name="Action / 二次元">
+        <div className="absolute bg-[var(--netease-prototype-color-bg-surface,#141416)] h-[34px] left-[2px] rounded-[17px] top-[5px] w-[104px]" data-node-id="50:82" data-name="Visual" />
+        <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium leading-[normal] left-[36px] text-[12px] text-[color:var(--netease-prototype-color-text-primary,white)] top-[13px] whitespace-nowrap" data-node-id="50:83">
+          二次元
+        </p>
+      </div>
+      <div className="absolute h-[44px] left-[262px] overflow-clip top-[512px] w-[108px]" data-node-id="50:84" data-name="Action / 华语流行">
+        <div className="absolute bg-[var(--netease-prototype-color-bg-surface,#141416)] h-[34px] left-[2px] rounded-[17px] top-[5px] w-[104px]" data-node-id="50:85" data-name="Visual" />
+        <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium leading-[normal] left-[30px] text-[12px] text-[color:var(--netease-prototype-color-text-primary,white)] top-[13px] whitespace-nowrap" data-node-id="50:86">
+          华语流行
+        </p>
+      </div>
+      <button className="absolute bg-[var(--netease-prototype-red-500,#ff3a3d)] block cursor-pointer h-[48px] left-[22px] overflow-clip rounded-[24px] top-[776px] w-[346px]" data-node-id="50:87" data-name="Action / 完成">
+        <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Medium'] font-medium leading-[normal] left-[157px] text-[16px] text-[color:var(--netease-prototype-color-text-primary,white)] text-left top-[13px] whitespace-nowrap" data-node-id="50:88">
+          完成
+        </p>
+      </button>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Images and SVGs will be stored as constants, e.g. const image = '[temporary-asset-url-omitted]'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

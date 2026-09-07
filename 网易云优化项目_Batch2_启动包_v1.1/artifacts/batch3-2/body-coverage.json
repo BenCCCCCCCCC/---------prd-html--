@@ -1,0 +1,177 @@
+{
+  "sourceSha256": "4e3290773d357ec524c65fc34686d951b75ea75d2435b513c625afad849efac3",
+  "sections": [
+    {
+      "id": "01",
+      "title": "## 01｜项目背景、目标与范围",
+      "status": "PASS",
+      "completeTextSha256": "57fc8e23f4c5e96938d7df37fd6f19d22b01db8bf1c744e17b19d9da9ba389f3",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 1
+    },
+    {
+      "id": "02",
+      "title": "## 02｜需求依据",
+      "status": "PASS",
+      "completeTextSha256": "1740896a5eb8a5aa7cc226bc09339dbfca9ccdcf6ed799d110b48bf043a5a60c",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 2
+    },
+    {
+      "id": "03",
+      "title": "## 03｜用户分层口径",
+      "status": "PASS",
+      "completeTextSha256": "0f388eeb7813498404148d0f19b2220e2f0f352a140e1611613fee7f768b432f",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 1
+    },
+    {
+      "id": "04",
+      "title": "## 04｜典型任务与交叉分析",
+      "status": "PASS",
+      "completeTextSha256": "7052b1378d5f928fa36f99e18708a589487c26e127e4979152688d5612b8e90e",
+      "tables": 2,
+      "staticTextDiagrams": 0,
+      "references": 0
+    },
+    {
+      "id": "05",
+      "title": "## 05｜竞品与差异化",
+      "status": "PASS",
+      "completeTextSha256": "4004bb3625bc0beef858d5057076dcd302c70ae2f5f35553db8d23f1038a1d74",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 4
+    },
+    {
+      "id": "06",
+      "title": "## 06｜R03：入口、字段与提交",
+      "status": "PASS",
+      "completeTextSha256": "1683dd11cde425c6d16d231df46752217e7d78c7ae3a5ac70b8a88bcd7778ff6",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 0
+    },
+    {
+      "id": "07",
+      "title": "## 07｜推荐与降权规则",
+      "status": "PASS",
+      "completeTextSha256": "55f6960dbd5a3449bbbf5cf133372ebb98979e1aa64445e82e2979fd3ca07de5",
+      "tables": 1,
+      "staticTextDiagrams": 1,
+      "references": 1
+    },
+    {
+      "id": "08",
+      "title": "## 08｜保存范围与临时收听",
+      "status": "PASS",
+      "completeTextSha256": "48a79f620efae449c8f70f765a83e38faaf35a1d0062b225eb8abbed61560c0d",
+      "tables": 2,
+      "staticTextDiagrams": 0,
+      "references": 0
+    },
+    {
+      "id": "09",
+      "title": "## 09｜会话生命周期",
+      "status": "PASS",
+      "completeTextSha256": "fc9b94699f309c3bffdbef8d0834e26708440fee1db793ebd83f7c0296362532",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 0
+    },
+    {
+      "id": "10",
+      "title": "## 10｜页面与操作流程",
+      "status": "PASS",
+      "completeTextSha256": "150db5e9d27d9a169dc4b73007b099a713b406959caa9d2b2453d0fb69676b24",
+      "tables": 1,
+      "staticTextDiagrams": 1,
+      "references": 0
+    },
+    {
+      "id": "11",
+      "title": "## 11｜服务流程与执行一致性",
+      "status": "PASS",
+      "completeTextSha256": "5af97b8a39bc07a0f8d8237acc31a15fcc66d1fe6ba184e1f29d1a3f7b6c73dc",
+      "tables": 0,
+      "staticTextDiagrams": 0,
+      "references": 0
+    },
+    {
+      "id": "12",
+      "title": "## 12｜异常、数据与依赖",
+      "status": "PASS",
+      "completeTextSha256": "9114f46b9eeaef134820848fbccdc27b490a7611b0cd374084c324657f919d88",
+      "tables": 2,
+      "staticTextDiagrams": 0,
+      "references": 0
+    },
+    {
+      "id": "13",
+      "title": "## 13｜R07：自然语言候选",
+      "status": "PASS",
+      "completeTextSha256": "c7b8dfaac98230f5d46d26c9cefa5cfa631ad88cc0d64060ceb9da1e4d36409f",
+      "tables": 1,
+      "staticTextDiagrams": 1,
+      "references": 1
+    },
+    {
+      "id": "14",
+      "title": "## 14｜指标定义",
+      "status": "PASS",
+      "completeTextSha256": "591d1d2ca213b33fa34dbc25ec25b0c8972753ebcdba1c15e1406b4daf6920c8",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 0
+    },
+    {
+      "id": "15",
+      "title": "## 15｜埋点与实验",
+      "status": "PASS",
+      "completeTextSha256": "5ffcb9c524ada2b7809aa9ffd0870c45a5bdd5260338410967357f3eff529ab2",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 1
+    },
+    {
+      "id": "16",
+      "title": "## 16｜验收与追踪",
+      "status": "PASS",
+      "completeTextSha256": "1bef0ae849a3a8b6e9cf47375c83c291c997e0f7bb4e63eb1ad5b0069ceedc3c",
+      "tables": 2,
+      "staticTextDiagrams": 0,
+      "references": 0
+    },
+    {
+      "id": "17",
+      "title": "## 17｜后续需求与投入",
+      "status": "PASS",
+      "completeTextSha256": "dfe3949d3420357b8524cd5775e14563ee64364ddc7f59a8c040fa40ee234463",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 0
+    },
+    {
+      "id": "18",
+      "title": "## 18｜参考资料",
+      "status": "PASS",
+      "completeTextSha256": "55f2e1f09c4fb31bf657ce6cf2060e34647746d3a926af1e420dba78b525fd50",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 0
+    },
+    {
+      "id": "19",
+      "title": "## 19｜方案取舍",
+      "status": "PASS",
+      "completeTextSha256": "7d3dbea9ecde0a9fc55307787dd5bb8c5a6cd861a9979b2af17a8359c66533d8",
+      "tables": 1,
+      "staticTextDiagrams": 0,
+      "references": 0
+    }
+  ],
+  "imageCount": 1
+}
